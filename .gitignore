@@ -1,0 +1,66 @@
+# ─── Obsidian ──────────────────────────────────────────────────────────────
+# Per-machine UI state — ignoring these prevents merge conflicts when the same
+# vault is opened on a second device. Shared config (app.json, core-plugins.json,
+# appearance.json, graph.json, templates.json) IS tracked on purpose.
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/plugins/*/data.json
+.trash/
+
+# ─── Camera originals & editing sidecars ───────────────────────────────────
+# This vault is for *knowledge*, not for storage of negatives. RAW files are
+# 20-60 MB each and will blow past GitHub's limits fast. Keep originals in your
+# normal photo library / cloud backup and put only small web-sized JPEGs in
+# attachments/ as visual references.
+*.CR2
+*.CR3
+*.NEF
+*.NRW
+*.ARW
+*.SRF
+*.SR2
+*.RAF
+*.ORF
+*.RW2
+*.PEF
+*.DNG
+*.3FR
+*.IIQ
+*.xmp
+
+# Editor working files (large, binary, not diffable)
+*.psd
+*.psb
+*.tif
+*.tiff
+*.lrcat
+*.lrcat-*
+*.lrdata/
+*.lrprev
+*.co
+*.cof
+*.coprof
+*.capture1
+*.dop
+*.on1
+Adobe Bridge Cache*
+.CaptureOne/
+
+# Video
+*.mov
+*.mp4
+*.mts
+*.m4v
+*.avi
+
+# ─── OS cruft ──────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/

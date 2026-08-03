@@ -1,0 +1,17 @@
+# Normalise line endings so the vault diffs cleanly between Windows/macOS/mobile.
+* text=auto eol=lf
+
+*.md      text eol=lf diff=markdown
+*.json    text eol=lf
+*.canvas  text eol=lf
+*.base    text eol=lf
+
+# Reference images — binary, never line-ending-mangled, never merged.
+*.jpg   binary
+*.jpeg  binary
+*.png   binary
+*.webp  binary
+*.avif  binary
+*.heic  binary
+*.gif   binary
+*.pdf   binary
