@@ -89,8 +89,12 @@ file explorer into learning order; they carry no other meaning.
   why; never use `git add -f`.
 - **Don't commit `.obsidian/workspace.json`.** It's per-machine UI state and the main
   cause of multi-device merge conflicts. Shared config (`app.json`,
-  `core-plugins.json`, `appearance.json`, `graph.json`, `templates.json`,
-  `daily-notes.json`) *is* tracked.
+  `core-plugins.json`, `community-plugins.json`, `appearance.json`, `graph.json`,
+  `templates.json`, `daily-notes.json`) *is* tracked.
+- **Never commit credentials.** `.obsidian/plugins/` is gitignored, and
+  `.obsidian/plugins/*/data.json` independently as a second line of defence — plugins
+  store access tokens there. Don't relax either rule, and never `git add -f` inside
+  `.obsidian/plugins/`. Same for `.env`, `*.pat` and `.git-credentials`.
 - **Don't add `.gitkeep` placeholders.** If a folder needs to exist in a clone, give it
   a real index note that earns its place.
 - **Don't tick boxes in [Progress-Tracker](00-Meta/Progress-Tracker.md)** unless the

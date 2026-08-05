@@ -1,12 +1,26 @@
 # ─── Obsidian ──────────────────────────────────────────────────────────────
 # Per-machine UI state — ignoring these prevents merge conflicts when the same
-# vault is opened on a second device. Shared config (app.json, core-plugins.json,
-# appearance.json, graph.json, templates.json) IS tracked on purpose.
+# vault is opened on more than one device. Shared config (app.json,
+# core-plugins.json, community-plugins.json, appearance.json, graph.json,
+# templates.json, daily-notes.json) IS tracked on purpose.
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/cache
-.obsidian/plugins/*/data.json
 .trash/
+
+# Plugin code — reinstall per device from Obsidian's community plugin browser.
+# community-plugins.json (the list of what to install) stays tracked.
+.obsidian/plugins/
+
+# Kept even though the line above already covers it: if plugin code is ever
+# committed for version parity, this must STILL never be committed — plugins
+# store access tokens in their data.json.
+.obsidian/plugins/*/data.json
+
+# ─── Credentials ───────────────────────────────────────────────────────────
+.env
+*.pat
+.git-credentials
 
 # ─── Camera originals & editing sidecars ───────────────────────────────────
 # This vault is for *knowledge*, not for storage of negatives. RAW files are
