@@ -7,7 +7,6 @@ frames: 0
 tags:
   - practice/daily
 ---
-
 # {{date:dddd, D MMMM YYYY}}
 
 ## Did I pick up the camera?

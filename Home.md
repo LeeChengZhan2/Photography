@@ -7,7 +7,6 @@ tags:
 cssclasses:
   - dashboard
 ---
-
 # 📷 Photography — Home
 
 The entry point for this vault. Pin this note (right-click the tab → Pin) so it's

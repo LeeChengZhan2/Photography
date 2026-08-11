@@ -10,7 +10,6 @@ tags:
   - practice/critique
 created: {{date:YYYY-MM-DD}}
 ---
-
 # Critique — 
 
 **Photographer:** · **Work:** · **Where I saw it:** 

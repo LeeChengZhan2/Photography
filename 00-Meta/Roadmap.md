@@ -10,7 +10,6 @@ hours_per_week: 5
 tags:
   - meta/roadmap
 ---
-
 # Roadmap — 28 Weeks
 
 The [[Syllabus]] is *what*. This is *when*. Dates assume a start of **Mon 3 Aug 2026**

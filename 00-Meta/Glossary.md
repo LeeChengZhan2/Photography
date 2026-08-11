@@ -6,7 +6,6 @@ created: 2026-08-03
 tags:
   - meta
 ---
-
 # Glossary
 
 Terms in one line each. When a term needs more than a line, it becomes its own concept
@@ -58,6 +57,11 @@ glossary copied from elsewhere is dead weight.
 - **Key light** — the dominant light shaping the subject.
 - **Lighting ratio** — the brightness relationship between key and fill, in stops.
   → [[Contrast-Ratio]]
+- **Log (log profile)** — a capture curve that stores dynamic range compressed and flat,
+  expecting a later transform. Needs a technical [[LUTs|LUT]] to look right.
+- **LUT (look-up table)** — a stored input-colour → output-colour map. 1D = three
+  per-channel curves; 3D = a lattice over the whole RGB cube, so it can do cross-channel
+  moves a curve can't. → [[LUTs]]
 
 ## M–R
 
@@ -79,7 +83,10 @@ glossary copied from elsewhere is dead weight.
   → [[Stops-and-EV]]
 - **Sync speed** — the fastest shutter that fully exposes with flash.
   → [[Sync-Speed]]
-- **Tone curve** — the input→output brightness mapping. → [[Tone-Curve]]
+- **Tetrahedral interpolation** — the better way to guess values between a 3D
+  [[LUTs|LUT]]'s nodes; fewer artefacts than trilinear in gradients.
+- **Tone curve** — the input→output brightness mapping. Mechanically a 1D LUT.
+  → [[Tone-Curve]]
 - **TTL** — through-the-lens automatic flash metering.
 - **Vignetting** — corner darkening, optical or added for effect.
 - **White balance** — neutralising (or deliberately shifting) a light's colour cast.

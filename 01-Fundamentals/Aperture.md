@@ -8,7 +8,6 @@ tags:
   - fundamentals/exposure
 created: 2026-08-03
 ---
-
 # Aperture
 
 > [!example] This note is a worked example

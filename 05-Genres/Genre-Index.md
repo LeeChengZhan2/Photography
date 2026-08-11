@@ -8,7 +8,6 @@ genre_b:
 tags:
   - genre
 ---
-
 # Module 5 — Genre Deep-Dive
 
 Brief and assignments: [[Syllabus#Module 5 — Genre Deep-Dive]] · Schedule:

@@ -5,7 +5,6 @@ created: 2026-08-03
 tags:
   - practice
 ---
-
 # Practice
 
 Output, not theory. Everything in here is evidence — the record of what you actually

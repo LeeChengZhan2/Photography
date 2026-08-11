@@ -6,7 +6,6 @@ created: 2026-08-03
 tags:
   - reference
 ---
-
 # Photographers to Study
 
 A starting list, not a canon. The column that matters is **what to steal** — a specific,

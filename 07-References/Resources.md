@@ -6,7 +6,6 @@ created: 2026-08-03
 tags:
   - reference
 ---
-
 # Resources
 
 Curated, not exhaustive. Collecting resources is a very comfortable way to avoid

@@ -6,7 +6,6 @@ created: 2026-08-03
 tags:
   - composition
 ---
-
 # Module 3 — Composition & Visual Language
 
 Brief and assignments: [[Syllabus#Module 3 — Composition & Visual Language]] ·

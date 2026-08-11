@@ -12,7 +12,6 @@ keepers:
 tags:
   - practice/shoot-log
 ---
-
 # {{date:YYYY-MM-DD}} — 
 
 ## Brief

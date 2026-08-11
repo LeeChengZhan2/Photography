@@ -8,7 +8,6 @@ tags:
   - 
 created: {{date:YYYY-MM-DD}}
 ---
-
 # {{title}}
 
 ## In one sentence

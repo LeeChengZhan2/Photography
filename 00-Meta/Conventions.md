@@ -5,7 +5,6 @@ created: 2026-08-03
 tags:
   - meta
 ---
-
 # Vault Conventions
 
 How this vault is organised, so future-you doesn't have to guess. This is the note to
@@ -56,6 +55,9 @@ confidence: 2          # 1-5, honest; drives what to revisit
 
 `status` and `confidence` are the useful ones. Search `status: seed` to find your
 backlog; search `confidence: 1` before a gate.
+
+**No blank line between the closing `---` and the `# Heading`.** The H1 starts on the
+very next line. Applies to every note and every template in [[99-Templates]].
 
 ## Tags
 

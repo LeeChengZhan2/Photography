@@ -6,7 +6,6 @@ created: 2026-08-03
 tags:
   - meta/tracker
 ---
-
 # Progress Tracker
 
 Tick as you go. A concept counts as done when you've **written the note in your own

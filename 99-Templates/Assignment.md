@@ -9,7 +9,6 @@ completed:
 tags:
   - practice/assignment
 ---
-
 # 
 
 **Code:** · **Module:** · **From:** [[Syllabus]]

@@ -6,7 +6,6 @@ created: 2026-08-03
 tags:
   - post
 ---
-
 # Module 4 — Post-Processing & Colour
 
 Brief and assignments: [[Syllabus#Module 4 — Post-Processing & Colour]] · Schedule:
@@ -44,6 +43,7 @@ Switching mid-way costs the muscle memory this module exists to build.
 - [[Colour-Grading]]
 - [[Black-and-White-Conversion]] — channel mixing, not desaturating
 - [[Colour-Management]] · [[Colour-Spaces]]
+- [[LUTs]] — a baked transform table; portable, global, not re-openable
 - [[Export-Settings]] — web vs print vs archive
 - [[Developing-a-Look]] — presets as a start, never an end
 

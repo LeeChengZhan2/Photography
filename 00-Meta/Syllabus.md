@@ -7,7 +7,6 @@ created: 2026-08-03
 tags:
   - meta/syllabus
 ---
-
 # Photography Syllabus
 
 A self-taught curriculum that goes from *"the camera decides"* to *"I decide, and I can

@@ -6,7 +6,6 @@ created: 2026-08-03
 tags:
   - light
 ---
-
 # Module 2 — Light
 
 Brief and assignments: [[Syllabus#Module 2 — Light]] · Schedule:
