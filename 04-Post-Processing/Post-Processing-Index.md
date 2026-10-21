@@ -3,8 +3,6 @@ title: Post-Processing Index
 type: index
 module: 4
 created: 2026-08-03
-tags:
-  - post
 ---
 # Module 4 — Post-Processing & Colour
 

@@ -3,8 +3,6 @@ title: Light Index
 type: index
 module: 2
 created: 2026-08-03
-tags:
-  - light
 ---
 # Module 2 — Light
 
@@ -19,7 +17,7 @@ light you've seen.
 
 ### Physics you can't avoid
 - [[Quality-of-Light]] — hard vs soft, governed by *relative* source size
-- [[Inverse-Square-Law]] — double the distance, quarter the light
+- [[Inverse-Square-Law]] — double the distance, quarter the light (small sources)
 - [[Contrast-Ratio]] — key-to-fill in stops
 
 ### Describing light
@@ -34,9 +32,10 @@ light you've seen.
 ### Adding light
 - [[Flash-Fundamentals]] — guide number, TTL vs manual
 - [[Sync-Speed]] — and HSS
-- [[Bounce-Flash]] — never straight ahead
+- [[Bounce-Flash]] — why bare straight-on flash flattens
 - [[Off-Camera-Flash]] — one light, one stand
-- [[Balancing-Flash-and-Ambient]] — shutter for ambient, aperture/power for flash
+- [[Balancing-Flash-and-Ambient]] — shutter for ambient, power for flash, aperture for
+  both
 
 ## Assignments
 A2.1 window study · A2.2 hard-to-soft · A2.3 fall-off · A2.4 four times of day ·

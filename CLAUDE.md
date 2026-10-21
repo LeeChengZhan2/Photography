@@ -9,7 +9,7 @@ edited in Obsidian, version-controlled with git (remote: `LeeChengZhan2/Photogra
 There is no build, no test suite, no dependencies. The artefact is understanding.
 
 Curriculum: [Syllabus](00-Meta/Syllabus.md) (7 modules + capstone) ·
-[Roadmap](00-Meta/Roadmap.md) (28 weeks, started 2026-08-03) ·
+[Roadmap](00-Meta/Roadmap.md) (28 weeks, starting 2026-10-26) ·
 [Progress-Tracker](00-Meta/Progress-Tracker.md) · [Conventions](00-Meta/Conventions.md)
 
 ## The one rule that matters
@@ -61,15 +61,15 @@ file explorer into learning order; they carry no other meaning.
   Hyphens not spaces, so GitHub URLs stay clean.
 - **Frontmatter on every note:**
   ```yaml
-  type: concept | assignment | shoot-log | critique | genre | index | meta | reference
-  module: 1-6
-  status: seed | drafted | understood
+  type: concept | assignment | shoot-log | critique | daily | genre | index | meta | reference
+  module: 0-6
+  status: seed | drafted | understood   # concept notes; other types: see Conventions
   confidence: 1-5      # honest; drives what to revisit before a gate
   tags: [fundamentals/exposure]
   ```
 - **Tags** are hierarchical, lowercase, singular: `fundamentals/exposure`,
   `light/flash`, `composition/colour`, `genre/street`, `practice/shoot-log`. Tag by
-  topic. Never duplicate the folder name as a tag.
+  topic. Never tag a note with its bare folder name (`light` on a note in `02-Light/`).
 - **Links:** `[[Wikilinks]]` inside the vault; **standard Markdown links in
   `README.md` only**, because GitHub can't render wikilinks. Don't "fix" wikilinks in
   vault notes into Markdown links — that split is deliberate and documented in

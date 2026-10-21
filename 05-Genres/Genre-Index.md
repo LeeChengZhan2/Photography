@@ -5,8 +5,6 @@ module: 5
 created: 2026-08-03
 genre_a: 
 genre_b: 
-tags:
-  - genre
 ---
 # Module 5 — Genre Deep-Dive
 

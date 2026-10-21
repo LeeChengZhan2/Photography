@@ -3,7 +3,7 @@ title: Aperture
 type: concept
 module: 1
 status: drafted
-confidence: 3
+confidence: 1
 tags:
   - fundamentals/exposure
 created: 2026-08-03
@@ -41,13 +41,15 @@ Two consequences fall out of that one geometric fact:
 |---|---|
 | More light → lower ISO or faster shutter | Less light → higher ISO or slower shutter |
 | Shallow DOF, subject separation | Deep DOF, front-to-back sharpness |
-| Softer corners, more vignetting, visible CA | Peak optical performance around f/5.6–f/8 |
-| Focus errors are unforgiving | Diffraction softens *everything* past ~f/11 |
+| Softer corners, more vignetting, visible CA | Peak optical performance about 2–3 stops down |
+| Focus errors are unforgiving | Diffraction softens *everything* past your sensor's limit |
 | Sunstars: no | Sunstars: yes |
 
-The important one: **f/22 is not sharper than f/8.** Past roughly f/11 on most sensors,
-diffraction costs you more resolution than extra depth of field gains. If you need more
-depth than f/11 buys, focus-stack or use [[Hyperfocal-Distance]] instead of stopping
+The important one: **f/22 is not sharper than f/8.** Past your sensor's diffraction
+limit, stopping down costs more resolution than the extra depth of field gains. The
+limit depends on pixel size: about f/11 on 24 MP full frame, f/8 at 45 MP, and between
+f/5.6 and f/8 on the L10's 20 MP Four Thirds sensor. If you need more depth than that
+buys, focus-stack or focus more carefully ([[Hyperfocal-Distance]]) instead of stopping
 further down.
 
 ## How I set it in the field
@@ -56,17 +58,19 @@ further down.
 - **Portrait, one person:** f/2 — both eyes sharp at head-and-shoulders distance.
 - **Portrait, two people:** f/4 minimum, or one face is soft.
 - **Street / walking around:** f/8 with zone focusing — fast enough to not think.
-- **Landscape:** f/8, focused about ⅓ into the scene. f/11 only if the foreground is
-  genuinely close.
+- **Landscape:** f/8, focused at about twice the distance of the nearest thing that
+  must be sharp (not "⅓ into the scene", which is right at only one distance). f/11
+  only if the foreground is genuinely close.
 - **Sharpest my lens gets:** f/____ (measure this in A1.1, don't trust reviews).
 
 ## What I got wrong
 - **Thought "wide open = better photo".** Shallow DOF is a *tool for separation*, not a
   quality marker. Half my early frames had a soft ear and a beautifully blurred wall
   nobody cared about.
-- **Confused aperture with the only DOF control.** It's one of three, and usually the
-  weakest. Subject distance dominates — halving your distance to the subject shrinks
-  DOF far more than opening one stop. Move your feet before you touch the dial.
+- **Confused aperture with the only DOF control.** Magnification matters as much —
+  how big the subject is in the frame, set by distance and focal length together — and
+  sensor size sets how much blur still reads as sharp. Halving your distance shrinks
+  DOF far more than opening one stop, but mostly because it doubles the subject's size.
 - **Assumed f/1.8 on a phone means shallow DOF.** Sensor size and actual focal length
   set the blur; the f-number alone doesn't.
   → [[Sensor-Size-and-Crop-Factor]]

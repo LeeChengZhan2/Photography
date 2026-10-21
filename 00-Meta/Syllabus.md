@@ -49,7 +49,8 @@ Companion documents: [[Roadmap]] (when) · [[Progress-Tracker]] (how far) ·
 ### Concepts
 - [[My-Kit]] — bodies, lenses (focal range, max aperture), stabilisation, flash
 - [[Camera-Menu-Baseline]] — the settings you set once and forget
-- [[RAW-vs-JPEG]] — bit depth, latitude, why JPEG throws away decisions
+- [[RAW-vs-JPEG]] — bit depth, latitude, why JPEG throws away decisions, and why a
+  phone's ProRAW is not a plain raw
 - [[Ingest-and-Backup-Workflow]] — card → disk → 2nd copy, naming scheme
 - [[Sensor-Size-and-Crop-Factor]] — equivalence, and what it does *not* change
 
@@ -80,16 +81,18 @@ This is the module people skip and then plateau on for years. Don't.
 - [[Exposure-Triangle]] — the trade space, not a rule
 - [[Stops-and-EV]] — the one bit of arithmetic that matters; halving and doubling
 - [[Aperture]] — f-number, light vs depth of field, diffraction, sweet spot
-- [[Shutter-Speed]] — freeze vs blur, reciprocal rule, handheld limits, panning
+- [[Shutter-Speed]] — freeze vs blur, reciprocal rule, handheld limits, panning,
+  rolling-shutter skew
 - [[ISO]] — gain not sensitivity, noise floor, dual-native ISO, ISO-invariance
 - [[Metering-Modes]] — evaluative/matrix, centre-weighted, spot; when each lies
 - [[Exposure-Compensation]] — what it actually does in A/S vs M
 - [[Histogram]] — reading tonal distribution, clipping, why "correct" is a choice
 - [[Dynamic-Range]] — highlight vs shadow latitude, [[Expose-to-the-Right]]
 - [[Shooting-Modes]] — P / A / S / M / Auto-ISO, and which pros actually use
-- [[Depth-of-Field]] — aperture × distance × focal length, [[Hyperfocal-Distance]]
+- [[Depth-of-Field]] — aperture × magnification (distance and focal length) × sensor
+  size, [[Hyperfocal-Distance]]
 - [[Autofocus-Modes]] — single vs continuous, area modes, subject detection
-- [[Back-Button-Focus]] — decoupling focus from shutter
+- [[Back-Button-Focus]] — decoupling focus from shutter (AE/AF lock on a phone)
 - [[White-Balance]] — colour temperature, tint, custom WB, why RAW forgives it
 
 ### Assignments
@@ -99,15 +102,17 @@ This is the module people skip and then plateau on for years. Don't.
   where diffraction starts costing you.
 - **A1.2 — The shutter ladder.** One moving subject (traffic, a tap, a walking
   friend). 1/1000 → 1s. Find the *three* speeds that read as "frozen",
-  "suggested motion", and "abstract".
+  "suggested motion", and "abstract". Shoot at dusk or indoors: in daylight the 1 s
+  end is far too bright at base ISO without an ND filter.
 - **A1.3 — The ISO ladder.** Same frame at base ISO through max. Push shadows +2
   stops in post on each. Decide your personal *usable* ceiling — the number you'll
   trust in the dark.
 - **A1.4 — Meter defeat.** Photograph a white wall and a black jacket in the same
   light on evaluative metering. Explain why both came out grey and fix each with
   exposure compensation.
-- **A1.5 — Blind manual.** 50 frames, full manual, no chimping (screen off / tape
-  it). Then review. Your hit rate is your grade.
+- **A1.5 — Blind manual.** 50 frames, full manual, no chimping (image review off,
+  viewfinder only; on a phone, don't open the gallery). Then review. Your hit rate is
+  your grade.
 - **A1.6 — DOF prediction.** Before pressing the shutter, write down what will be in
   focus. 20 frames. Score yourself.
 
@@ -127,8 +132,8 @@ background soft") and you state settings out loud, correctly, in under five seco
 - Shape light with one modifier and one flash.
 
 ### Concepts
-- [[Quality-of-Light]] — hard vs soft, and why *relative source size* is the only
-  thing that controls it
+- [[Quality-of-Light]] — hard vs soft, and why *relative source size* (size compared
+  with distance) is what controls it
 - [[Inverse-Square-Law]] — fall-off, and using distance as a contrast control
 - [[Direction-of-Light]] — front, 45°, side, back, rim, top, under
 - [[Colour-Temperature-of-Light]] — golden hour, blue hour, shade, mixed sources
@@ -136,9 +141,10 @@ background soft") and you state settings out loud, correctly, in under five seco
 - [[Natural-Light]] — window light, open shade, overcast, harsh midday
 - [[Light-Modifiers]] — reflector, diffuser, scrim, flag, bounce surface
 - [[Flash-Fundamentals]] — guide number, TTL vs manual, [[Sync-Speed]], HSS
-- [[Bounce-Flash]] — ceilings, walls, and never pointing it straight ahead
+- [[Bounce-Flash]] — ceilings, walls, and why bare straight-on flash flattens a face
 - [[Off-Camera-Flash]] — one light, triggers, feathering
-- [[Balancing-Flash-and-Ambient]] — shutter for ambient, aperture/power for flash
+- [[Balancing-Flash-and-Ambient]] — shutter for ambient, power for flash, aperture and
+  ISO for both
 - [[Available-Light-Discipline]] — when *not* to add light
 
 ### Assignments
@@ -147,10 +153,12 @@ background soft") and you state settings out loud, correctly, in under five seco
   and direction. This single exercise teaches more than any book chapter.
 - **A2.2 — Hard-to-soft.** Bare bulb / phone torch, then diffuse it progressively
   (paper, curtain, wall bounce). Document the shadow edge at each step.
-- **A2.3 — Fall-off.** Subject 0.5 m from a window, then 1 m, then 2 m. Show the
-  inverse-square law with actual frames and exposure readings.
-- **A2.4 — Same subject, four times of day.** Sunrise, midday, golden hour, blue
-  hour. Identical framing. Write which one wins and why.
+- **A2.3 — Fall-off.** Subject 0.5 m from a bare bulb or phone torch, then 1 m, then
+  2 m. Show the inverse-square law with actual frames and exposure readings. Then
+  repeat it at a window and explain why the numbers no longer fit.
+- **A2.4 — Same subject, four times of day.** Morning golden hour, midday, evening
+  golden hour, blue hour. Identical framing. Write which one wins and why. Near the
+  equator golden and blue hour are both short, so be set up early.
 - **A2.5 — Backlight rescue.** Backlit portrait, three solutions: expose for face,
   reflector fill, flash fill. Compare.
 - **A2.6 — One light only.** Flash off-camera, key light only, no fill. Five
@@ -195,7 +203,8 @@ and why.
   genuinely different frames. Frames 1–15 are obvious, 16–35 are work, 36–50 are
   where you learn.
 - **A3.2 — Prime jail.** One focal length for a full week. If you only have a zoom,
-  tape it. This is the highest-leverage exercise in the whole syllabus.
+  pick one setting and never touch it. This is the highest-leverage exercise in the
+  whole syllabus.
 - **A3.3 — Compression vs expansion.** Same subject filling the frame at your widest
   and longest focal length — move your feet to match subject size. Compare backgrounds.
 - **A3.4 — Subtract.** Take five of your own busy photographs. Reshoot each with one
@@ -236,9 +245,10 @@ RawTherapee. Pick one and stop shopping.
 - [[Noise-Reduction]] — luminance vs colour, and AI denoise
 - [[Lens-Corrections]] — distortion, vignette, CA
 - [[Colour-Grading]] — shadows/midtones/highlights, split toning
+- [[LUTs]] — baked colour transforms; technical vs creative; converting log footage
 - [[Black-and-White-Conversion]] — channel mixing, not desaturating
-- [[Colour-Management]] — [[Colour-Spaces]] (sRGB / AdobeRGB / ProPhoto), monitor
-  calibration, soft proofing
+- [[Colour-Management]] — [[Colour-Spaces]] (sRGB / Display P3 / AdobeRGB / ProPhoto,
+  Rec.709 for video), monitor calibration, soft proofing
 - [[Export-Settings]] — web vs print vs archive
 - [[Developing-a-Look]] — presets as a starting point, never an ending point
 - [[Archive-Strategy]] — 3-2-1, catalogue backups, folder taxonomy
@@ -267,14 +277,15 @@ in under two hours.
 **Duration:** 4 weeks · **Goal:** depth in two genres, and the vocabulary of the rest.
 
 Pick **two**. Write a note for each covering: what makes a good one, the technical
-constraints, the standard settings starting point, the ethics, the practitioners to
-study, and one project idea.
+constraints, the standard settings starting point, the gear reality, the ethics, the
+practitioners to study, and one project idea.
 
 - [[Street-Photography]] — anticipation, layers, legality and ethics, zone focusing
 - [[Portraiture]] — direction, posing, lens choice, rapport, eye light
 - [[Landscape]] — planning, filters, focus stacking, hyperfocal, weather
 - [[Architecture]] — verticals, perspective correction, tilt-shift, timing
-- [[Night-and-Astrophotography]] — 500 rule, star trails, light painting, stacking
+- [[Night-and-Astrophotography]] — NPF rule (the old 500 rule trails on modern
+  sensors), star trails, light painting, stacking
 - [[Macro]] — magnification, working distance, DOF collapse, diffusion, stacking
 - [[Wildlife-and-Birds]] — reach, AF tracking, fieldcraft, ethics
 - [[Still-Life-and-Product]] — full control, tabletop lighting, compositing
@@ -284,7 +295,7 @@ study, and one project idea.
 
 ### Assignments
 - **A5.1 — Study before shoot.** For each chosen genre, analyse 20 images by
-  photographers you admire in [[Critique]] notes before shooting any of your own.
+  photographers you admire in critique notes before shooting any of your own.
 - **A5.2 — Ten-frame set.** A cohesive ten-frame set in each chosen genre.
 - **A5.3 — Constraint shoot.** Shoot one chosen genre with the "wrong" gear
   (landscape on a long lens, portrait on a wide). Learn what the convention buys.
@@ -305,10 +316,11 @@ Your ten-frame set is recognisable as that genre to someone who wasn't told.
 
 ### Concepts
 - [[Reading-a-Photograph]] — describe → analyse → interpret → judge, in that order
+  (Edmund Feldman's method of art criticism)
 - [[Critique-Vocabulary]] — the words that replace "nice"
 - [[Photographers-to-Study]] — a running list with *what specifically* to steal
 - [[History-of-Photography-Skim]] — pictorialism → f/64 → decisive moment → New
-  Colour → New Topographics → contemporary
+  Topographics and New Colour (parallel, 1970s) → contemporary
 - [[Editing-a-Sequence]] — pairing, rhythm, opening and closing frames
 - [[Series-vs-Singles]]
 - [[Personal-Style]] — what recurs when you're not trying
@@ -318,7 +330,7 @@ Your ten-frame set is recognisable as that genre to someone who wasn't told.
 
 ### Assignments
 - **A6.1 — Twenty critiques.** Twenty photographs by others, four-step method, one
-  [[Critique]] note each. Half should be photographs you *dislike*.
+  critique note each. Half should be photographs you *dislike*.
 - **A6.2 — Self-critique cold.** Critique your own Module 1 output with the same
   rigour. Be specific about what improved.
 - **A6.3 — Steal deliberately.** Reproduce three images by a photographer you admire.
@@ -333,7 +345,7 @@ Your artist statement and your portfolio agree with each other.
 
 ## Capstone
 
-**Duration:** 4 weeks (overlaps Module 6).
+**Duration:** 4 weeks, after Module 6. Start narrowing the subject while Module 6 runs.
 
 A **cohesive series of 12–20 finished images** on a single subject or idea, plus:
 - a 150-word [[Artist-Statement]],

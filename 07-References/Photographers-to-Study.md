@@ -3,8 +3,6 @@ title: Photographers to Study
 type: reference
 status: active
 created: 2026-08-03
-tags:
-  - reference
 ---
 # Photographers to Study
 
@@ -12,7 +10,7 @@ A starting list, not a canon. The column that matters is **what to steal** — a
 repeatable decision. "Great atmosphere" teaches nothing; "shoots through foreground
 obstructions to build layers" is something you can try on Saturday.
 
-Write a [[Critique]] note before you decide you like someone's work. Verify the
+Write a critique note before you decide you like someone's work. Verify the
 attributions and go to primary sources — monographs and gallery sites beat aggregator
 blogs.
 
@@ -23,7 +21,7 @@ blogs.
 | Henri Cartier-Bresson | Geometry + timing, 50 mm Leica, mid-20th c. | Waiting on a composed frame for the subject to enter it |
 | Elliott Erwitt | Wit and visual coincidence | Humour as a compositional device |
 | Fan Ho | 1950s–60s Hong Kong, graphic light | Shafts of light as structure, not decoration |
-| Josef Koudelka | High-contrast B&W, exiles, gypsies | Dramatic tonal masses; [[Tonal-Composition]] |
+| Josef Koudelka | High-contrast B&W: *Gypsies* (Roma communities), *Exiles*, *Invasion 68* | Dramatic tonal masses; [[Tonal-Composition]] |
 | Vivian Maier | Street, self-portraits, TLR | Waist-level viewpoint changes everything |
 
 ## Colour
@@ -57,7 +55,7 @@ blogs.
 | Robert Frank | *The Americans* | Loose, "wrong" framing as voice |
 | Sebastião Salgado | Large-scale B&W social documentary | Scale, and the long-term project |
 | Nan Goldin | Intimate diaristic colour | Photographing your actual life |
-| Sim Chi Yin | Singaporean documentary, long-form projects | Sustained engagement with one subject |
+| Sim Chi Yin | Singapore-born; research-led long-form projects in photography, film and installation | Sustained engagement with one subject |
 
 ## Contemporary & conceptual
 
@@ -78,7 +76,7 @@ blogs.
 1. Pick **one** photographer per week. One is enough.
 2. Find 20 images from a single body of work, not a "best of" scrape. Series reveal
    intent; greatest-hits reveal nothing.
-3. Write one [[Critique]] using the four-step method.
+3. Write one critique (template: [[Critique]]) using the four-step method.
 4. Reproduce one image as an exercise (assignment **A6.3**), then make a fourth frame
    that's yours.
 

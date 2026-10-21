@@ -10,7 +10,7 @@ tags:
 
 Tick as you go. A concept counts as done when you've **written the note in your own
 words**, not when you've read about it. An assignment counts as done when the frames
-exist *and* the [[Shoot-Log]] entry exists.
+exist *and* its shoot log exists.
 
 Companion: [[Syllabus]] · [[Roadmap]]
 
@@ -56,11 +56,11 @@ Companion: [[Syllabus]] · [[Roadmap]]
 - [ ] **A1.5** Blind manual, 50 frames → hit rate **____ %**
 - [ ] **A1.6** DOF prediction → score **____ / 20**
 
-### 🚦 Gate 1 — target 30 Aug 2026
+### 🚦 Gate 1 — target 22 Nov 2026
 - [ ] Five-second settings test passed
 - [ ] I can explain the exposure triangle without notes
 - [ ] I can point to my own frames that prove each control
-- [ ] Mistakes written down in [[Shoot-Log]]
+- [ ] Mistakes written down in the shoot logs
 
 ---
 
@@ -89,7 +89,7 @@ Companion: [[Syllabus]] · [[Roadmap]]
 - [ ] **A2.5** Backlight rescue, three ways
 - [ ] **A2.6** One light only, five portraits
 
-### 🚦 Gate 2 — target 27 Sep 2026
+### 🚦 Gate 2 — target 20 Dec 2026
 - [ ] Described three unfamiliar rooms' light in four words each
 - [ ] I choose light before I choose settings
 
@@ -125,7 +125,7 @@ Companion: [[Syllabus]] · [[Roadmap]]
 - [ ] **A3.6** Monochrome colour study
 - [ ] **A3.7** Squint test
 
-### 🚦 Gate 3 — target 25 Oct 2026
+### 🚦 Gate 3 — target 17 Jan 2027
 - [ ] Ten frames with stated subject, intent, and one removal each
 
 ---
@@ -145,6 +145,7 @@ Companion: [[Syllabus]] · [[Roadmap]]
 - [ ] [[Noise-Reduction]]
 - [ ] [[Lens-Corrections]]
 - [ ] [[Colour-Grading]]
+- [ ] [[LUTs]]
 - [ ] [[Black-and-White-Conversion]]
 - [ ] [[Colour-Management]]
 - [ ] [[Colour-Spaces]]
@@ -160,7 +161,7 @@ Companion: [[Syllabus]] · [[Roadmap]]
 - [ ] **A4.5** Consistent set of twelve
 - [ ] **A4.6** Print one
 
-### 🚦 Gate 4 — target 22 Nov 2026
+### 🚦 Gate 4 — target 14 Feb 2027
 - [ ] 200 frames → coherent twelve, under two hours
 
 ---
@@ -199,13 +200,13 @@ Companion: [[Syllabus]] · [[Roadmap]]
 - [ ] **A6.3** Three deliberate reproductions + one original
 - [ ] **A6.4** Sequence twelve from thirty
 
-### 🚦 Gate 5 — target 17 Jan 2027
+### 🚦 Gate 5 — target 11 Apr 2027
 - [ ] Artist statement written
 - [ ] Statement and portfolio agree
 
 ---
 
-## Capstone — target 14 Feb 2027
+## Capstone — target 9 May 2027
 
 **Working title:** ____________________
 

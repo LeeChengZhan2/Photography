@@ -27,6 +27,8 @@
 # 20-60 MB each and will blow past GitHub's limits fast. Keep originals in your
 # normal photo library / cloud backup and put only small web-sized JPEGs in
 # attachments/ as visual references.
+# Patterns are upper-case and rely on core.ignorecase (true on Windows and macOS),
+# so *.DNG also matches .dng.
 *.CR2
 *.CR3
 *.NEF
@@ -42,6 +44,10 @@
 *.3FR
 *.IIQ
 *.xmp
+# iPhone originals (HEIC is its default format, and Obsidian can't display it)
+# and the iPhone's edit sidecars.
+*.HEIC
+*.AAE
 
 # Editor working files (large, binary, not diffable)
 *.psd
@@ -52,14 +58,15 @@
 *.lrcat-*
 *.lrdata/
 *.lrprev
-*.co
-*.cof
-*.coprof
-*.capture1
 *.dop
 *.on1
 Adobe Bridge Cache*
-.CaptureOne/
+# Capture One: the CaptureOne/ sidecar folder holds every adjustment, cache and
+# mask file; catalogs and sessions sit outside it.
+CaptureOne/
+*.cocatalog
+*.cocatalogdb
+*.cosessiondb
 
 # Video
 *.mov
@@ -67,6 +74,16 @@ Adobe Bridge Cache*
 *.mts
 *.m4v
 *.avi
+# DJI low-resolution proxy files, written next to every Pocket 3 / Action clip
+*.LRF
+
+# ─── LUT files ─────────────────────────────────────────────────────────────
+# Vendor LUTs (Apple, DJI, Panasonic) are theirs to distribute, not this public
+# repo's, and a 65-point .cube is about 7 MB of text. Write down where they live
+# in the LUTs note instead.
+*.cube
+*.3dl
+*.vlt
 
 # ─── OS cruft ──────────────────────────────────────────────────────────────
 .DS_Store

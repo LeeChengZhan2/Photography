@@ -4,8 +4,6 @@ type: meta
 created: 2026-08-03
 tags:
   - meta
-cssclasses:
-  - dashboard
 ---
 # 📷 Photography — Home
 
@@ -13,7 +11,7 @@ The entry point for this vault. Pin this note (right-click the tab → Pin) so i
 always one click away.
 
 > [!quote]
-> *"Your first 10,000 photographs are your worst."* — Henri Cartier-Bresson
+> *"Your first 10,000 photographs are your worst."* — attributed to Henri Cartier-Bresson
 > The point of this vault is to make sure you learn something from each of them.
 
 ---
@@ -35,9 +33,9 @@ always one click away.
 > Replace this block every Monday. Keep it to three lines — if it needs more, it's not
 > a week's work.
 
-- **Module:** 0 + 1 — Orientation & Exposure
+- **Week 1 (26 Oct–1 Nov) · Module:** 0 + 1 — Orientation & Exposure
 - **Concepts to write:** [[My-Kit]] · [[Exposure-Triangle]] · [[Stops-and-EV]]
-- **Assignments:** A0.1 kit audit · A0.2 dry run · A1.1 aperture ladder
+- **Assignments:** A0.1 kit audit · A0.2 dry run · A1.1 aperture ladder (on the L10)
 
 ---
 
@@ -81,7 +79,7 @@ Insert with the command palette → *Templates: Insert template*.
 ## Habits that make this work
 
 1. **Write the note after the shoot, not before.** Confusion first, theory second.
-2. **One [[Critique]] a week.** Looking hard at good work is half the input.
+2. **One critique a week.** Looking hard at good work is half the input.
 3. **Log the failures.** The frames that didn't work are the curriculum.
 4. **Commit at the end of each session.** See [[Conventions]] for the message format.
 5. **Open the graph view monthly.** Orphaned notes mean concepts you never connected

@@ -3,7 +3,7 @@ title: Vault Conventions
 type: meta
 created: 2026-08-03
 tags:
-  - meta
+  - meta/conventions
 ---
 # Vault Conventions
 
@@ -29,6 +29,10 @@ Numeric prefixes exist to force the file explorer into learning order. Folders d
 affect linking — Obsidian resolves `[[Aperture]]` by name from anywhere, so move notes
 freely.
 
+Templates are notes too, so Obsidian indexes them: their `type` and `status` fields
+would turn up in searches and in any Bases view. Keep them out with Settings → Files
+and links → Excluded files → `99-Templates/`.
+
 ## Naming
 
 - Notes: `Title-Case-With-Hyphens.md` — hyphens rather than spaces keep GitHub URLs
@@ -44,7 +48,7 @@ makes the vault searchable later.
 ```yaml
 ---
 title: Aperture
-type: concept          # concept | assignment | shoot-log | critique | genre | meta | reference
+type: concept          # concept | assignment | shoot-log | critique | daily | genre | index | meta | reference
 module: 1
 status: seed           # seed | drafted | understood
 tags:
@@ -53,11 +57,21 @@ confidence: 2          # 1-5, honest; drives what to revisit
 ---
 ```
 
-`status` and `confidence` are the useful ones. Search `status: seed` to find your
-backlog; search `confidence: 1` before a gate.
+`status` and `confidence` are the useful ones. Search `[status:seed]` to find your
+backlog and `[confidence:1]` before a gate. The square brackets search the property
+itself; plain `status: seed` also matches any note that merely mentions "seed".
+
+`status` values depend on the note type, so filter on `type` first:
+
+| Type | `status` values |
+|---|---|
+| concept, genre | `seed` → `drafted` → `understood` |
+| assignment | `not-started` → `in-progress` → `done` |
+| meta, reference | `draft` or `active` |
+| shoot-log, critique, daily, index | none |
 
 **No blank line between the closing `---` and the `# Heading`.** The H1 starts on the
-very next line. Applies to every note and every template in [[99-Templates]].
+very next line. Applies to every note and every template in `99-Templates/`.
 
 ## Tags
 
@@ -68,12 +82,15 @@ Hierarchical, lowercase, singular:
 `meta/syllabus` · `gear/lens`
 
 Tag by *topic*. Use folders for lifecycle stage, links for relationships, and tags for
-cross-cutting themes. Don't duplicate the folder name as a tag.
+cross-cutting themes. Don't tag a note with its bare folder name (`light` on a note in
+`02-Light/`), because that says nothing the folder doesn't. A hierarchical tag like
+`light/flash` is fine: the second level adds the topic.
 
 ## Linking
 
-- Link generously. An unresolved `[[link]]` is a to-do, not an error — it shows up
-  greyed out and in the Unlinked Mentions pane.
+- Link generously. An unresolved `[[link]]` is a to-do, not an error. It shows dimmed
+  in the editor, as "Not created yet" in the Outgoing links pane, and in the graph.
+  (Unlinked mentions are something else: plain-text uses of a note's name.)
 - Concept notes should link **up** to their module in [[Syllabus]] and **sideways** to
   related concepts.
 - Shoot logs link to the concepts they tested. That backlink is how you later find
@@ -83,14 +100,16 @@ cross-cutting themes. Don't duplicate the folder name as a tag.
 
 GitHub does **not** render `[[wikilinks]]`; Obsidian prefers them.
 
-- **Inside the vault** → wikilinks. Obsidian is where you actually work, and wikilinks
-  survive renames (`alwaysUpdateLinks` is on).
+- **Inside the vault** → wikilinks. Obsidian is where you actually work, and links are
+  rewritten on rename (`alwaysUpdateLinks` is on, for both link styles).
 - **In [`README.md`](../README.md)** → standard Markdown links, because that file's
   audience is GitHub.
 
-If you ever want the whole vault browsable on GitHub, flip
-`useMarkdownLinks: true` in `.obsidian/app.json` — but existing wikilinks aren't
-converted retroactively, so decide once.
+If you ever want the whole vault browsable on GitHub, you'd need two settings:
+`useMarkdownLinks: true` *and* "New link format" set to "Relative path to file"
+(`newLinkFormat: relative`). The current `shortest` format writes bare filenames, which
+break across folders on GitHub. Existing wikilinks aren't converted retroactively, so
+decide once.
 
 ## Images and repo size
 

@@ -2,8 +2,6 @@
 title: Practice Index
 type: index
 created: 2026-08-03
-tags:
-  - practice
 ---
 # Practice
 
@@ -16,7 +14,7 @@ did, which is what makes the concept notes in the other folders trustworthy.
 |---|---|---|
 | `Shoot-Logs/` | One entry per shoot, no exceptions | `YYYY-MM-DD-slug.md` |
 | `Critiques/` | Other people's photographs, four-step method | `Critique-Photographer-Subject.md` |
-| `Daily/` | Daily notes (Obsidian creates these automatically) | `YYYY-MM-DD.md` |
+| `Daily/` | Daily notes, created when you open today's note (ribbon icon or command) | `YYYY-MM-DD.md` |
 
 Templates: [[Shoot-Log]] · [[Critique]] · [[Assignment]] · [[Daily-Practice-Log]]
 
@@ -33,7 +31,7 @@ Templates: [[Shoot-Log]] · [[Critique]] · [[Assignment]] · [[Daily-Practice-L
 
 A useful log is specific about failure. "Lighting was off" teaches nothing. "Key light
 was 2 m away so fall-off was too even — should have moved it to 0.8 m and dropped power
-two stops" is something you can act on next time. → [[Inverse-Square-Law]]
+about 2⅔ stops" is something you can act on next time. → [[Inverse-Square-Law]]
 
 ## Reviewing
 

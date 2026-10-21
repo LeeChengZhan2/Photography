@@ -3,8 +3,6 @@ title: Resources
 type: reference
 status: active
 created: 2026-08-03
-tags:
-  - reference
 ---
 # Resources
 
@@ -17,7 +15,7 @@ shooting — the rule is **one book and one channel at a time**.
 |---|---|---|
 | *Understanding Exposure* | Bryan Peterson | Module 1. The clearest exposure-triangle explanation in print. |
 | *Light: Science and Magic* | Hunter, Biver, Fuqua, Reid | Module 2. The definitive book on **why** light behaves as it does. Dense; worth it. |
-| *The Photographer's Eye* | Michael Freeman | Module 3. Composition treated as design rather than rules. |
+| *The Photographer's Eye* | Michael Freeman | Module 3. Composition treated as design rather than rules. Not Szarkowski's 1966 MoMA book of the same name, which suits Module 6. |
 | *The Camera* / *The Negative* / *The Print* | Ansel Adams | Deep dive. Still the best writing on previsualisation. |
 | *Read This If You Want to Take Great Photographs* | Henry Carroll | Fast, visual, good for momentum in week 1. |
 
@@ -61,12 +59,13 @@ mid-way costs you the muscle memory that Module 4 is meant to build.
 
 | Tool | Notes |
 |---|---|
-| Lightroom Classic / CC | Subscription. Best ecosystem, excellent AI denoise and masking. |
+| Lightroom Classic / Lightroom | Subscription. Best ecosystem, excellent AI denoise and masking. |
 | Capture One | Perpetual or subscription. Superb colour and tethering. |
 | Darktable | Free, open source, scene-referred workflow. Steep learning curve. |
 | RawTherapee / ART | Free. Very strong detail rendering. ART is the friendlier fork. |
 | DxO PhotoLab | Best-in-class optical corrections and denoise. |
-| Affinity Photo | One-off purchase, for the Photoshop-style work. |
+| Affinity (by Canva) | Free with a Canva account since Oct 2025. Photoshop-style layers, including LUT adjustments. |
+| DaVinci Resolve | Free. Video grading: where your V-Log, Apple Log and D-Log M footage and its LUTs go. |
 
 ## Planning & field tools
 
@@ -94,15 +93,17 @@ becomes the most valuable page in the vault.
 
 ## Gear — deliberately last
 
-You do not need to buy anything to complete Modules 0–4. The only purchases the
-syllabus genuinely benefits from, in order:
+You do not need to buy anything to complete Modules 0–4. The L10 covers aperture,
+shutter, ISO and metering, and the other three cover reach, water and motion. A3.2
+needs no prime either: the Pocket 3 is a fixed 20 mm, or pick one L10 focal length and
+leave it. The only purchases the syllabus genuinely benefits from, in order:
 
-1. A **prime lens** (35 mm or 50 mm equivalent) — makes assignment A3.2 possible and
-   teaches more per dollar than anything else.
-2. A **manual speedlight + stand + trigger** — for Module 2, week 8. Cheap third-party
-   is fine.
-3. A **tripod** — Module 4's bracketing, and any long exposure.
-4. A **reflector** (or a piece of white foam board, for free).
+1. A **manual speedlight** for the L10's hot shoe — Module 2, week 8. The L10 has no
+   built-in flash and the other three can't sync one. The Roadmap's continuous-light
+   substitute works if you'd rather not buy.
+2. A **tripod** — the L10's 60 s and the Action 5 Pro's 30 s exposures, and Module 4's
+   bracketing.
+3. A **reflector** (or a piece of white foam board, for free).
 
-Anything else, write it in a wish list and revisit after the capstone. Gear notes go in
-`04-Gear`-style notes if you want them, or in [[My-Kit]].
+Anything else, write it in a wish list and revisit after the capstone. Kit notes live in
+[[My-Kit]].

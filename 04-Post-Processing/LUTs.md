@@ -43,12 +43,13 @@ That single structural difference is the whole point:
 - Because every node is independent, a 3D LUT can rotate one hue, desaturate only deep
   shadows, or split-tone highlights and shadows in opposite directions — cross-channel
   moves a curve cannot express.
-- Because it's just a table, the transform is **deterministic and portable**. A `.cube`
-  file produces the same result in Resolve, Premiere, Photoshop, or a camera's monitor
-  output. Nobody has to reimplement your edit.
-- Because it's a lookup, cost is fixed regardless of how complicated the grade was.
-  This is why video lives on LUTs: a 90-second clip is ~2,700 frames, and you cannot
-  re-run a 40-step slider stack on each one in real time.
+- Because it's just a table, the transform is **portable**. A `.cube` file gives nearly
+  the same result in Resolve, Premiere, Photoshop, a camera or a monitor — *nearly*,
+  because apps interpolate differently. Nobody has to reimplement your edit.
+- Because it's a lookup, cost is fixed regardless of how complicated the grade was, so
+  a camera, a monitor or a LUT box can apply one live. That — not editing speed — is
+  why video lives on LUTs: grading software runs full node trees in real time, but a
+  monitor on set can only apply a table, and `.cube` is the look format every app reads.
 
 ### The two kinds are not interchangeable
 | | Technical / transform LUT | Creative / look LUT |
@@ -80,9 +81,10 @@ Consequences worth remembering:
 - **Apply late.** Exposure and [[White-Balance]] come *first*. The LUT can only respond
   to the values it's given, so a cast fed into a LUT comes out amplified, not fixed.
   Anything already pushed past white is gone before the lookup happens.
-- **Coarse lattice + big move = banding.** A 17³ LUT asked to do something violent will
-  show stepping in smooth gradients like skies. 33³ or 65³ with tetrahedral
-  interpolation is the fix.
+- **Coarse lattice + big move = inaccuracy.** Interpolation keeps the output continuous,
+  so a 17³ LUT asked to do something violent doesn't step — it bends smooth gradients
+  like skies in the wrong places, sometimes leaving faint contours. 33³ or 65³ with
+  tetrahedral interpolation is the fix. Hard steps come from bit depth (below).
 - **Opacity is a blunt instrument.** Dialling a LUT to 50% blends toward the original;
   it is not "half the look" in any perceptual sense, and it dilutes the technical part
   along with the creative part if they were baked together.
@@ -92,15 +94,17 @@ Consequences worth remembering:
   → [[Non-Destructive-Editing]] · [[Developing-a-Look]]
 
 ### Formats, and what is actually in the file
-`.cube` (Adobe/Resolve) — plain text, most portable, the default choice. `.3dl`
-(Lustre/Flame), `.look` (Sony), `.csp`, `.dat` — older or vendor-specific; convert to
-`.cube` and stop thinking about them.
+`.cube` (created by IRIDAS, spec published by Adobe; Resolve writes a variant) — plain
+text, most portable, the default choice. `.3dl` (Autodesk Lustre/Flame), `.look` (IRIDAS
+SpeedGrade), `.csp` (cineSpace), `.vlt` (Panasonic VARICAM), and several unrelated
+formats called `.dat` — older or vendor-specific; convert to `.cube` and stop thinking
+about them.
 
 A `.cube` is small enough to open in a text editor, and doing that once removes most of
 the mystery:
 
 ```
-TITLE "Warm Fade"
+TITLE "Identity"
 LUT_3D_SIZE 33
 DOMAIN_MIN 0.0 0.0 0.0
 DOMAIN_MAX 1.0 1.0 1.0
@@ -112,9 +116,11 @@ DOMAIN_MAX 1.0 1.0 1.0
 - `LUT_3D_SIZE 33` means the lattice is 33×33×33, so 35,937 lines follow, each one an
   output RGB triplet. **No input values are stored** — position in the file *is* the
   input. Red varies fastest, then green, then blue.
-- `DOMAIN_MIN`/`DOMAIN_MAX` declare the input range the table covers, normally 0–1.
-  Values outside it are clamped *before* the lookup, which is how a 0–1 LUT quietly
-  destroys the negative and super-white values that log and HDR material carries.
+- `DOMAIN_MIN`/`DOMAIN_MAX` declare the input range the table covers, normally 0–1. The
+  spec leaves out-of-range input to the application, and most clamp it. That's harmless
+  for log footage — log curves are designed to fit inside 0–1 — but it quietly destroys
+  scene-linear float data and the negative values that out-of-gamut colours pick up
+  after a gamut conversion.
 - **Nothing in the file says what colour space it expects.** The format cannot warn you
   that you fed it the wrong input. That absence is the entire reason naming discipline
   (`SLog3_to_Rec709_v2.cube`) does real work.
@@ -167,7 +173,7 @@ one-to-one.
 ## Where it sits in the pipeline
 
 ```
-RAW → demosaic → WB → exposure → [technical LUT] → [creative LUT] → local work → output sharpening → export
+RAW → WB → demosaic → exposure → [technical LUT] → [creative LUT] → local work → output sharpening → export
 ```
 
 Compare against [[Editing-Workflow]] and note what has to be settled *before* the
@@ -196,10 +202,11 @@ monitor, not your picture.
 Two honest routes:
 
 1. **Bake your own grade.** Build the look as a node graph or adjustment stack, then
-   export it (Resolve: right-click the node → Generate LUT; most grading tools have an
-   equivalent). Only the *global* part survives — masks, tracking, spatial operations
-   and anything that depends on where a pixel is cannot be written into a table. When a
-   baked LUT looks unlike the grade it came from, that is almost always why.
+   export it (Resolve: on the Color page, right-click the clip's thumbnail → Generate
+   LUT; most grading tools have an equivalent). Only the *global* part survives — masks,
+   tracking, spatial operations and anything that depends on where a pixel is cannot be
+   written into a table, and Resolve skips qualifiers too. When a baked LUT looks unlike
+   the grade it came from, that is almost always why.
 2. **Match a reference.** Photograph a colour chart under controlled light, process one
    copy to the target rendering, then solve for the transform between the two sets of
    patches. This is how camera-matching LUTs get made when two bodies have to cut
@@ -224,15 +231,17 @@ A minute of this tells you more than any vendor preview:
 
 | Input | Can it take a LUT? | What to watch |
 |---|---|---|
-| **Raw — DNG, ProRAW, CR3…** | Not directly. A raw file has no RGB triplets until it's demosaiced, so there is nothing to look up. The LUT applies *after* the developer, or is wrapped as a profile *inside* it | WB and exposure decide the numbers the LUT will be handed. Settle them first |
+| **Raw — DNG, ProRAW, RW2…** | Not directly. A raw file has no RGB triplets until it's demosaiced, so there is nothing to look up. The LUT applies *after* the developer, or is wrapped as a profile *inside* it | WB and exposure decide the numbers the LUT will be handed. Settle them first |
 | **16-bit TIFF / PSD** | Yes — the safe target for stills | Enough levels to survive a stretch. This is the case with no gotcha |
 | **8-bit JPEG / HEIC** | Yes, and it's where most people actually do it | 256 levels per channel. A heavy LUT posterises skies and gradients — keep the move gentle |
-| **Log video (D-Log M, Apple Log)** | Yes, and here it isn't optional — the technical LUT is the required first step | The LUT must match the exact log curve *and* the camera |
-| **HLG / HDR stills and video** | Only with an HDR-aware LUT | An SDR Rec.709 LUT clamps everything above 1.0 — which is the entire point of the format |
+| **Log video and stills (D-Log M, Apple Log, V-Log)** | Yes, and here a transform isn't optional — a technical LUT or a colour-space transform comes first | The LUT must match the exact log curve *and* the camera |
+| **HLG / HDR stills and video** | Only with an HDR-aware LUT | An SDR Rec.709 LUT reads the HLG curve as if it were Rec.709 — highlights flatten and colours shift |
 | **An already-graded delivery file** | Don't | You'd be stacking a look on a look, on values that were already clipped |
 
-The pattern: **log is the only case where a LUT is compulsory.** Everywhere else it is a
-preference, and usually a preference a preset expresses better.
+The pattern: **log is the only case where a transform is compulsory** — a technical LUT,
+or a colour-space transform doing the same job with maths (Resolve's CST handles Apple
+Log and V-Log; DJI hasn't published the D-Log M curve, so its LUT is the route there).
+Everywhere else a LUT is a preference, and usually one a preset expresses better.
 
 ## My kit, and what it means for LUTs
 
@@ -241,22 +250,19 @@ only the LUT-relevant slice of it.
 
 | Device | Stills | Log stills? | Video | Technical LUT |
 |---|---|---|---|---|
-| **iPhone 15 Pro Max** | HEIC/JPEG, or Apple ProRAW (DNG) | No | Apple Log (in ProRes), HDR/HLG by default | Apple publishes a Log → Rec.709 LUT. Video only |
-| **DJI Osmo Action 5 Pro** | JPEG, or raw DNG | No | D-Log M (10-bit), HLG, Normal | DJI publishes a D-Log M → Rec.709 LUT. Video only |
-| **DJI Pocket 3** | JPEG, or raw DNG | No | D-Log M (10-bit), HLG, Normal | Same DJI D-Log M LUT family |
-| **Camera #4 (planned)** | ____________ | ____________ | ____________ | ____________ |
+| **Lumix L10** | JPEG / HEIF, or RAW (RW2) | **Yes** — V-Log is a Photo Style for stills | V-Log, HLG, Like709 | Panasonic publishes a V-Log → V-709 LUT, and the camera applies LUTs itself (Real Time LUT) |
+| **iPhone 15 Pro Max** | HEIC/JPEG, or Apple ProRAW (DNG) | No | Apple Log (ProRes only), Dolby Vision HDR by default | Apple publishes a Log → Rec.709 LUT |
+| **DJI Osmo Action 5 Pro** | JPEG, or raw DNG | No | D-Log M (10-bit), HLG, Normal | DJI publishes an Action 5 Pro D-Log M → Rec.709 LUT |
+| **DJI Pocket 3** | JPEG, or raw DNG | No | D-Log M (10-bit), HLG, Normal | DJI publishes a separate Pocket 3 D-Log M → Rec.709 LUT |
 
 > [!important] The honest conclusion for this kit
-> **Not one of these three shoots log stills** — no phone or compact does. Technical
-> LUTs are therefore a *video* problem for you and not a photography one. For a
-> photograph, a LUT can only ever be a creative look, and a preset in your raw developer
-> beats it, because a preset can be reopened and argued with. → [[Developing-a-Look]]
+> For three of the four devices, technical LUTs are a *video* problem, not a
+> photography one. The L10 is the exception: it can shoot V-Log stills and bake a LUT
+> into its JPEG/HEIF files in camera. For learning, shoot RAW alongside — the LUT shapes
+> the JPEG and the preview, and a preset in your raw developer can be reopened and
+> argued with. → [[Developing-a-Look]]
 
-When camera #4 arrives, three questions answer the whole row above: **does it record a
-log curve, and which one exactly? does the maker publish a matching LUT? what raw format
-and bit depth?** Nothing about LUTs should influence which one you buy.
-
-### Four traps specific to this kit
+### Traps specific to this kit
 - **`D-Log M` is not `D-Log`.** Different curves; DJI ships LUTs for both. The wrong one
   gives you wrong contrast and a colour cast, and it looks *plausible*, which is worse.
 - **Photographic Styles on the iPhone bake at capture.** A style is a look applied
@@ -268,16 +274,22 @@ and bit depth?** Nothing about LUTs should influence which one you buy.
 - **iPhone HDR stills carry a gain map.** An SDR LUT grades the base image while the
   gain map still describes the ungraded one, so it reads wrong in any HDR-aware viewer.
   Convert to SDR deliberately before grading, or keep the whole chain HDR.
+- **The L10's LUT Library takes `.cube` only up to 33-point** (or `.vlt`). A 65-point cube
+  won't load, and on an SDHC (FAT32) card the filename is limited to 8 characters.
+- **V-Log on the L10 starts at ISO 500** (125 extended), for stills as well as video.
+  Exposing for ISO 500 lets in less light than ISO 100 would, so the RAW pays for it too.
 
 ## Applying a LUT to a photograph
 
 **Route A — develop first, LUT after (use this one)**
 1. Develop the DNG/ProRAW: white balance → exposure → highlights and shadows. No look
    yet. The LUT can only respond to what you hand it.
-2. Export **16-bit TIFF**, ProPhoto or Adobe RGB. Not JPEG — not yet.
+2. Export **16-bit TIFF** in the colour space the LUT expects — usually sRGB for a look
+   LUT. Photoshop applies the table to the raw numbers, so ProPhoto data through an sRGB
+   LUT shifts colours. Not JPEG — not yet.
 3. Apply the LUT. Photoshop: Layer → New Adjustment Layer → **Color Lookup** → Load 3D
-   LUT. Affinity Photo: Adjustment → **LUT**. darktable: the **lut 3D** module. DaVinci
-   Resolve grades stills too, is free, and is where your DJI footage will end up anyway.
+   LUT. Affinity: Layers panel → Adjustments → **LUT**. darktable: the **lut 3D** module.
+   DaVinci Resolve grades stills too, is free, and is where your video will end up anyway.
 4. Then local work, then output sharpening, then export 8-bit for delivery.
 
 **Route B — LUT as a profile inside the raw developer**
@@ -286,9 +298,9 @@ pipeline with an amount slider and never leaves high bit depth. The `.cube` has 
 wrapped into an `.xmp` profile first — confirm the current method for your version
 before trusting any tutorial, then write the steps here: ____________________
 
-**On the phone.** LumaFusion and DJI's Mimo app accept `.cube` for *video*. For stills,
-check whether your mobile editor imports `.cube` at all before planning around it — most
-don't, and the ones that do often only take them at low resolution. ____________________
+**On the phone.** LumaFusion and DJI's Mimo app accept `.cube` for *video*, and
+Panasonic's LUMIX Lab app loads LUTs onto the L10. For stills, check whether your mobile
+editor imports `.cube` at all before planning around it. ____________________
 
 🔸 Your Pocket 3 and your iPhone film the same scene, each in its own log, and you apply
 each maker's own Rec.709 LUT. The two clips still don't match. Why not — what does a
@@ -298,8 +310,7 @@ technical LUT normalise, and what does it leave untouched?
 <!-- Yours. What actually happens on your machine? -->
 - **My raw developer:** ____________________
 - **Where my LUT files live:** ____________________
-- **Do I shoot anything log?** Video yes — D-Log M on both DJI bodies, Apple Log on the
-  iPhone. Stills no. So: ____________________
+- **Do I shoot anything log, and on which device?** ____________________
 - **LUT downloads I've actually verified:** DJI ____________ · Apple ____________
 - **Where in my stack it goes:** ____________________
 
@@ -331,6 +342,7 @@ technical LUT normalise, and what does it leave untouched?
 [[Dynamic-Range]]
 
 ## Source
-- Claude draft, 2026-08-11, expanded 2026-08-18 — **replace this line** with where you
-  actually verified it
+- Claude draft, 2026-08-11, expanded 2026-08-18; facts corrected 2026-10-21 against the
+  Adobe Cube LUT spec, the DaVinci Resolve 21 manual and the Lumix L10 manual —
+  **replace this line** with where you actually verified it
 - 

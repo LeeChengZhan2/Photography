@@ -3,8 +3,6 @@ title: Composition Index
 type: index
 module: 3
 created: 2026-08-03
-tags:
-  - composition
 ---
 # Module 3 — Composition & Visual Language
 
