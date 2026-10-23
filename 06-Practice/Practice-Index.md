@@ -37,12 +37,11 @@ about 2⅔ stops" is something you can act on next time. → [[Inverse-Square-La
 
 Once a month, read the last four weeks of logs in one sitting and ask:
 
-- What failure repeats? That's the next concept note to rewrite.
+- What failure repeats? That's the next concept note to re-read.
 - What time of day or location never works? Design around it, don't keep retrying.
 - Which concepts have no logs linking to them? Those are things you've read, not learnt.
 
-Then update [[Progress-Tracker]] honestly, and bump `confidence` in the concept notes
-that earned it.
+Then re-read the notes behind those failures, and redo one assignment that went wrong.
 
 ## Recent work
 <!-- Backlinks from your logs and critiques collect below automatically. -->

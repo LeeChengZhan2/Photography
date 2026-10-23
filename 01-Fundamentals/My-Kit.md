@@ -2,26 +2,21 @@
 title: My Kit
 type: concept
 module: 0
-status: drafted
-confidence: 1
 tags:
   - gear/kit
 created: 2026-08-19
 ---
 # My Kit
 
-> [!warning] Claude drafted this — A0.1 is still yours
-> Every spec below was checked on 2026-10-21 against Apple's, DJI's and Panasonic's own
-> spec pages and manuals (links under Source). That makes the numbers right; it doesn't
-> make the note yours. A0.1 is done when you've shot one frame on each device,
-> confirmed its format and resolution from the file's metadata, filled in "How I set it
-> in the field", and answered the 🔸 questions. Then delete this callout and set your
-> own `confidence`. The A0.1 box in [[Progress-Tracker]] stays unticked until then.
+> [!summary] In one line
+> One real camera — the L10, with an iris, a viewfinder and a hot shoe — plus three
+> fixed-aperture, wide-angle, motion-first devices: Module 1 happens on the L10, and the
+> other three cover reach, water, motion and video.
 
-## In one sentence
-One real camera — the L10, with an iris, a viewfinder and a hot shoe — plus three
-fixed-aperture, wide-angle, motion-first devices: Module 1 happens on the L10, and the
-other three cover reach, water, motion and video.
+> [!note] Checked against the makers
+> Every spec below was checked on 2026-10-21 against Apple's, DJI's and Panasonic's own
+> spec pages and manuals (links under Source). Firmware updates can change features; if
+> your device disagrees with this note, trust the device and correct the note.
 
 ## The kit at a glance
 
@@ -44,17 +39,20 @@ other three cover reach, water, motion and video.
 
 ## Lumix L10 — the camera the syllabus is written for
 
-A premium compact from 2026: the Lumix GH7's 20.4 MP Four Thirds sensor behind a fixed
-Leica 24–75 mm f/1.7–2.8 zoom, with an aperture ring, an eye-level viewfinder, an
-[AF ON] button, a hot shoe and a mechanical shutter. It's the only device you own with
+A premium compact from 2026: a Four Thirds sensor from the same family as the Lumix
+GH7's, behind a fixed Leica 24–75 mm f/1.7–2.8 zoom (10.9–34 mm real focal length),
+with an aperture ring, an eye-level viewfinder, an [AF ON] button, a hot shoe and a
+mechanical shutter. The camera records 20.4 MP from a central part of the sensor, so
+every aspect ratio keeps the same 24 mm view; that makes its crop factor about 2.2×,
+not the usual 2× of Four Thirds. It's the only device you own with
 an iris and a viewfinder, so the aperture ladder, metering modes, back-button focus and
 flash all happen here.
 
 **Tips**
 - **Fix the focal length before an aperture ladder.** The widest aperture shrinks as you
   zoom (f/1.7 at 24 mm, f/2.8 at 75 mm), so zooming mid-ladder changes two things.
-- **Diffraction arrives early on Four Thirds.** With 3.3 µm pixels it starts to show
-  between f/5.6 and f/8, and f/16 is the floor. Find where yours peaks in A1.1.
+- **Diffraction arrives early on Four Thirds.** With pixels about 3 µm wide, it starts
+  to show between f/5.6 and f/8, and f/16 is the floor. Find where yours peaks in A1.1.
 - **Under 50 cm, flip the focus selector to AF Macro.** Normal AF won't focus closer;
   AF Macro and MF reach 3 cm at 24 mm and 30 cm at 75 mm.
 - **Choose the shutter on purpose.** Mechanical (to 1/2000) for flash and fast motion.
@@ -141,9 +139,9 @@ shouldn't go: water, mud, a bike mount, ankle height in traffic.
 1. **Only the L10 has an iris.** Aperture is a control on one device and a constant on
    the other three, so [[Aperture]] and A1.1 belong to the L10.
 2. **Depth of field is deep on three devices and only moderately shallow on the L10.**
-   On Four Thirds, f/1.7–2.8 blurs a background about as much as f/3.4–5.6 would on
-   full frame. Separation still comes mostly from subject distance and background
-   choice. → [[Depth-of-Field]] · [[Sensor-Size-and-Crop-Factor]]
+   On the L10 (crop factor about 2.2×), f/1.7–2.8 blurs a background about as much as
+   f/3.7–6.2 would on full frame. Separation still comes mostly from subject distance
+   and background choice. → [[Depth-of-Field]] · [[Sensor-Size-and-Crop-Factor]]
 3. **Focal length is well covered**, from 13 mm (iPhone 0.5×) to 120 mm (iPhone 5×),
    with the L10's 24–75 mm zoom in between. Perspective comes from distance, so a crop
    taken from the same spot compresses exactly like a longer lens.
@@ -165,41 +163,66 @@ shouldn't go: water, mud, a bike mount, ankle height in traffic.
 | 2 — Light | Any; flash on the L10 | Week 8 needs an external flash on the L10, or the Roadmap's continuous-light substitute |
 | 3 — Composition | L10 and iPhone | A3.3 on the L10's 24–75 mm plus the iPhone's 120 mm. A3.2's prime jail works on the Pocket 3 (fixed 20 mm) or one L10 setting |
 | 4 — Post-Processing | All four write raw | The L10's RW2 is your best source file. Technical LUTs are for your video and the L10's V-Log stills |
-| 5 — Genres | L10 for street, portrait and travel; Action 5 Pro for water and action; iPhone 5× for reach | Shallow-depth portraits are modest even on the L10 |
-| 6 — Seeing & Critique | Any | — |
+| 5 — Video | All four; the Pocket 3 and Action 5 Pro lead | Pocket 3 for walking shots, Action 5 Pro for water and action, iPhone for reach (manual shutter needs an app such as Blackmagic Camera), L10 when you want a real aperture. A5.5 uses all four |
+| 6 — Genres | L10 for street, portrait and travel; Action 5 Pro for water and action; iPhone 5× for reach | Shallow-depth portraits are modest even on the L10 |
+| 7 — Seeing & Critique | Any | — |
 
-## How I set it in the field
-<!-- Yours. The button, not the concept. -->
-- **L10 default mode, aperture and Auto-ISO ceiling:** ____________________
-- **L10 focus — [Shutter AF] off and [AF ON], or not, and why:** ____________________
-- **Manual shutter/ISO on the iPhone — which app, and where:** ____________________
-- **Getting into Pro mode on the Pocket 3:** ____________________
-- **Getting into PRO mode on the Action 5 Pro:** ____________________
-- **Turning raw on, per device:** ____________________
-- **Which device I reach for by default, and whether that's a decision or a habit:**
-  ____________________
+## A starting setup
 
-## What I got wrong
-<!-- Replace with what YOU actually believed. -->
-- 🔸 Before reading this, which of your devices did you think had an aperture you could
-  change? What did you take the f-number on a phone's spec sheet to mean?
-- 🔸 The Pocket 3 is f/2.0 and the Action 5 Pro is f/2.8, about a stop apart. Which of
-  the two actually gives shallower depth of field on the same subject, and why is the
-  f-number not the whole answer?
-- 🔸 Portrait mode and a real f/1.4 lens produce different-looking blur. Name one thing
-  the software gets wrong that optics cannot.
-- 🔸 The L10's widest aperture drops from f/1.7 to f/2.8 as you zoom in. Using the
-  f-number-is-a-ratio idea from [[Aperture]], why would a zoom do that?
+Good defaults while you learn. Change them once an assignment shows you something better.
 
-## Proof from my own frames
-<!-- A0.1 isn't finished until you've shot one frame on each device and confirmed from
-     the actual metadata what format, resolution and settings you got. -->
-- 
+- **L10 everyday mode:** Aperture priority (A) at f/4, Auto ISO with a ceiling of about
+  ISO 6400 until A1.3 tells you your real ceiling. Use Manual (M) for the Module 1
+  assignments that ask for it.
+- **L10 focus:** back-button focus — [Shutter AF] off, focus with [AF ON]. Single AF for
+  still subjects, continuous AF for moving ones. → [[Back-Button-Focus]]
+- **L10 files:** RAW + JPEG while learning, so you can compare the camera's JPEG with
+  your own edit.
+- **iPhone manual control:** Halide or Lightroom for manual shutter and ISO on stills;
+  Blackmagic Camera for manual video. ProRAW on (Settings → Camera → Formats → ProRAW &
+  Resolution Control) when you plan to edit.
+- **Pocket 3 and Action 5 Pro:** switch to Pro / PRO mode whenever an assignment needs a
+  set shutter speed or ISO; set the photo format to raw (DNG) in the photo settings.
+- **Which device first:** the L10 for anything that teaches exposure, focus or light.
+  The iPhone for the frames you didn't plan. The DJIs for motion, water and video.
+
+## Try it
+
+This is assignment **A0.1**. Shoot one frame on each device. Open each file's info (its
+metadata, in your editor or the phone's photo app) and check that the format,
+resolution and settings match this note. If one doesn't match, find out why — that's
+usually a setting you didn't know was on.
+
+## Check yourself
+
+> [!question]- Which of your four devices can change its aperture, and what does the f-number on a phone's spec sheet tell you?
+> Only the L10. A phone's f-number is the fixed aperture of each lens: it tells you how
+> much light that lens gathers for its focal length. You can't change it, and because
+> the lens's real focal length is tiny, the depth of field stays deep anyway.
+
+> [!question]- The Pocket 3 is f/2.0 and the Action 5 Pro is f/2.8. Which gives shallower depth of field on the same subject, and why isn't the f-number the whole answer?
+> The Pocket 3. It has the wider aperture, but more importantly the bigger sensor
+> (1-inch against 1/1.3-inch) and a narrower view, so the subject fills more of the
+> frame. Depth of field depends on aperture, magnification and sensor size together.
+> → [[Depth-of-Field]] · [[Sensor-Size-and-Crop-Factor]]
+
+> [!question]- Portrait mode and a real f/1.4 lens give different-looking blur. Name one thing the software gets wrong that optics can't.
+> The edges. Software has to guess from a depth map where the subject ends, so it often
+> blurs strands of hair, the rims of glasses, or the gap between an arm and the body by
+> mistake. A real lens blurs by actual distance, so there is nothing to guess.
+> → [[Computational-Photography]]
+
+> [!question]- The L10's widest aperture drops from f/1.7 to f/2.8 as you zoom in. Why would a zoom do that?
+> The f-number is focal length ÷ the diameter of the opening. Zooming in makes the focal
+> length longer, and the opening can't grow as fast, so the ratio rises: a bigger
+> f-number, less light. Keeping f/1.7 at 75 mm would need a much bigger, heavier lens.
+> → [[Aperture]]
 
 ## Related
 [[Aperture]] · [[Exposure-Triangle]] · [[Sensor-Size-and-Crop-Factor]] ·
 [[Depth-of-Field]] · [[RAW-vs-JPEG]] · [[Camera-Menu-Baseline]] ·
-[[Ingest-and-Backup-Workflow]] · [[Flash-Fundamentals]] · [[LUTs]]
+[[Ingest-and-Backup-Workflow]] · [[Flash-Fundamentals]] · [[LUTs]] ·
+[[Fundamentals-Index]]
 
 ## Source
 - Panasonic, [DC-L10 Operating Instructions](https://eww.pavc.panasonic.co.jp/dscoi/DC-L10/pdf/DC-L10_DVQP3497_full_eng.pdf),
@@ -207,5 +230,6 @@ shouldn't go: water, mud, a bike mount, ankle height in traffic.
 - Apple, [iPhone 15 Pro Max technical specifications](https://support.apple.com/en-us/111828)
 - DJI, [Osmo Pocket 3 specs](https://www.dji.com/osmo-pocket-3/specs) and user manual
 - DJI, [Osmo Action 5 Pro specs](https://www.dji.com/osmo-action-5-pro/specs) and FAQ
-- Claude draft 2026-08-19; specs checked against the sources above on 2026-10-21.
-  Add the date *you* confirmed each device: ____________________
+- Clifton Cameras, [Lumix L10 specifications](https://www.cliftoncameras.co.uk/uploads/specifications/cliftoncameras-panasonic-lumix-l10-specs.pdf)
+  — the L10's sensor and real focal length (10.9–34 mm), checked 2026-10-23
+- Specs checked against the sources above on 2026-10-21.

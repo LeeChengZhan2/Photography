@@ -7,7 +7,7 @@ created: 2026-08-03
 # Module 2 — Light
 
 Brief and assignments: [[Syllabus#Module 2 — Light]] · Schedule:
-[[Roadmap#Phase 2 — See the light]] · Progress: [[Progress-Tracker]]
+[[Roadmap#Phase 2 — See the light]]
 
 **The module in one line:** light has only four properties worth describing — quality,
 direction, colour, and contrast ratio. Learn to name them and you can reproduce any
@@ -28,8 +28,10 @@ light you've seen.
 - [[Natural-Light]] — window, open shade, overcast, harsh midday
 - [[Light-Modifiers]] — reflector, diffuser, scrim, flag, bounce
 - [[Available-Light-Discipline]] — when *not* to add light
+- [[Lens-Filters]] — polariser, ND, graduated ND
 
 ### Adding light
+- [[Continuous-Light]] — LED panels and lamps: what you see is what you get
 - [[Flash-Fundamentals]] — guide number, TTL vs manual
 - [[Sync-Speed]] — and HSS
 - [[Bounce-Flash]] — why bare straight-on flash flattens

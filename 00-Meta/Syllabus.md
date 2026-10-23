@@ -2,7 +2,7 @@
 title: Photography Syllabus
 type: meta
 status: draft
-version: 0.1
+version: 0.2
 created: 2026-08-03
 tags:
   - meta/syllabus
@@ -10,16 +10,17 @@ tags:
 # Photography Syllabus
 
 A self-taught curriculum that goes from *"the camera decides"* to *"I decide, and I can
-say why."* Seven modules, each with objectives, concepts to write notes on, practice
+say why."* Eight modules, each with objectives, a study note for every concept, practice
 assignments, and an honest exit test.
 
 > [!info] How to read this
-> Every `[[Wikilink]]` below is a note you write, not a note you read. Clicking an
-> unwritten link creates it — start from [[Concept-Note]] and fill it in your own
-> words. Explaining a concept back is the actual learning; collecting links is not.
+> Every `[[Wikilink]]` below opens a full study note: what it is, how it works, how to
+> use it on your kit, common mistakes, a short exercise, and questions to check
+> yourself (the answers fold open). Read a module's notes after you've shot its
+> assignments — the questions are where the learning sticks.
 
-Companion documents: [[Roadmap]] (when) · [[Progress-Tracker]] (how far) ·
-[[Glossary]] (terms) · [[Conventions]] (how this vault is organised)
+Companion documents: [[Roadmap]] (when, and how long) · [[Glossary]] (terms) ·
+[[Conventions]] (how this vault is organised)
 
 ---
 
@@ -53,6 +54,10 @@ Companion documents: [[Roadmap]] (when) · [[Progress-Tracker]] (how far) ·
   phone's ProRAW is not a plain raw
 - [[Ingest-and-Backup-Workflow]] — card → disk → 2nd copy, naming scheme
 - [[Sensor-Size-and-Crop-Factor]] — equivalence, and what it does *not* change
+- [[Camera-Care]] — batteries, memory cards (speed ratings matter for video), cleaning,
+  humidity and fungus
+- [[Computational-Photography]] — what your phone does to every photo, and when to
+  take control
 
 ### Assignments
 - **A0.1 — Kit audit.** Write [[My-Kit]] from the manual/specs, not memory. Record
@@ -83,6 +88,7 @@ This is the module people skip and then plateau on for years. Don't.
 - [[Aperture]] — f-number, light vs depth of field, diffraction, sweet spot
 - [[Shutter-Speed]] — freeze vs blur, reciprocal rule, handheld limits, panning,
   rolling-shutter skew
+- [[Long-Exposure]] — seconds to minutes: support, timers, light trails, silky water
 - [[ISO]] — gain not sensitivity, noise floor, dual-native ISO, ISO-invariance
 - [[Metering-Modes]] — evaluative/matrix, centre-weighted, spot; when each lies
 - [[Exposure-Compensation]] — what it actually does in A/S vs M
@@ -93,6 +99,7 @@ This is the module people skip and then plateau on for years. Don't.
   size, [[Hyperfocal-Distance]]
 - [[Autofocus-Modes]] — single vs continuous, area modes, subject detection
 - [[Back-Button-Focus]] — decoupling focus from shutter (AE/AF lock on a phone)
+- [[Manual-Focus]] — focus peaking, magnification, and when autofocus gives up
 - [[White-Balance]] — colour temperature, tint, custom WB, why RAW forgives it
 
 ### Assignments
@@ -146,6 +153,9 @@ background soft") and you state settings out loud, correctly, in under five seco
 - [[Balancing-Flash-and-Ambient]] — shutter for ambient, power for flash, aperture and
   ISO for both
 - [[Available-Light-Discipline]] — when *not* to add light
+- [[Continuous-Light]] — LED panels and lamps: see-what-you-get light for stills and
+  video
+- [[Lens-Filters]] — polariser, ND and graduated ND, and why a UV filter does little
 
 ### Assignments
 - **A2.1 — One window, one subject, eight positions.** Move the subject around a
@@ -184,6 +194,7 @@ and why.
 - [[Focal-Length-and-Perspective]] — compression vs expansion; perspective is set
   by *subject distance*, not by the lens
 - [[Frame-and-Aspect-Ratio]] — 3:2, 4:3, 1:1, 16:9, and orientation as a decision
+- [[Point-of-View]] — camera height and angle: the cheapest way to change a picture
 - [[Rule-of-Thirds]] — the training wheel, and when to take it off
 - [[Symmetry-and-Centring]] — when the middle is the right answer
 - [[Leading-Lines]] · [[Diagonals-and-Dynamism]]
@@ -239,17 +250,24 @@ RawTherapee. Pick one and stop shopping.
 - [[Tone-Curve]] — contrast, black point, filmic shoulders
 - [[Basic-Panel-Order]] — WB → exposure → contrast → highlights/shadows → presence
 - [[HSL-and-Colour-Mixer]] — targeted hue/saturation/luminance
+- [[Crop-and-Straighten]] — composition after the fact, and what a crop costs in pixels
 - [[Local-Adjustments]] — masks, gradients, radials, subject/sky detection
 - [[Dodge-and-Burn]] — directing the eye with luminance
+- [[Retouching]] — spot removal, healing, cloning and AI removal, and where honesty ends
 - [[Sharpening]] — capture vs creative vs output sharpening
 - [[Noise-Reduction]] — luminance vs colour, and AI denoise
 - [[Lens-Corrections]] — distortion, vignette, CA
+- [[Perspective-Correction]] — straightening converging verticals
+- [[Photo-Merges]] — HDR, panoramas and focus stacking
 - [[Colour-Grading]] — shadows/midtones/highlights, split toning
 - [[LUTs]] — baked colour transforms; technical vs creative; converting log footage
 - [[Black-and-White-Conversion]] — channel mixing, not desaturating
+- [[Bit-Depth]] — why heavy edits band in 8-bit files
 - [[Colour-Management]] — [[Colour-Spaces]] (sRGB / Display P3 / AdobeRGB / ProPhoto,
   Rec.709 for video), monitor calibration, soft proofing
 - [[Export-Settings]] — web vs print vs archive
+- [[Printing]] — paper, size and resolution, and why prints come out darker than the
+  screen
 - [[Developing-a-Look]] — presets as a starting point, never an ending point
 - [[Archive-Strategy]] — 3-2-1, catalogue backups, folder taxonomy
 
@@ -272,12 +290,96 @@ in under two hours.
 
 ---
 
-## Module 5 — Genre Deep-Dive
+## Module 5 — Shooting & Editing Video
+
+**Duration:** 4 weeks · **Goal:** a short film where every cut has a reason.
+
+Video reuses everything before it: exposure with one control taken away, light,
+composition with time added, and colour. What's new is the cut. You can only edit the
+shots you thought to take, and sound carries as much of the film as the picture does.
+
+Tool-agnostic — the concepts transfer between DaVinci Resolve, Premiere Pro, Final Cut
+Pro, LumaFusion and CapCut. Pick one editor and stop shopping.
+
+### Objectives
+- Set frame rate, shutter and exposure for video on purpose, and explain why the
+  shutter speed isn't the free choice it is in stills.
+- Shoot coverage: enough different shots that a scene can be cut together.
+- Cut a short film where every cut has a reason, the sound is mixed, and clips from
+  different cameras look like one piece.
+
+### Concepts
+- [[Frame-Rate]] — 24 / 25 / 30 / 50 / 60 fps, slow motion, and why your 50 Hz mains
+  lighting pushes you towards 25 or 50
+- [[Shutter-Angle]] — the 180° rule: why, in video, the frame rate (not the light)
+  usually sets the shutter speed
+- [[ND-Filters]] — how you control daylight exposure once the shutter is fixed
+- [[Zebras-and-Waveform]] — exposure tools for moving pictures; the video cousin of the
+  [[Histogram]]
+- [[Log-Profiles]] — when a flat log file is worth the grading work, and why it wants
+  10-bit
+- [[Codecs-and-Bitrate]] — H.264, H.265, ProRes; why some files edit smoothly and
+  others stutter
+- [[Video-Stabilisation]] — gimbal, optical, electronic and in post, and what each
+  costs
+- [[Shot-Sizes-and-Coverage]] — wide, medium, close-up, cutaways; shooting enough to
+  edit
+- [[Camera-Movement]] — pan, tilt, push in, track, or stay still; movement needs a
+  reason
+- [[Time-Lapse-and-Hyperlapse]] — minutes into seconds: intervals, locked exposure,
+  and lapses where the camera moves
+- [[Recording-Sound]] — distance to the mic, levels, wind, room tone
+- [[Video-Editing-Workflow]] — ingest → organise → rough cut → fine cut → colour and
+  sound → export; proxies when playback stutters
+- [[Timeline-and-Trimming]] — tracks, in and out points, ripple and roll edits
+- [[Cuts-and-Transitions]] — cut on action, match cut, jump cut, J-cut and L-cut, and
+  why a plain cut usually beats a transition
+- [[Pacing-and-Rhythm]] — shot length, cutting to the beat, when to hold
+- [[Screen-Direction]] — the 180° line (a different 180° rule), eyelines, keeping the
+  viewer oriented
+- [[Story-Structure]] — hook, build, payoff; [[Subject-and-Intent]] with time added
+- [[Sound-Mixing]] — dialogue, ambience, effects and music in layers; loudness for each
+  platform; music you're allowed to use
+- [[Shot-Matching]] — correct each clip, then grade, until several cameras look like
+  one. Builds on [[LUTs]] and [[Colour-Grading]]
+- [[Video-Export-Settings]] — codec, bitrate, 16:9 vs 9:16, SDR vs HDR, what each
+  platform expects
+
+### Assignments
+- **A5.1 — The shutter ladder, in motion.** One moving subject (traffic, a fan, a
+  walking friend) at 25 fps: 1/50, 1/100, 1/500 and 1/2000, letting ISO rise to hold
+  the exposure. Watch each at full speed and describe how the motion feels. Without an
+  ND filter, shoot at dusk or indoors — and indoors, note what the faster speeds do to
+  the lights.
+- **A5.2 — Five-shot sequence.** One person doing one simple task (making coffee,
+  tying shoes). Five shots: the hands close up, the face close up, a wide, over the
+  shoulder, and one unusual angle. Cut them into 30 seconds that make sense with no
+  words.
+- **A5.3 — Same footage, two cuts.** Ten minutes of footage from one outing, cut
+  twice: a calm one-minute version and a fast 30-second version cut to music. Write
+  which serves the subject.
+- **A5.4 — Sound first.** Record two minutes of a place's sound (a market, a kitchen,
+  a street) before filming anything. Then shoot pictures for it and cut them to it.
+  Listen back with your eyes closed: does the sound alone tell you where you are?
+- **A5.5 — One scene, every camera.** Same scene, same frame rate, on every camera you
+  own, in one timeline. Match the clips until a cut between cameras stops jumping.
+- **A5.6 — The one-minute film.** One subject, a shot list written before you film,
+  sound mixed, colour matched. Export it twice, 16:9 and 9:16. Show it to someone who
+  wasn't there.
+
+### Exit test
+Take 30 minutes of footage you've never edited (an old trip works) and produce a
+finished one-minute film — sound mixed, colour matched, exported — in under three
+hours. Someone who wasn't there can say what it's about.
+
+---
+
+## Module 6 — Genre Deep-Dive
 
 **Duration:** 4 weeks · **Goal:** depth in two genres, and the vocabulary of the rest.
 
-Pick **two**. Write a note for each covering: what makes a good one, the technical
-constraints, the standard settings starting point, the gear reality, the ethics, the
+Pick **two**. Each genre has a full note covering what makes a good one, the technical
+constraints, a settings starting point, the gear reality, the ethics, the
 practitioners to study, and one project idea.
 
 - [[Street-Photography]] — anticipation, layers, legality and ethics, zone focusing
@@ -292,12 +394,16 @@ practitioners to study, and one project idea.
 - [[Documentary-and-Photojournalism]] — narrative arc, consent, captioning
 - [[Sports-and-Action]] — pre-focus, burst discipline, peak action
 - [[Travel-Photography]] — research, sense of place, avoiding the postcard
+- [[Food-Photography]] — window light, angles, styling, hawker-centre manners
+- [[Underwater-Photography]] — the Action 5 Pro in pools and the sea; colour loss with
+  depth
+- [[Family-and-Events]] — everyday life, birthdays and festivals; candid vs posed
 
 ### Assignments
-- **A5.1 — Study before shoot.** For each chosen genre, analyse 20 images by
+- **A6.1 — Study before shoot.** For each chosen genre, analyse 20 images by
   photographers you admire in critique notes before shooting any of your own.
-- **A5.2 — Ten-frame set.** A cohesive ten-frame set in each chosen genre.
-- **A5.3 — Constraint shoot.** Shoot one chosen genre with the "wrong" gear
+- **A6.2 — Ten-frame set.** A cohesive ten-frame set in each chosen genre.
+- **A6.3 — Constraint shoot.** Shoot one chosen genre with the "wrong" gear
   (landscape on a long lens, portrait on a wide). Learn what the convention buys.
 
 ### Exit test
@@ -305,7 +411,7 @@ Your ten-frame set is recognisable as that genre to someone who wasn't told.
 
 ---
 
-## Module 6 — Seeing, Critique & a Body of Work
+## Module 7 — Seeing, Critique & a Body of Work
 
 **Duration:** 4 weeks · **Goal:** stop making photographs and start making work.
 
@@ -327,15 +433,16 @@ Your ten-frame set is recognisable as that genre to someone who wasn't told.
 - [[Artist-Statement]] — 150 words, no jargon
 - [[Portfolio-Construction]]
 - [[Sharing-and-Feedback]] — where to post to get criticism rather than likes
+- [[Copyright-and-Consent]] — who owns a photo, and photographing and posting people
 
 ### Assignments
-- **A6.1 — Twenty critiques.** Twenty photographs by others, four-step method, one
+- **A7.1 — Twenty critiques.** Twenty photographs by others, four-step method, one
   critique note each. Half should be photographs you *dislike*.
-- **A6.2 — Self-critique cold.** Critique your own Module 1 output with the same
+- **A7.2 — Self-critique cold.** Critique your own Module 1 output with the same
   rigour. Be specific about what improved.
-- **A6.3 — Steal deliberately.** Reproduce three images by a photographer you admire.
+- **A7.3 — Steal deliberately.** Reproduce three images by a photographer you admire.
   Then make a fourth that's yours.
-- **A6.4 — Sequence.** Take 30 of your keepers and sequence 12 of them. Justify the
+- **A7.4 — Sequence.** Take 30 of your keepers and sequence 12 of them. Justify the
   first and last.
 
 ### Exit test
@@ -345,23 +452,27 @@ Your artist statement and your portfolio agree with each other.
 
 ## Capstone
 
-**Duration:** 4 weeks, after Module 6. Start narrowing the subject while Module 6 runs.
+**Duration:** 4 weeks, after Module 7. Start narrowing the subject while Module 7 runs.
 
 A **cohesive series of 12–20 finished images** on a single subject or idea, plus:
 - a 150-word [[Artist-Statement]],
-- a shoot plan written *before* you started,
+- a shoot plan written *before* you started ([[Shoot-Planning]]),
 - one print,
 - a short retrospective: what you'd do differently.
 
 Deliberately narrow the subject. "My neighbourhood at 6 a.m." beats "street
 photography". A tight brief is what makes a body of work read as one thing.
 
+The capstone ends the course, not the learning. The
+[[Roadmap#After week 32 — from good to expert|Roadmap]] sets out the path from here to
+expert.
+
 ---
 
 ## Assessment
 
-There are no grades. There are four honest questions, asked at each module boundary in
-[[Progress-Tracker]]:
+There are no grades. There are four honest questions to ask yourself at each module
+boundary:
 
 1. Can I explain this to someone else without notes?
 2. Can I do it under time pressure in the field?

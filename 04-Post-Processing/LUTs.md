@@ -2,23 +2,22 @@
 title: LUTs
 type: concept
 module: 4
-status: drafted
-confidence: 1
 tags:
   - post/colour
 created: 2026-08-11
 ---
 # LUTs (Look-Up Tables)
 
-> [!warning] Claude drafted this — it is not yours yet
-> `confidence: 1` is deliberate: this is someone else's wording, so it counts for
-> nothing until you rewrite it. Use it as reference while you learn the mechanism,
-> then **rewrite every section above "How I set it in the field" in your own words**
-> and answer the questions marked 🔸. Delete this callout when you do.
+> [!summary] In one line
+> A stored table that maps every input colour to an output colour, so the same colour
+> conversion or look can be replayed, almost identically, in any app, camera or monitor
+> that reads LUTs.
 
-## In one sentence
-A stored table that maps every input colour to an output colour, so an arbitrary
-colour transform can be replayed identically anywhere without re-deriving it.
+> [!tip] If you're new to this
+> This is the most technical note in Module 4. On a first read, take in "What it
+> actually does", the two kinds of LUT, "The trade-off" and "Applying a LUT to a
+> photograph". Come back for the formats, interpolation and shaper sections when you
+> grade video in Module 5.
 
 ## What it actually does
 
@@ -176,8 +175,14 @@ one-to-one.
 RAW → WB → demosaic → exposure → [technical LUT] → [creative LUT] → local work → output sharpening → export
 ```
 
-Compare against [[Editing-Workflow]] and note what has to be settled *before* the
-lookup. 🔸 **Why can't the creative LUT go first?** Answer it in your own words.
+Compare it with [[Editing-Workflow]]: white balance and exposure are settled *before*
+the lookup.
+
+> [!question]- Why can't the creative LUT go first?
+> A LUT can only respond to the numbers it is handed. Before white balance and exposure
+> are set, those numbers are wrong — a colour cast, the wrong brightness, or flat log
+> values — so the look is built on the wrong starting point. A cast comes out
+> amplified, and anything clipped before the lookup stays clipped.
 
 ## Viewing LUT vs baked LUT
 
@@ -225,7 +230,8 @@ A minute of this tells you more than any vendor preview:
 4. Read the **filename and any documentation** for the input space it expects. If nobody
    says, assume Rec.709 and confirm with step 1.
 
-🔸 Run this on one LUT you own, and write here what it does that its name doesn't say.
+Run this on one LUT you own. The ramp and the hue sweep almost always show something the
+name doesn't: crushed shadows, a shifted green, or a point where saturation runs out.
 
 ## What kind of image can take a LUT
 
@@ -295,54 +301,79 @@ only the LUT-relevant slice of it.
 **Route B — LUT as a profile inside the raw developer**
 Lightroom/ACR can carry a `.cube` as a *creative profile*, which applies inside the raw
 pipeline with an amount slider and never leaves high bit depth. The `.cube` has to be
-wrapped into an `.xmp` profile first — confirm the current method for your version
-before trusting any tutorial, then write the steps here: ____________________
+wrapped into an `.xmp` profile first. The usual route: open a raw file in Camera Raw
+from Photoshop, go to the Presets panel, and hold Alt (Windows) or Option (Mac) while
+clicking the new-preset button. A Create Profile dialog opens; load the `.cube` under
+Color Lookup Table and save. Lightroom Classic shows the profile after a restart. Adobe
+moves these menus between versions, so check its help page if yours looks different.
 
 **On the phone.** LumaFusion and DJI's Mimo app accept `.cube` for *video*, and
-Panasonic's LUMIX Lab app loads LUTs onto the L10. For stills, check whether your mobile
-editor imports `.cube` at all before planning around it. ____________________
+Panasonic's LUMIX Lab app loads LUTs onto the L10. For stills, `.cube` support varies
+from app to app; check that your mobile editor imports one before planning around it.
 
-🔸 Your Pocket 3 and your iPhone film the same scene, each in its own log, and you apply
-each maker's own Rec.709 LUT. The two clips still don't match. Why not — what does a
-technical LUT normalise, and what does it leave untouched?
+> [!question]- Your Pocket 3 and iPhone film the same scene in log, and you apply each maker's Rec.709 LUT. Why do the clips still not match?
+> A technical LUT only undoes its own camera's log curve and colour space, bringing the
+> clip to standard Rec.709. It leaves untouched everything else that differs between
+> the cameras: how each sensor sees colour, each maker's colour science, white balance,
+> exposure and noise. Matching them is a separate step. → [[Shot-Matching]]
 
-## How I set it in the field
-<!-- Yours. What actually happens on your machine? -->
-- **My raw developer:** ____________________
-- **Where my LUT files live:** ____________________
-- **Do I shoot anything log, and on which device?** ____________________
-- **LUT downloads I've actually verified:** DJI ____________ · Apple ____________
-- **Where in my stack it goes:** ____________________
+## Setting it up
 
-## What I got wrong
-<!-- Replace with what YOU actually believed. Delete any of these you never thought. -->
-- 🔸 Did you think a LUT and a preset were the same thing? What's the difference, in one
-  sentence?
-- 🔸 A "Kodak Portra" LUT cannot make a digital file into Portra. Name two things film
-  does that a table of RGB values structurally cannot reproduce.
-- 🔸 If a 3D LUT can remap any colour to any other colour, why does the order of
-  operations still matter at all? (This is the question that tests whether you actually
-  understood the section above.)
-- 🔸 You export a LUT from a grade you liked and it comes back looking different.
-  Give two reasons that are the LUT's fault and one that isn't.
-- 🔸 Why does a 3D LUT waste most of its nodes when it is fed linear-light data?
-- 🔸 Someone sends you `Teal_Orange.cube` with no documentation. What do you check
-  first, and what are you actually looking for?
+- **Where LUT files live:** in one folder outside this vault — the vault's `.gitignore`
+  excludes `.cube` files on purpose. Name each file by its input and output, e.g.
+  `DLogM_Pocket3_to_Rec709.cube`, because the file itself can't tell you.
+- **Technical LUTs come from the maker only:** Apple (Apple Log → Rec.709), DJI (one for
+  the Pocket 3 and a separate one for the Action 5 Pro), Panasonic (V-Log → V-709).
+- **When log is worth it on your kit:** for video you plan to grade — the Pocket 3 and
+  Action 5 Pro (10-bit D-Log M) and the iPhone (Apple Log, ProRes). On the L10, V-Log
+  makes sense for video and for its in-camera LUT looks. → [[Log-Profiles]]
+- **Where it goes in your stack:** after white balance and exposure, before local work
+  and output sharpening — the pipeline above.
 
-## Proof from my own frames
-<!-- Don't write this from theory. Build a look on one frame, export it, apply it to
-     five others from a different session, and log what broke. That is A4.5's problem
-     in miniature. -->
-- 
+## Try it
+
+About 30 minutes. Build a look on one frame. Save it as a preset, or as a LUT if your
+editor can export one (see "Making one" above). Apply it to five frames from a
+different session, and note what breaks. That is A4.5's problem in miniature.
+
+## Check yourself
+
+> [!question]- What's the difference between a LUT and a preset?
+> A preset is a list of slider settings you can reopen and change. A LUT is a fixed
+> table of output colours: you can apply it, but you can't adjust what's inside it.
+
+> [!question]- A "Kodak Portra" LUT can't make a digital file into Portra. Name two things film does that a table of RGB values can't.
+> Grain, a texture spread across the image, and halation, the glow light makes around
+> bright edges. Both depend on where a pixel is and what surrounds it, and a LUT only
+> ever sees one pixel's colour at a time.
+
+> [!question]- If a 3D LUT can remap any colour to any other, why does the order of operations still matter?
+> Because the LUT maps whatever values it is given. If white balance or exposure are
+> wrong, or highlights are already clipped, it faithfully maps those wrong values. The
+> order decides what the LUT is handed.
+
+> [!question]- You export a LUT from a grade you liked, and it looks different when applied. Give two reasons that are the LUT's fault and one that isn't.
+> The LUT's fault: anything that depends on a pixel's position (masks, tracking, noise
+> reduction, sharpening) couldn't be baked in; and a coarse lattice only approximates
+> strong moves between its nodes. Not its fault: it was applied to footage in a
+> different colour space or log curve from the one the grade was built on.
+
+> [!question]- Why does a 3D LUT waste most of its nodes on linear-light data?
+> Its nodes are spaced evenly in code values, and linear data spends most of its code
+> values on the highlights. The shadows, where your eyes are most sensitive, get only a
+> few nodes. A log-like shaper LUT fixes this.
+
+> [!question]- Someone sends you Teal_Orange.cube with no documentation. What do you check first?
+> What input it expects — Rec.709 or a log curve — because nothing in the file says.
+> Test it on a grey ramp, a hue sweep and a frame with skin, and assume Rec.709 input
+> until a test says otherwise.
 
 ## Related
 [[Tone-Curve]] · [[HSL-and-Colour-Mixer]] · [[Colour-Grading]] ·
 [[Developing-a-Look]] · [[Colour-Spaces]] · [[Colour-Management]] ·
 [[Non-Destructive-Editing]] · [[Export-Settings]] · [[Bit-Depth]] ·
-[[Dynamic-Range]]
+[[Dynamic-Range]] · [[Log-Profiles]] · [[Shot-Matching]] · [[Post-Processing-Index]]
 
 ## Source
-- Claude draft, 2026-08-11, expanded 2026-08-18; facts corrected 2026-10-21 against the
-  Adobe Cube LUT spec, the DaVinci Resolve 21 manual and the Lumix L10 manual —
-  **replace this line** with where you actually verified it
-- 
+- Facts checked on 2026-10-21 against the Adobe Cube LUT specification, the DaVinci
+  Resolve 21 manual and the Lumix L10 manual.

@@ -3,11 +3,9 @@ title:
 type: assignment
 code: 
 module: 
-status: not-started
-started: 
-completed: 
 tags:
   - practice/assignment
+created: {{date:YYYY-MM-DD}}
 ---
 # 
 
@@ -39,7 +37,4 @@ tags:
 ## What the prediction got wrong
 
 ## Verdict
-- [ ] Frames exist
-- [ ] Shoot log written
-- [ ] Concept notes updated with evidence
-- [ ] Ticked in [[Progress-Tracker]]
+<!-- One or two lines: what this assignment taught you, and what you'd do differently. -->

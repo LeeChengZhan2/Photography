@@ -7,7 +7,7 @@ created: 2026-08-03
 # Module 3 — Composition & Visual Language
 
 Brief and assignments: [[Syllabus#Module 3 — Composition & Visual Language]] ·
-Schedule: [[Roadmap#Phase 3 — Compose deliberately]] · Progress: [[Progress-Tracker]]
+Schedule: [[Roadmap#Phase 3 — Compose deliberately]]
 
 **The module in one line:** composition is not a set of rules, it's the answer to
 "what is this photograph about, and why is everything else still in the frame?"
@@ -18,6 +18,7 @@ Schedule: [[Roadmap#Phase 3 — Compose deliberately]] · Progress: [[Progress-T
 - [[Subject-and-Intent]] — what it's *of* vs what it's *about*
 - [[Frame-and-Aspect-Ratio]] — orientation as a decision
 - [[Focal-Length-and-Perspective]] — perspective comes from *distance*, not the lens
+- [[Point-of-View]] — camera height and angle
 
 ### Structure
 - [[Rule-of-Thirds]] — the training wheel

@@ -1,24 +1,24 @@
 ---
 title: Genre Index
 type: index
-module: 5
+module: 6
 created: 2026-08-03
 genre_a: 
 genre_b: 
 ---
-# Module 5 — Genre Deep-Dive
+# Module 6 — Genre Deep-Dive
 
-Brief and assignments: [[Syllabus#Module 5 — Genre Deep-Dive]] · Schedule:
-[[Roadmap#Phase 5 — Go deep]] · Progress: [[Progress-Tracker]]
+Brief and assignments: [[Syllabus#Module 6 — Genre Deep-Dive]] · Schedule:
+[[Roadmap#Phase 6 — Go deep]]
 
 **Pick two.** One you're drawn to, one that scares you — the second teaches more,
 because you can't coast on taste you already have.
 
 **Genre A:** ____________________ **Genre B:** ____________________
 
-## What each genre note must cover
+## What each genre note covers
 
-Use [[Concept-Note]] as the base and answer all seven:
+Every genre note answers the same seven questions:
 
 1. **What makes a good one** — the specific quality that separates competent from good
 2. **Technical constraints** — the thing that's genuinely hard about this genre
@@ -28,7 +28,7 @@ Use [[Concept-Note]] as the base and answer all seven:
 6. **Practitioners** — three to study, from [[Photographers-to-Study]]
 7. **One project idea** — narrow enough to finish in a week
 
-## Candidates
+## The genres
 
 | Genre | The hard part |
 |---|---|
@@ -43,12 +43,15 @@ Use [[Concept-Note]] as the base and answer all seven:
 | [[Documentary-and-Photojournalism]] | Narrative arc, consent, honest captioning |
 | [[Sports-and-Action]] | Reading the game to pre-position |
 | [[Travel-Photography]] | Avoiding the postcard; sense of place |
+| [[Food-Photography]] | Light and styling; working fast before the food goes cold |
+| [[Underwater-Photography]] | Colour disappears with depth; staying steady in water |
+| [[Family-and-Events]] | Taking part and photographing at the same time |
 
 ## Assignments
-A5.1 study 20 images first · A5.2 ten-frame set per genre · A5.3 constraint shoot with
+A6.1 study 20 images first · A6.2 ten-frame set per genre · A6.3 constraint shoot with
 the "wrong" gear
 
-**Study before you shoot.** A5.1 comes first deliberately — shooting a genre before
+**Study before you shoot.** A6.1 comes first deliberately — shooting a genre before
 you've looked hard at it just reproduces the clichés you've absorbed passively.
 
 ## Sets from this module

@@ -3,7 +3,7 @@
 A personal learning vault — a structured, self-taught photography curriculum kept as
 plain Markdown, edited in [Obsidian](https://obsidian.md) and version-controlled here.
 
-Not a portfolio. This is the notebook: the theory in my own words, the assignments, the
+Not a portfolio. This is the notebook: a full set of study notes, the assignments, the
 shoot logs, and the record of what I got wrong.
 
 ---
@@ -12,9 +12,8 @@ shoot logs, and the record of what I got wrong.
 
 | | |
 |---|---|
-| 📚 [**Syllabus**](00-Meta/Syllabus.md) | Seven modules — objectives, concepts, assignments, exit tests |
-| 🗓️ [**Roadmap**](00-Meta/Roadmap.md) | 28-week schedule with dates and gates |
-| ✅ [**Progress Tracker**](00-Meta/Progress-Tracker.md) | Current position |
+| 📚 [**Syllabus**](00-Meta/Syllabus.md) | Eight modules — objectives, concepts, assignments, exit tests |
+| 🗓️ [**Roadmap**](00-Meta/Roadmap.md) | 32-week schedule with dates and gates |
 | 📖 [**Glossary**](00-Meta/Glossary.md) | Terms, one line each |
 | 🧭 [**Conventions**](00-Meta/Conventions.md) | Folders, naming, tags, linking rules |
 | 🏠 [**Home**](Home.md) | The Obsidian entry hub |
@@ -28,8 +27,9 @@ shoot logs, and the record of what I got wrong.
 | 2 | Light | 4 | Can I read light before I raise the camera? |
 | 3 | Composition & Visual Language | 4 | Is every element in the frame on purpose? |
 | 4 | Post-Processing & Colour | 4 | Can I finish a coherent set, repeatably? |
-| 5 | Genre Deep-Dive (pick two) | 4 | What does depth in one genre demand? |
-| 6 | Seeing, Critique & Body of Work | 4 | Can I say what my work is about? |
+| 5 | Shooting & Editing Video | 4 | Can I cut a short film from my own footage? |
+| 6 | Genre Deep-Dive (pick two) | 4 | What does depth in one genre demand? |
+| 7 | Seeing, Critique & Body of Work | 4 | Can I say what my work is about? |
 | — | **Capstone** | 4 | A 12–20 image series, sequenced, printed, stated. |
 
 Five gates punctuate the sequence. The order matters more than the dates — later
@@ -40,13 +40,15 @@ modules assume the earlier ones.
 ```
 ├── Home.md                 Obsidian entry hub
 ├── CLAUDE.md               guidance for Claude Code in this vault
-├── 00-Meta/                syllabus, roadmap, tracker, glossary, conventions
-├── 01-Fundamentals/        exposure, focus, the camera as a machine
+├── 00-Meta/                syllabus, roadmap, glossary, conventions
+├── 01-Fundamentals/        setup, exposure, focus, the camera as a machine
 ├── 02-Light/               quality, direction, colour, flash
 ├── 03-Composition/         visual language
 ├── 04-Post-Processing/     RAW workflow, colour, output
-├── 05-Genres/              one note per genre
+├── 05-Video/               shooting and editing video
+├── 06-Genres/              one note per genre
 ├── 06-Practice/            Shoot-Logs/ · Critiques/ · Daily/
+├── 07-Critique/            seeing, critique, a body of work
 ├── 07-References/          photographers, books, tools
 ├── 99-Templates/           note templates
 └── attachments/            small reference images only
@@ -78,14 +80,15 @@ device without merge conflicts.
 ## Conventions, briefly
 
 - Notes: `Title-Case-With-Hyphens.md` · shoot logs: `YYYY-MM-DD-slug.md`
-- Frontmatter carries `type`, `module`, `status` (`seed` → `drafted` → `understood`)
-  and an honest `confidence: 1–5`. Search `confidence: 1` before a gate.
+- Frontmatter carries `title`, `type`, `module`, `tags` and `created`. There are no
+  progress fields: progress is tracked in my head, not in the vault.
 - Commit at the end of each study session: `Week 2: shutter speed + ISO ladder notes`
 
 Full detail in [Conventions](00-Meta/Conventions.md).
 
 ## Status
 
-Draft `v0.1` — syllabus and roadmap scaffolded 2026-08-03. Concept notes are written as
-the modules are worked through; [Aperture](01-Fundamentals/Aperture.md) is a worked
-example of the intended standard.
+Draft `v0.2` — syllabus and roadmap scaffolded 2026-08-03. On 2026-10-22 the video
+module was added, the progress tracker removed, and every concept in the syllabus given
+a full study note; [Exposure Triangle](01-Fundamentals/Exposure-Triangle.md) shows the
+standard.

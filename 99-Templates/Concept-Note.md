@@ -2,36 +2,37 @@
 title: 
 type: concept
 module: 
-status: seed
-confidence: 1
 tags:
   - 
 created: {{date:YYYY-MM-DD}}
 ---
 # {{title}}
 
-## In one sentence
-<!-- If you can't do this yet, you haven't understood it. Come back after shooting. -->
+> [!summary] In one line
+> 
 
-## What it actually does
-<!-- Mechanism, not definition. Why does the physics/optics/electronics behave this way? -->
+## What it is
+<!-- Define it plainly, in one to three short paragraphs. A table helps. -->
 
-## The trade-off
-<!-- Nothing in photography is free. What do you give up to get this? -->
+## How it works
+<!-- The mechanism: why it behaves this way. Real numbers and worked examples. -->
 
-## How I set it in the field
-<!-- Your camera, your buttons, your starting values. Be specific. -->
+## How to use it
+<!-- Practical decisions, rules of thumb, starting values, steps. -->
 
-## What I got wrong
-<!-- The misconception you actually held. This section is the most valuable one here. -->
+## On your kit
+<!-- L10, iPhone 15 Pro Max, Pocket 3, Action 5 Pro. Facts from My-Kit only.
+     Delete this section if the kit doesn't matter for the topic. -->
 
-## Proof from my own frames
-<!-- Link the shoot log and name the files. Don't write this from theory. -->
-- 
+## Common mistakes
+- **The mistake.** What to do instead.
+
+## Try it
+<!-- One exercise of 10–30 minutes, and the assignment it relates to. -->
+
+## Check yourself
+
+> [!question]- A question that tests understanding, not memory?
+> The answer, with the reason.
 
 ## Related
-- 
-
-## Source
-<!-- Where you learned it, so you can go back when the note turns out to be wrong. -->
-- 

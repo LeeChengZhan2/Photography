@@ -14,13 +14,15 @@ update when you change how you work.
 
 | Folder | Holds |
 |---|---|
-| `00-Meta/` | [[Syllabus]], [[Roadmap]], [[Progress-Tracker]], [[Glossary]], this note |
-| `01-Fundamentals/` | Module 1 concepts — exposure, focus, the camera as a machine |
+| `00-Meta/` | [[Syllabus]], [[Roadmap]], [[Glossary]], this note |
+| `01-Fundamentals/` | Modules 0–1 — setup, exposure, focus, the camera as a machine |
 | `02-Light/` | Module 2 concepts |
 | `03-Composition/` | Module 3 concepts |
 | `04-Post-Processing/` | Module 4 concepts |
-| `05-Genres/` | Module 5 — one note per genre |
+| `05-Video/` | Module 5 — shooting and editing video |
+| `06-Genres/` | Module 6 — one note per genre |
 | `06-Practice/` | Output, not theory: `Shoot-Logs/`, `Critiques/`, `Daily/` |
+| `07-Critique/` | Module 7 — seeing, critique, a body of work; capstone planning |
 | `07-References/` | Photographers, books, courses, links |
 | `99-Templates/` | Note templates (Templates plugin points here) |
 | `attachments/` | Small reference JPEGs/PNGs only — see the size rule below |
@@ -50,25 +52,29 @@ makes the vault searchable later.
 title: Aperture
 type: concept          # concept | assignment | shoot-log | critique | daily | genre | index | meta | reference
 module: 1
-status: seed           # seed | drafted | understood
 tags:
   - fundamentals/exposure
-confidence: 2          # 1-5, honest; drives what to revisit
+created: 2026-08-03
 ---
 ```
 
-`status` and `confidence` are the useful ones. Search `[status:seed]` to find your
-backlog and `[confidence:1]` before a gate. The square brackets search the property
-itself; plain `status: seed` also matches any note that merely mentions "seed".
+There are no `status` or `confidence` fields on concept, genre or assignment notes. The
+vault doesn't track progress; you do. Meta and reference notes keep a document `status`
+of `draft` or `active`. To search by property, use square brackets: `[module:2]`,
+`[type:genre]`.
 
-`status` values depend on the note type, so filter on `type` first:
+## What a study note contains
 
-| Type | `status` values |
-|---|---|
-| concept, genre | `seed` → `drafted` → `understood` |
-| assignment | `not-started` → `in-progress` → `done` |
-| meta, reference | `draft` or `active` |
-| shoot-log, critique, daily, index | none |
+Every concept in the [[Syllabus]] has a full note, built on [[Concept-Note]]:
+
+1. **In one line** — a summary at the top
+2. **What it is**, **How it works** (the mechanism), **How to use it**
+3. **On your kit** — the L10, iPhone, Pocket 3 and Action 5 Pro, from [[My-Kit]]
+4. **Common mistakes** and **Try it** (a short exercise, tied to an assignment)
+5. **Check yourself** — questions whose answers fold open when you click them
+6. **Related** — links, ending with the module's index note
+
+Genre notes cover the seven points listed in [[Genre-Index]] instead.
 
 **No blank line between the closing `---` and the `# Heading`.** The H1 starts on the
 very next line. Applies to every note and every template in `99-Templates/`.
@@ -78,8 +84,8 @@ very next line. Applies to every note and every template in `99-Templates/`.
 Hierarchical, lowercase, singular:
 
 `fundamentals/exposure` · `light/natural` · `light/flash` · `composition/colour` ·
-`post/colour` · `genre/street` · `practice/shoot-log` · `practice/critique` ·
-`meta/syllabus` · `gear/lens`
+`post/colour` · `video/editing` · `video/sound` · `genre/street` · `seeing/critique` ·
+`practice/shoot-log` · `practice/critique` · `meta/syllabus` · `gear/kit`
 
 Tag by *topic*. Use folders for lifecycle stage, links for relationships, and tags for
 cross-cutting themes. Don't tag a note with its bare folder name (`light` on a note in
@@ -88,11 +94,12 @@ cross-cutting themes. Don't tag a note with its bare folder name (`light` on a n
 
 ## Linking
 
-- Link generously. An unresolved `[[link]]` is a to-do, not an error. It shows dimmed
-  in the editor, as "Not created yet" in the Outgoing links pane, and in the graph.
-  (Unlinked mentions are something else: plain-text uses of a note's name.)
-- Concept notes should link **up** to their module in [[Syllabus]] and **sideways** to
-  related concepts.
+- Link generously, but only to notes that exist. An unresolved `[[link]]` shows dimmed
+  in the editor and as "Not created yet" in the Outgoing links pane. It means a note is
+  missing: write it, or remove the link. (Unlinked mentions are something else:
+  plain-text uses of a note's name.)
+- Concept notes link **sideways** to related concepts and **up** to their module's
+  index note.
 - Shoot logs link to the concepts they tested. That backlink is how you later find
   "every frame where I was working on depth of field".
 

@@ -8,45 +8,54 @@ A **personal photography learning vault** — not a software project. Plain Mark
 edited in Obsidian, version-controlled with git (remote: `LeeChengZhan2/Photography`).
 There is no build, no test suite, no dependencies. The artefact is understanding.
 
-Curriculum: [Syllabus](00-Meta/Syllabus.md) (7 modules + capstone) ·
-[Roadmap](00-Meta/Roadmap.md) (28 weeks, starting 2026-10-26) ·
-[Progress-Tracker](00-Meta/Progress-Tracker.md) · [Conventions](00-Meta/Conventions.md)
+Curriculum: [Syllabus](00-Meta/Syllabus.md) (8 modules + capstone) ·
+[Roadmap](00-Meta/Roadmap.md) (32 weeks, starting 2026-10-26, with time per module) ·
+[Conventions](00-Meta/Conventions.md)
 
 ## The one rule that matters
 
-**Do not write the concept notes.** The vault's purpose is for the *user* to explain
-photography in their own words — that act of explanation is the learning. A concept note
-Claude wrote is worse than an empty one, because it looks finished and silently removes
-the exercise.
+**Every title opens a complete note.** The user learns by reading these notes, shooting
+the assignments, and answering each note's "Check yourself" questions. They asked for the
+notes to hold the knowledge itself, so a concept that is only a title, or an empty stub,
+is a gap to fix — not a to-do for them. (On 2026-10-22 this replaced the vault's
+original rule that the user writes every note in their own words.)
 
-So when asked about a concept, prefer to:
+Concept notes follow [Concept-Note](99-Templates/Concept-Note.md): a one-line summary,
+what it is, how it works, how to use it, the user's kit, common mistakes, a short
+exercise, and 3–5 folded question callouts with answers. Genre notes cover the seven
+points in [Genre-Index](06-Genres/Genre-Index.md).
+[Exposure-Triangle](01-Fundamentals/Exposure-Triangle.md) is the reference for tone and
+depth.
 
-- **Quiz, don't tell.** Ask what they think happens and why, then correct.
-- **Review their draft** — flag what's vague, wrong, or copied rather than understood.
-- **Ask for the mechanism.** If a note only defines a term, ask *why* the physics
-  behaves that way.
-- **Point at the gap** — "your [[Aperture]] note has no frames linked; which shoot
-  proves it?"
+When writing or changing a note:
 
-Claude *should* write freely: scaffolding, templates, indexes, tables of contents,
-reference lists, glossary one-liners, tracker updates, git plumbing, and anything in
-`00-Meta/`, `07-References/`, or `99-Templates/`.
+- **Plain, simple English.** Short sentences, everyday words, every term explained the
+  first time. British spelling.
+- **Mechanism first.** Explain *why* something behaves as it does, not only the rule.
+- **Kit facts come from [My-Kit](01-Fundamentals/My-Kit.md) only.** Its specs were
+  checked against the makers' pages; don't invent menu paths, buttons or specs.
+- **No stubs, no blanks to fill in.** Don't link a note that doesn't exist: write it,
+  or leave the link out.
 
-If the user explicitly asks Claude to draft a concept note, do it — but mark it as a
-draft to be rewritten, the way [Aperture](01-Fundamentals/Aperture.md) is marked. Never
-silently set `status: understood` on the user's behalf.
+When the user asks about a concept, it still helps to ask what they think first and
+then correct them — but the full answer belongs in the note.
+
+**There is no progress tracker, by the user's choice.** They track their own progress.
+Don't add checklists, `status`/`confidence` fields, or ticking to any note.
 
 ## Layout
 
 ```
 CLAUDE.md · README.md (GitHub landing) · Home.md (Obsidian hub)
-00-Meta/            syllabus, roadmap, tracker, glossary, conventions
-01-Fundamentals/    Module 1 — exposure, focus, the camera
+00-Meta/            syllabus, roadmap, glossary, conventions
+01-Fundamentals/    Modules 0–1 — setup, exposure, focus, the camera
 02-Light/           Module 2
 03-Composition/     Module 3
 04-Post-Processing/ Module 4
-05-Genres/          Module 5 — one note per genre
+05-Video/           Module 5 — shooting and editing video
+06-Genres/          Module 6 — one note per genre
 06-Practice/        Shoot-Logs/ · Critiques/ · Daily/   ← output, not theory
+07-Critique/        Module 7 — seeing, critique, a body of work; capstone planning
 07-References/      photographers, books, tools
 99-Templates/       note templates (Templates plugin points here)
 attachments/        small reference images only
@@ -61,12 +70,13 @@ file explorer into learning order; they carry no other meaning.
   Hyphens not spaces, so GitHub URLs stay clean.
 - **Frontmatter on every note:**
   ```yaml
+  title: Shutter Speed
   type: concept | assignment | shoot-log | critique | daily | genre | index | meta | reference
-  module: 0-6
-  status: seed | drafted | understood   # concept notes; other types: see Conventions
-  confidence: 1-5      # honest; drives what to revisit before a gate
+  module: 0-7
   tags: [fundamentals/exposure]
+  created: 2026-10-22
   ```
+  No blank line between the closing `---` and the `# Title`.
 - **Tags** are hierarchical, lowercase, singular: `fundamentals/exposure`,
   `light/flash`, `composition/colour`, `genre/street`, `practice/shoot-log`. Tag by
   topic. Never tag a note with its bare folder name (`light` on a note in `02-Light/`).
@@ -75,8 +85,8 @@ file explorer into learning order; they carry no other meaning.
   vault notes into Markdown links — that split is deliberate and documented in
   [Conventions](00-Meta/Conventions.md).
 - Obsidian resolves `[[Note]]` by name from any folder, so a link never needs a path.
-- An unresolved `[[link]]` is a **to-do, not a bug**. Do not create stub files just to
-  satisfy one.
+- Every `[[link]]` must open a note with real content. An unresolved link is a gap:
+  write the note, or remove the link. Never create an empty stub.
 - Prose wraps at ~88 columns. Use Obsidian callouts (`> [!note]`, `> [!tip]`) rather
   than raw HTML.
 
@@ -97,12 +107,12 @@ file explorer into learning order; they carry no other meaning.
   `.obsidian/plugins/`. Same for `.env`, `*.pat` and `.git-credentials`.
 - **Don't add `.gitkeep` placeholders.** If a folder needs to exist in a clone, give it
   a real index note that earns its place.
-- **Don't tick boxes in [Progress-Tracker](00-Meta/Progress-Tracker.md)** unless the
-  user says the work is done. It's their record.
+- **Don't add progress tracking** — no tracker note, checkbox lists of done work, or
+  `status`/`confidence` fields. The user keeps track themselves.
 - **Don't reorder the syllabus modules.** Exposure → light → composition → post is
   load-bearing; each module's assignments assume the previous module's control. Dates
   can slip freely, sequence can't.
-- **Don't recommend gear purchases** unless asked. Modules 0–4 need nothing new.
+- **Don't recommend gear purchases** unless asked. Modules 0–5 need nothing new.
 
 ## Editing while Obsidian is open
 
@@ -127,5 +137,6 @@ they can reach through Settings.
 - Building an Obsidian **Bases** view over shoot logs or assignments (the Bases core
   plugin is enabled)
 - Adding a glossary entry for a term the user hit
-- Auditing for orphaned notes, or concept notes with no linked shoot log
+- Auditing for unresolved links, orphaned notes, or topics the syllabus doesn't cover
+- Updating notes when the kit changes (start from [My-Kit](01-Fundamentals/My-Kit.md))
 - Rescheduling the roadmap dates after a slip, keeping the gate order intact
