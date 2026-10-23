@@ -30,9 +30,10 @@ doubles the levels.
 Three 8-bit channels give 256 × 256 × 256, about 16.7 million colours. Three 10-bit
 channels give about 1.07 billion.
 
-A raw file isn't RGB yet: each pixel holds a single number from the sensor. "12-bit
-raw" means that number has 4,096 possible levels. Once developed, your raw developer
-works with far more precision internally.
+A camera raw file isn't RGB yet: each pixel holds a single number from the sensor.
+"12-bit raw" means that number has 4,096 possible levels. Once developed, your raw
+developer works with far more precision internally. Apple ProRAW is the exception:
+Apple has already filled in its colours, so it's RGB. → [[RAW-vs-JPEG]]
 
 ## How it works
 

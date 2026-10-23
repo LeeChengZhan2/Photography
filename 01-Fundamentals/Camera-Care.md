@@ -49,7 +49,7 @@ keep up, recording stops. The markings promise a *minimum sustained* writing spe
 
 | Marking | Minimum sustained writing speed |
 |---|---|
-| C10 (Class 10), U1 | 10 MB/s |
+| C10 (Class 10), U1, V10 | 10 MB/s |
 | U3, V30 | 30 MB/s |
 | V60 | 60 MB/s |
 | V90 | 90 MB/s |
@@ -164,21 +164,23 @@ into seals, buttons and moving parts.
 
 - **Lumix L10:** not splash-resistant, so keep it out of rain and spray. Its lens is
   fixed, so fungus or dust inside it can't be cleaned at home. Prevention is
-  everything: it lives in the dry box between shoots.
+  everything: it lives in the dry box between shoots. It takes full-size SD cards.
 - **iPhone 15 Pro Max:** rated IP68, which covers an accidental dunk in fresh water. It
   isn't a dive camera: the rating isn't tested in salt or chlorinated water, and seals
   wear with age. Wipe its lenses before you shoot. A fingerprint is the usual cause of
   hazy, flaring phone photos.
-- **DJI Pocket 3:** no weather rating. Its gimbal is three small motors holding the
-  camera, so treat it gently:
+- **DJI Pocket 3:** no weather rating, and it takes microSD cards. Its gimbal is three
+  small motors holding the camera, so treat it gently:
   - Keep it in a cover or case when you're not using it, never loose with keys.
   - Switch it off before you pack it.
   - Don't force the camera head by hand while it's on, and give the head room to move
     when it switches on.
-  - Install the final firmware before 31 Dec 2026, when DJI's guaranteed updates end.
+  - DJI guarantees software updates only until 31 Dec 2026. Install the last one it
+    releases.
 - **DJI Osmo Action 5 Pro:** waterproof to 20 m bare, and to 60 m in its case. Rinse it
   in fresh water after the sea, and check its door seals before every swim. Wipe the
-  lens and both screens with microfibre.
+  lens and both screens with microfibre. It takes microSD cards, and also has 47 GB of
+  built-in storage.
 
 ## Common mistakes
 

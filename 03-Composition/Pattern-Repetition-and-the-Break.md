@@ -110,7 +110,8 @@ If your one subject for **A3.1** is a block of flats, these three are a strong s
 > differs in colour pops out immediately, so it carries much more weight than its size.
 
 > [!question]- Your photo of a block of flats shows the rows of windows leaning inward. What happened, and how do you fix it?
-> You tilted the camera up, so the top of the block was further away and drawn smaller.
+> You tilted the camera up, so the sensor no longer faced the block square-on: the top
+> was further from the sensor than the bottom, and was drawn smaller.
 > Step back, use a longer focal length and keep the camera level, or correct it in the
 > edit.
 

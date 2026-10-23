@@ -110,8 +110,9 @@ common gap), the processor has to do all the work itself, and playback stutters.
 
 **Proxies** fix this. The editor makes small, easy-to-decode copies of your clips,
 often low-resolution ProRes or DNxHR. You edit with the copies, and the editor swaps
-the originals back in for the export. DaVinci Resolve and Premiere Pro both offer
-proxies. They cost disk space and some waiting up front. → [[Video-Editing-Workflow]]
+the originals back in for the export. DaVinci Resolve and Premiere (formerly Premiere
+Pro) both offer proxies. They cost disk space and some waiting up front.
+→ [[Video-Editing-Workflow]]
 
 ## How to use it
 
@@ -132,10 +133,13 @@ proxies. They cost disk space and some waiting up front. → [[Video-Editing-Wor
   4K 60 fps needs an external USB-C SSD. At several gigabytes a minute, ProRes fills
   the phone fast, so copy it off after each shoot. Video is HDR (Dolby Vision) by
   default.
-- **Pocket 3 and Action 5 Pro:** 10-bit D-Log M needs a 10-bit codec. On devices like
-  these that usually means H.265, so test it in your editor and expect to make proxies.
-- **Lumix L10:** check its menu for each recording mode's codec, bit depth and bitrate.
-  Choose a 10-bit mode for V-Log.
+- **Pocket 3 and Action 5 Pro:** the Pocket 3 records H.264 or H.265 at up to
+  130 Mbps; the Action 5 Pro records only H.265, at up to 120 Mbps. 10-bit D-Log M
+  needs a 10-bit codec, which on these usually means H.265, so test it in your editor
+  and expect to make proxies.
+- **Lumix L10:** MP4 or MOV, up to 4:2:2 10-bit All-Intra at 600 Mbps (about 4.5 GB a
+  minute), which needs a V90 card. All-Intra edits smoothly but fills cards fast.
+  Choose a 10-bit mode for V-Log, and check each mode's codec in the menu.
 - **All four in one timeline (A5.5):** a mix of ProRes and H.265 is normal. Set the
   timeline to one frame rate and resolution, and let the editor handle the codecs.
 

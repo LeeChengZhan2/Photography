@@ -131,8 +131,8 @@ Twenty minutes on the L10, in the evening or in a dim room:
    peaking only. Compare both frames at 100%.
 3. Shoot through a window screen or a fence: first with AF, then in MF with the lens
    close to it.
-4. Switch to AF Macro and focus on a coin about 5 cm away. Rock gently until the date
-   is sharp.
+4. Zoom to 24 mm, switch to AF Macro and focus on a coin about 5 cm away. Rock gently
+   until the date is sharp.
 
 Use the same magnify-and-check habit to place focus exactly in **A1.6**.
 

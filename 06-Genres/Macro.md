@@ -90,7 +90,8 @@ keeps the sharp part of each. → [[Photo-Merges]]
 
 - Use a support, and a subject that can't move: a leaf, a shell, a flower indoors.
 - Keep the exposure identical; change only the focus. 5–30 frames is common.
-- Check the L10's manual for a focus-bracketing feature that automates the steps.
+- The L10's [Focus Stacking] automates it, merging in camera into a JPEG or HEIF with
+  the edges cropped. For a raw result, step the focus yourself.
 - Living insects rarely allow it. Try two or three frames, or accept one sharp plane.
 
 ## Settings to start with

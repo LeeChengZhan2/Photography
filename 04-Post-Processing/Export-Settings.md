@@ -42,7 +42,9 @@ Every export makes seven decisions:
 | PNG | Lossless, 8- or 16-bit | Screenshots, graphics, text | Huge files for photos |
 | TIFF | Lossless, 8- or 16-bit | Print masters, layer editors, archive | Very large files |
 
-Newer web formats such as AVIF and WebP exist. JPEG is still the safe default.
+Newer formats such as AVIF and JPEG XL make smaller files and can store more than 8
+bits per channel. Some editors export them, but not every app or website opens them
+yet, so JPEG is still the safe default. → [[Bit-Depth]]
 
 ### Quality
 
@@ -55,9 +57,10 @@ master.
 ### Size
 
 Size is set as the **long edge in pixels**. The L10's 3:2 frame is 5408 px wide. A web
-export at 2048 px keeps about a seventh of the pixels, which is plenty for any screen.
-Social platforms resize large uploads with their own settings, so a full-size upload
-gains nothing. Check each platform's current recommended size, because they change.
+export at 2048 px keeps about a seventh of the pixels, which is plenty for a phone or a
+web page. Social platforms resize large uploads with their own settings, so a full-size
+upload usually gains nothing. Check each platform's current recommended size, because
+they change.
 
 For print, the pixels you need are the print size in inches times the resolution: an
 A4 print at 300 ppi needs about 2480 × 3508 px. → [[Printing]]

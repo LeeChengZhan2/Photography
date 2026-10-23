@@ -95,9 +95,8 @@ cross-cutting themes. Don't tag a note with its bare folder name (`light` on a n
 ## Linking
 
 - Link generously, but only to notes that exist. An unresolved `[[link]]` shows dimmed
-  in the editor and as "Not created yet" in the Outgoing links pane. It means a note is
-  missing: write it, or remove the link. (Unlinked mentions are something else:
-  plain-text uses of a note's name.)
+  in the editor. It means a note is missing: write it, or remove the link. (Unlinked
+  mentions are something else: plain-text uses of a note's name.)
 - Concept notes link **sideways** to related concepts and **up** to their module's
   index note.
 - Shoot logs link to the concepts they tested. That backlink is how you later find

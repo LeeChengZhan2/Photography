@@ -65,8 +65,9 @@ out at once. Check the outline of the head first: that's where merging shows.
 
 ### The seesaw
 
-Think of the frame as a seesaw balanced on its centre. Weight further from the centre
-has more leverage. So:
+Think of the frame as a seesaw balanced on its centre. It's a teaching model, not a
+measured law, but it's a useful one: weight further from the centre has more leverage.
+So:
 
 - **Two equal weights, equally far from the centre,** balance. That's **symmetric
   balance**: calm and formal. → [[Symmetry-and-Centring]]

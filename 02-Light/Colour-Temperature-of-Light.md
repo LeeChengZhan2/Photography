@@ -26,7 +26,7 @@ numbers are more orange; higher numbers are more blue. Rough values:
 |---|---|
 | Candle flame | 1800–1900 K |
 | Household tungsten bulb, warm-white LED | 2700–3000 K |
-| Low sun at golden hour | 2500–3500 K |
+| Low sun at golden hour | 2000–3500 K |
 | Studio tungsten lamp | 3200 K |
 | Direct sun, middle of the day | 5000–5500 K |
 | Flash | About 5500 K |
@@ -40,10 +40,10 @@ Treat these as rough guides. Haze, cloud, time and the exact lamp all move them.
 
 ### Why kelvin, and why it seems backwards
 
-Heat a piece of iron and it glows dull red, then orange, then yellow, then white, then
-bluish-white. The kelvin number is the temperature at which an ideal hot object glows
-that colour. A tungsten filament at about 2800 K glows orange. The surface of the sun,
-close to 5800 K, glows nearly white.
+Heat a piece of iron and it glows dull red, then orange, then yellow, then white. Hotter
+objects, such as some stars, glow bluish-white. The kelvin number is the temperature at
+which an ideal hot object glows that colour. A tungsten filament at about 2800 K glows
+orange. The surface of the sun, close to 5800 K, glows nearly white.
 
 So in physics, orange light means a *lower* temperature. Artists call orange "warm" and
 blue "cool" because of how the colours feel, which is the opposite way round. That is

@@ -40,6 +40,12 @@ can send back exactly the same amount of light. So the meter makes one assumptio
 called 18% grey). Most everyday scenes do: some bright parts, some dark, averaging
 somewhere in the middle.
 
+> [!note] Is middle grey really 18%?
+> Not quite. Meters are set by a standard formula, not by a grey card, and most aim a
+> little darker than an 18% card: about half a stop, often quoted as about 12%. So when
+> you spot-meter a real grey card, add about +0.5 EV. Kodak's own grey-card
+> instructions said the same.
+
 When the scene is average, the meter is right. When it isn't, the meter drags it
 towards grey anyway:
 
@@ -115,9 +121,10 @@ window or a stage still can. You steer it by touch:
 
 ## On your kit
 
-- **Lumix L10:** the device to learn metering on. Look up which modes it offers and
-  what it calls them in the manual. Use its evaluative mode for A1.4, as the
-  assignment says.
+- **Lumix L10:** the device to learn metering on. It offers multi, centre-weighted,
+  spot and highlight-weighted metering (the last one sets exposure to protect the
+  brightest areas). Multi is its evaluative mode: use it for A1.4, as the assignment
+  says.
 - **iPhone 15 Pro Max:** tap, press and hold for AE/AF LOCK, then drag the sun icon.
   It's the nearest thing to spot metering plus exposure compensation.
 - **Pocket 3 and Action 5 Pro:** they meter automatically unless you set shutter and
@@ -158,7 +165,8 @@ This is **A1.4**, plus one extra step.
 
 > [!question]- Your friend stands in front of a bright window. Which metering mode would you use, and why?
 > Spot, on the face. Evaluative sees mostly bright window and darkens everything. A
-> spot reads only the face, so the face comes out right and the window clips.
+> spot reads only the face and makes it middle grey, so the window can't fool it; the
+> window clips. Light skin sits a little above middle grey: add about +0.7 to +1 EV.
 
 > [!question]- In spot mode you meter a white shirt by mistake. What happens to the photo?
 > The shirt becomes middle grey, so the whole photo comes out about 2 stops too dark.

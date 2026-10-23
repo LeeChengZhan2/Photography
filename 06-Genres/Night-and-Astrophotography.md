@@ -25,15 +25,16 @@ created: 2026-10-22
 
 ### Light pollution: Singapore's limit
 
-Singapore has some of the brightest night skies in the world. City light scatters in
-the air and lights up the sky itself (sky glow), hiding all but the brightest stars and
-planets. The Bortle scale rates sky darkness from 1 (truly dark) to 9 (inner city);
-most of Singapore sits at the bright end.
+A 2016 world atlas of light pollution ranked Singapore the most light-polluted country
+on Earth: its sky never gets dark enough for your eyes to fully adjust. City light
+scatters in the air and lights up the sky itself (sky glow), hiding all but the
+brightest stars and planets. The Bortle scale rates sky darkness from 1 (truly dark)
+to 9 (inner city); most of Singapore sits at the bright end.
 
 So the genre splits in two. **Night cityscapes are your local strength:** skylines, HDB
 blocks with lit windows, light trails, neon shophouses. **Real astrophotography, such
 as the Milky Way, needs travel** to a dark place far from towns, in the week around a
-new moon. The bright centre of the Milky Way is best placed roughly from March to
+new moon. The bright centre of the Milky Way is best placed roughly from February to
 October; an astronomy app shows when it rises on your date. → [[Shoot-Planning]]
 
 ### Stars move: the 500 rule and the NPF rule
@@ -71,9 +72,9 @@ this: its focus is fixed from 35 cm to infinity, so stars are always sharp.
 Short exposures at high ISO are noisy. **Stacking** helps: take 10–20 identical frames,
 then align and average them. Random noise partly cancels out while the real signal adds
 up. Averaging *N* frames improves the signal-to-noise ratio by √*N*: four frames make it
-twice as clean (about one stop), sixteen make it four times as clean (two stops). Stars
-move between frames, so the software must align sky and ground separately; free tools
-such as Sequator (Windows) do this. → [[Noise-Reduction]]
+twice as clean, like gathering two stops more light; sixteen make it four times as
+clean (four stops). Stars move between frames, so the software must align sky and
+ground separately; free tools such as Sequator (Windows) do this. → [[Noise-Reduction]]
 
 ### Star trails and light painting
 
@@ -164,8 +165,9 @@ at night, memory fails.
 > tiny drift. The NPF rule gives about 14 s at 24 mm and f/1.7.
 
 > [!question]- You stack 16 frames of the same sky. How much cleaner is the result, and why?
-> About four times (two stops). Noise is random, so averaging partly cancels it, while
-> the stars and sky add up. The gain grows with the square root of the frame count.
+> About four times as clean, like gathering four stops more light. Noise is random, so
+> averaging partly cancels it, while the stars and sky add up. The gain grows with the
+> square root of the frame count.
 
 > [!question]- Why does Live View Composite suit Singapore's sky better than one 10-minute exposure?
 > In one long exposure, sky glow and lit buildings keep brightening until they blow

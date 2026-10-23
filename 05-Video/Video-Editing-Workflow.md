@@ -16,8 +16,9 @@ created: 2026-10-22
 ## What it is
 
 A workflow is the order you do the jobs in. Every editor follows the same order,
-because each stage needs the one before it. DaVinci Resolve even lays out its pages
-this way: Media, Cut, Edit, Fusion, Color, Fairlight, Deliver.
+because each stage needs the one before it. DaVinci Resolve even lays out its video
+pages this way: Media, Cut, Edit, Fusion, Color, Fairlight, Deliver. (Recent versions
+add a Photo page for stills.)
 
 | Stage | What you do | It's done when |
 |---|---|---|

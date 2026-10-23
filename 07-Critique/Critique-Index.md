@@ -42,3 +42,6 @@ A7.4 sequence twelve from thirty
 you dislike — teach you more about your own pictures than another month of shooting.
 
 ## Critiques and sets from this module
+
+Link each critique or set from this module to this note. Obsidian then lists them in
+this note's Backlinks pane.

@@ -51,8 +51,11 @@ words, is the whole craft in miniature. Go back to it whenever an edit isn't wor
 ## Before week 17
 Specs live in [[My-Kit]]. These are the settings to sort out before you start.
 
+- **L10 frame rates:** set [System Frequency] to [50.00Hz (PAL)], or 25p and 50p won't
+  appear.
 - **iPhone frame rates:** Settings → Camera → Record Video → turn on Show PAL Formats,
-  or 25 fps won't appear.
+  or 25 fps won't appear. There's no 50 fps in Apple's Camera app: shoot 25 fps, and
+  record 60 fps only for slow motion.
 - **iPhone manual shutter:** Apple's Camera app has none for video. Use an app such as
   Blackmagic Camera.
 - **iPhone HDR:** HDR Video is on by default. HDR clips look wrong next to SDR clips
@@ -63,3 +66,6 @@ Specs live in [[My-Kit]]. These are the settings to sort out before you start.
   put frame rate and shutter under Settings.
 
 ## Shoot logs and edits from this module
+
+Link each shoot log or edit from this module to this note. Obsidian then lists them in
+this note's Backlinks pane.

@@ -47,8 +47,9 @@ Normally the photographer owns it. Two common exceptions:
   unless your contract says otherwise.
 - **Commissions.** Rules differ by country. In Singapore, the Copyright Act 2021 made
   the photographer the default owner of commissioned photos too, unless a contract says
-  otherwise. Under the older law the client usually owned them, so older jobs may
-  follow the old rule. Put ownership in writing either way.
+  otherwise. The client can still use the photos for the purpose they paid for, such as
+  sharing wedding photos with family. Under the older law the client usually owned
+  them, so older jobs may follow the old rule. Put ownership in writing either way.
 
 ### Licences
 
@@ -64,6 +65,8 @@ The default is no. You need permission, or a licence that covers your use.
 
 - **Found online doesn't mean free.** No watermark and no © notice change nothing.
 - **Credit is not permission.** Naming the photographer doesn't make the use legal.
+  In Singapore you usually need both: since 2021, creators have a right to be named
+  whenever their work is used in public, separate from the copyright.
 - **"Royalty-free" isn't "free".** It means you pay once, or nothing, under a licence,
   with no fee for each use. Read the licence.
 - **Legal exceptions are narrow.** Most countries allow some uses, such as criticism,
@@ -79,10 +82,12 @@ combine four elements: **BY** (credit the creator), **SA** (ShareAlike: anything
 make from it carries the same licence), **NC** (NonCommercial: no commercial use) and
 **ND** (NoDerivatives: no changed versions).
 
-So "CC BY-NC" means: credit the creator, and no commercial use. **CC0** gives up all
-rights. When you credit, give the title, the author, the source and the licence. If
-you release your own work under CC, you can't take that permission back from people
-who have already used it. **Public domain** means the copyright has expired or been
+So "CC BY-NC" means: credit the creator, and no commercial use. For music, the licence
+counts putting it to moving pictures as changing it: ND music can't go in your film,
+and SA music makes your film carry the same licence. **CC0** gives up all rights. When
+you credit, give the title, the author, the source and the licence. If you release your
+own work under CC, you can't take that permission back from people who have already
+used it. **Public domain** means the copyright has expired or been
 given up. It doesn't mean "publicly visible".
 
 ### People and places
@@ -91,7 +96,12 @@ In Singapore, as in many countries, photographing people in public places is gen
 lawful. But laws against harassment and voyeurism still apply, and a photo that was
 legal to take can still be unkind or unwise to publish. Singapore's Personal Data
 Protection Act (PDPA) mainly applies to organisations, not to individuals acting in a
-personal capacity; if you photograph people for a business, it may apply to you.
+personal or domestic capacity; if you photograph people for a business, it may apply
+to you.
+
+Since 29 June 2026, Singapore's Online Safety Commission can also order harmful posts
+taken down. It starts with intimate images, abusive images of children, doxxing
+(posting someone's personal details to harm them), harassment and stalking.
 
 A **model release** is a signed form in which a person agrees to how their image will
 be used: which shoot, which uses, for how long, any payment, signed and dated.
@@ -127,7 +137,9 @@ metadata (the hidden information stored inside the file). Set this up once as an
 import preset in your raw developer, and check the L10's manual for a setting that
 writes your name into each file. Many social platforms strip metadata on upload, so it
 helps honest people find you but doesn't stop copying. Some apps can also attach
-Content Credentials: a record of how an image was made and edited.
+Content Credentials: a record of how an image was made and edited. Since August 2026,
+Adobe's apps add them automatically to images made or changed with their generative AI
+tools.
 
 ## How to use it
 
@@ -164,7 +176,8 @@ Twenty minutes.
 
 > [!question]- In Singapore, you pay a photographer to shoot your family portraits. Who owns the copyright by default?
 > Under the current law, normally the photographer, unless your contract says otherwise.
-> So the contract should say who owns the photos and how each side may use them.
+> You can still use them for what you paid for, such as sharing them with family. So
+> the contract should say who owns the photos and how each side may use them.
 
 > [!question]- A photo online has no watermark and no © notice. Can you use it in your video?
 > No. Copyright exists without a notice. You need the owner's permission, a licence

@@ -155,8 +155,9 @@ Your devices cover 13 mm to 120 mm (equivalent), plus the Action 5 Pro's 155° v
   of shape. Keep people nearer the centre at 13 mm.
 - **Going wide "to fit everything in".** Far things shrink to nothing and the photo
   feels empty. Get close to one strong foreground instead.
-- **Tilting a wide lens up at a building.** The top is further away than the base, so
-  the sides lean in. Keep the camera level, or step back. → [[Perspective-Correction]]
+- **Tilting a wide lens up at a building.** The tilt puts the top further from the
+  sensor than the base, so the sides lean in. Keep the camera level, or step back.
+  → [[Perspective-Correction]]
 
 ## Try it
 

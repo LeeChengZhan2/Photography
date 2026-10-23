@@ -14,9 +14,10 @@ created: 2026-08-19
 > other three cover reach, water, motion and video.
 
 > [!note] Checked against the makers
-> Every spec below was checked on 2026-10-21 against Apple's, DJI's and Panasonic's own
-> spec pages and manuals (links under Source). Firmware updates can change features; if
-> your device disagrees with this note, trust the device and correct the note.
+> Every spec below was checked on 2026-10-21, and re-checked on 2026-10-23 (the iPhone
+> on iOS 27), against Apple's, DJI's and Panasonic's own spec pages and manuals (links
+> under Source). Firmware updates can change features; if your device disagrees with
+> this note, trust the device and correct the note.
 
 ## The kit at a glance
 
@@ -24,14 +25,15 @@ created: 2026-08-19
 |---|---|---|---|---|
 | What it is | Fixed-lens zoom compact | Phone, three lenses | Camera on a 3-axis gimbal | Waterproof action camera |
 | Sensor | Four Thirds, 20.4 MP | Main 1/1.28", 48 MP | 1", ~9.4 MP stills | 1/1.3", 40 MP |
-| Lens (35 mm equiv.) | 24–75 mm zoom | 13 · 24 · 120 mm, plus 28 / 35 / 48 mm crops of the main | 20 mm | 155° ultra-wide |
+| Lens (35 mm equiv.) | 24–75 mm zoom; 43 mm filter thread | 13 · 24 · 120 mm, plus 28 / 35 / 48 mm crops of the main | 20 mm | 155° ultra-wide |
 | Aperture | f/1.7 (24 mm) to f/2.8 (75 mm), down to f/16 | Fixed: f/2.2 · f/1.78 · f/2.8 | Fixed f/2.0 | Fixed f/2.8 |
 | Closest focus | 50 cm; 3 cm in AF Macro at 24 mm | About 2 cm (macro, on the ultra-wide) | 20 cm | 35 cm (fixed focus) |
 | Stabilisation | Lens OIS, 2-axis | Sensor-shift OIS on 1×/2× and 5×; none on 0.5× | 3-axis mechanical gimbal | Electronic, video only |
-| Stills shutter | Mechanical 60 s–1/2000; electronic to 1/32000 | Electronic; about 1 s at most (third-party apps) | Electronic, 1/8000–1 s | Electronic, 1/8000–30 s |
+| Stills shutter | Mechanical 60 s–1/2000; electronic to 1/32000; [T] (Time) to about 60 s, no Bulb | Electronic; about 1 s at most (third-party apps) | Electronic, 1/8000–1 s | Electronic, 1/8000–30 s |
 | Stills ISO | 100–25600 (50 extended) | Set in Halide or Lightroom | 50–6400 | 100–25600 |
 | Manual exposure | P / A / S / M, aperture ring | Third-party apps only | Pro mode | PRO mode |
-| Raw | RW2 | ProRAW DNG (48 MP on the 1× lens only) | DNG | DNG |
+| Raw | RW2 | ProRAW DNG (48 MP on the 1× lens only) | DNG (always with a JPEG) | DNG |
+| Memory card | SD (UHS-I/UHS-II, up to V90) | None: built-in storage | microSD, up to 1 TB | microSD, up to 1 TB, plus 47 GB built in |
 | Viewfinder / screen | OLED EVF + vari-angle 3" touch screen | Screen only | Rotating 2" screen | Front and rear screens |
 | Flash | Hot shoe, no built-in flash | LED only | None | None |
 | Log video | V-Log (stills too) | Apple Log (ProRes) | 10-bit D-Log M | 10-bit D-Log M |
@@ -43,10 +45,10 @@ A premium compact from 2026: a Four Thirds sensor from the same family as the Lu
 GH7's, behind a fixed Leica 24–75 mm f/1.7–2.8 zoom (10.9–34 mm real focal length),
 with an aperture ring, an eye-level viewfinder, an [AF ON] button, a hot shoe and a
 mechanical shutter. The camera records 20.4 MP from a central part of the sensor, so
-every aspect ratio keeps the same 24 mm view; that makes its crop factor about 2.2×,
-not the usual 2× of Four Thirds. It's the only device you own with
-an iris and a viewfinder, so the aperture ladder, metering modes, back-button focus and
-flash all happen here.
+4:3, 3:2 and 16:9 all keep the same 24 mm view (1:1 is a crop of the 4:3 frame, about
+28 mm); that makes its crop factor about 2.2×, not the usual 2× of Four Thirds. It's
+the only device you own with an iris and a viewfinder, so the aperture ladder,
+metering modes, back-button focus and flash all happen here.
 
 **Tips**
 - **Fix the focal length before an aperture ladder.** The widest aperture shrinks as you
@@ -60,16 +62,41 @@ flash all happen here.
   than 1/2000 at base ISO; there's no built-in ND. Electronic is a rolling shutter: fast
   motion leans, LED lights can band, and flash won't fire.
 - **Back-button focus is built in.** Set [Shutter AF] to off and focus with [AF ON].
-- **Aspect ratio isn't a crop.** The multi-aspect sensor makes 3:2 and 16:9 frames
-  *wider* than 4:3 (5408 and 5664 px against 5200), so picking a ratio is a framing
-  decision, not a loss.
+- **Aspect ratio isn't a crop (except 1:1).** The multi-aspect sensor makes 3:2 and
+  16:9 frames *wider* than 4:3 (5408 and 5664 px against 5200), so picking a ratio is a
+  framing decision, not a loss. Raw files keep the ratio too. 1:1 is a 3904 px square
+  cut from the 4:3 frame.
 - **For A1.5, turn [Auto Review] off and use the viewfinder.** It's the one device
   where "blind manual" works as written.
 - **[REAL TIME LUT] (the [LUT] button) bakes a look into the JPEG/HEIF in camera.**
   Shoot RAW alongside while you're learning, so the look stays a decision. → [[LUTs]]
 - **Live View Composite** adds only new bright areas during a long exposure: light
-  trails without a blown-out scene, a ready-made "abstract" frame for A1.2.
+  trails without a blown-out scene, a ready-made "abstract" frame for A1.2. It runs for
+  up to 3 hours, on the mechanical shutter only.
 - **Keep it dry.** It isn't splash-resistant; rain is the Action 5 Pro's job.
+
+**Also on the L10** (from Panasonic's manual)
+- **Metering:** multi, centre-weighted, spot and highlight-weighted.
+- **Exposure aids:** live [Histogram] and [Zebra Pattern] (both off by default),
+  [Waveform Monitor] and [Luminance Spot Meter]; [Blinking Highlights] on playback. No
+  false colour.
+- **In-camera multi-shot:** [Bracketing] of exposure (3–7 frames, ⅓ to 1 EV apart),
+  aperture, focus or white balance; [Focus Stacking], merged into a JPEG or HEIF with
+  the edges cropped; [Multiple Exposure].
+- **[Synchro Scan]** (photo and video) fine-tunes the shutter speed until LED flicker
+  bands disappear.
+- **Flash on the hot shoe:** TTL or manual (1/1–1/128 in ⅓ steps), ±3 EV flash
+  adjustment, 1st or 2nd curtain sync, and wireless control of three groups through a
+  compatible flash on the shoe. It won't fire with [ELEC.], [Silent Mode],
+  [Filter Settings] or SH burst. The manual doesn't mention high-speed sync.
+- **Video:** set [System Frequency] to [50.00Hz (PAL)] for 25p/50p (59.94Hz gives
+  23.98p/29.97p). Shutter 1/25–1/25000 s. MP4 or MOV, up to 4:2:2 10-bit All-Intra at
+  600 Mbps (needs a V90 card). V-Log's base ISO is 500 (250 above 60 fps); HLG's is 250.
+  [Time Lapse Shot] with [Exposure Leveling]. A [MIC] socket with manual levels, a
+  limiter and [Wind Noise Canceller]; no headphone socket is listed.
+- **LUTs and HEIF:** [REAL TIME LUT] records the look into the file;
+  [LUT View Assist (Monitor)] only shows it on screen. LUT files are `.cube` (2- to
+  33-point) or `.vlt`, and the LUMIX Lab app can send them. HEIF can be 10-bit HLG.
 
 ## iPhone 15 Pro Max — the one that's always with you
 
@@ -82,6 +109,9 @@ actually have on you.
 **Tips**
 - **Turn on ProRAW:** Settings → Camera → Formats → ProRAW & Resolution Control. Only
   the 1× lens saves 48 MP; 0.5×, 2×, 5×, Night mode, flash and macro shots save 12 MP.
+  Ordinary (non-raw) 1× photos default to 24 MP. To keep raw on after you close the
+  Camera app, also turn on Settings → Camera → Preserve Settings → ProRAW & Resolution
+  Control.
 - **Manual shutter and ISO need Halide or Lightroom**, and the shutter tops out around
   1 s. (Blackmagic Camera is video-only.) For A1.3's ISO ladder, shoot Halide's
   single-frame RAW rather than ProRAW, or you'll be measuring Apple's noise reduction.
@@ -93,7 +123,10 @@ actually have on you.
 - **Photographic Styles bake in at capture on this model** and can't be used with
   ProRAW. Leave Standard on if you plan to edit.
 - **Video:** Apple Log needs ProRes. Internal ProRes stops at 4K30; 4K60 needs an
-  external USB-C SSD. Apple's Log → Rec.709 LUT is on the Apple Developer site.
+  external USB-C SSD. Apple's Log → Rec.709 LUT is on the Apple Developer site. There's
+  no 50 fps (4K at 24/25/30/60, 1080p at 25/30/60). HDR (Dolby Vision) video and
+  Enhanced Stabilization, which crops slightly, are on by default; Action mode reaches
+  2.8K at 60 fps.
 
 ## DJI Pocket 3 — the walking video camera
 
@@ -112,9 +145,11 @@ wins.
   roll with your movement.
 - **For grading, shoot 10-bit D-Log M** and use DJI's Pocket 3 LUT, not the Action 5
   Pro's.
+- **Video files:** MP4 (H.264 or HEVC) up to 130 Mbps. Timelapse, Hyperlapse and
+  Motionlapse modes are built in.
 - **It focuses from 20 cm.** Closer than that, step back or use the iPhone.
-- **Install the final firmware before 31 Dec 2026**, the date DJI's guaranteed software
-  updates end.
+- **DJI guarantees software updates only until 31 Dec 2026.** Install the last one it
+  releases, and keep it: nothing newer is promised after that date.
 
 ## DJI Osmo Action 5 Pro — where nothing else can go
 
@@ -132,6 +167,8 @@ shouldn't go: water, mud, a bike mount, ankle height in traffic.
 - **Stabilisation is video-only**, and HorizonSteady works only at 1080p or 2.7K 16:9,
   up to 60 fps.
 - **For grading, shoot 10-bit D-Log M** and use the Action 5 Pro's own DJI LUT.
+- **Video files:** MP4 (HEVC only) up to 120 Mbps. Timelapse and Hyperlapse are built
+  in; Timelapse and Slow Motion get no stabilisation.
 - **Use the front screen** to frame yourself.
 
 ## What this kit can and cannot do
@@ -227,9 +264,13 @@ usually a setting you didn't know was on.
 ## Source
 - Panasonic, [DC-L10 Operating Instructions](https://eww.pavc.panasonic.co.jp/dscoi/DC-L10/pdf/DC-L10_DVQP3497_full_eng.pdf),
   Specifications, pp. 749–760
-- Apple, [iPhone 15 Pro Max technical specifications](https://support.apple.com/en-us/111828)
+- Apple, [iPhone 15 Pro Max technical specifications](https://support.apple.com/en-us/111828),
+  [About Apple ProRAW](https://support.apple.com/en-us/119916) and the
+  [iPhone User Guide](https://support.apple.com/guide/iphone/welcome/ios) for iOS 27,
+  checked 2026-10-23
 - DJI, [Osmo Pocket 3 specs](https://www.dji.com/osmo-pocket-3/specs) and user manual
 - DJI, [Osmo Action 5 Pro specs](https://www.dji.com/osmo-action-5-pro/specs) and FAQ
 - Clifton Cameras, [Lumix L10 specifications](https://www.cliftoncameras.co.uk/uploads/specifications/cliftoncameras-panasonic-lumix-l10-specs.pdf)
   — the L10's sensor and real focal length (10.9–34 mm), checked 2026-10-23
-- Specs checked against the sources above on 2026-10-21.
+- Specs checked against the sources above on 2026-10-21; the L10 manual, DJI's spec
+  pages and Apple's pages re-checked on 2026-10-23.

@@ -155,8 +155,11 @@ Before you leave:
   own voice. For anyone else, get closer or record their voice separately.
 - **Action 5 Pro:** waterproof without its case, but inside the case it will hear very
   little. Record sound on another device when it's in the case.
-- **Check each device's audio settings** for a manual level, a wind-noise filter and
-  support for an external mic, and note what each one offers.
+- **Lumix L10:** a [MIC] socket for an external microphone, manual levels, a limiter
+  and [Wind Noise Canceller]. No headphone socket is listed, so play a test clip back
+  to check the sound.
+- **Check the other devices' audio settings** for a wind-noise filter and support for
+  an external mic, and note what each one offers.
 
 ## Common mistakes
 

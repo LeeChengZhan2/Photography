@@ -124,7 +124,8 @@ room to step back, a wide enough lens, and editing.
   This is not legal advice, and laws change.
 - **Private property** (condos, malls, offices) sets its own rules: ask first, and if
   security asks you to leave, leave politely. Military and some infrastructure sites
-  ban photography; obey the signs.
+  are protected places: a "No Unauthorised Photography" sign means you need the
+  owner's permission, even to photograph them from outside.
 - **Homes are private.** HDB blocks stand close together. Don't point a long lens into
   people's windows.
 - **Places of worship:** ask first, dress appropriately, use no flash, and don't

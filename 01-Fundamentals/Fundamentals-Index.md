@@ -52,3 +52,6 @@ exposure without thinking. If the five-second test fails, repeat week 4 before m
 on.
 
 ## Shoot logs from this module
+
+Link each shoot log from this module to this note. Obsidian then lists them in this
+note's Backlinks pane.

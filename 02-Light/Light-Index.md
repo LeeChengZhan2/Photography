@@ -18,7 +18,7 @@ light you've seen.
 ### Physics you can't avoid
 - [[Quality-of-Light]] — hard vs soft, governed by *relative* source size
 - [[Inverse-Square-Law]] — double the distance, quarter the light (small sources)
-- [[Contrast-Ratio]] — key-to-fill in stops
+- [[Contrast-Ratio]] — lit side against shadow side, in stops
 
 ### Describing light
 - [[Direction-of-Light]] — front, 45°, side, back, rim, top, under
@@ -36,8 +36,8 @@ light you've seen.
 - [[Sync-Speed]] — and HSS
 - [[Bounce-Flash]] — why bare straight-on flash flattens
 - [[Off-Camera-Flash]] — one light, one stand
-- [[Balancing-Flash-and-Ambient]] — shutter for ambient, power for flash, aperture for
-  both
+- [[Balancing-Flash-and-Ambient]] — shutter for ambient, power for flash, aperture and
+  ISO for both
 
 ## Assignments
 A2.1 window study · A2.2 hard-to-soft · A2.3 fall-off · A2.4 four times of day ·
@@ -47,4 +47,6 @@ A2.5 backlight rescue · A2.6 one light only
 than every other assignment in this module combined. Do it first, do it properly.
 
 ## Shoot logs from this module
-<!-- Backlinks appear automatically below. Link this note from your logs. -->
+
+Link each shoot log from this module to this note. Obsidian then lists them in this
+note's Backlinks pane.

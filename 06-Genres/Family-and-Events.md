@@ -50,7 +50,7 @@ because patience is short, especially children's.
 - **Arrange:** tallest at the back, children and elders seated in front. If you can't
   see someone's face, the camera can't either.
 - **Depth of field:** two rows need some depth. On the L10 at 35 mm and f/4, focused at
-  3 m, everything from about 1.9 m to 7 m is sharp.
+  3 m, everything from about 1.8 m to 9 m is sharp.
 - **Edges stretch.** On a wide lens (the iPhone's 0.5×, or 24 mm), faces near the
   corners get stretched. Keep people away from the edges, or step back.
 - **Take five to ten frames.** In a big group, someone blinks in every frame. Keep
@@ -143,9 +143,9 @@ guidance, not legal advice. → [[Copyright-and-Consent]]
 
 ## Who to study
 
-- **Rinko Kawauchi** — *Cui Cui*: thirteen years of her own family's life, from a birth
-  to a death. Look at how small, quiet moments (meals, hands, light in a room) add up
-  to a family story.
+- **Rinko Kawauchi** — *Cui Cui*: thirteen years of her own family's life, including a
+  birth and a death. Look at how small, quiet moments (meals, hands, light in a room)
+  add up to a family story.
 - **Larry Sultan** — *Pictures from Home* (1992): his parents photographed over about
   ten years, alongside old family snapshots and their own comments, including where
   they disagreed with how he showed them. Look at how he lets his subjects answer back.
@@ -170,7 +170,7 @@ and give them to the people in them.
 
 > [!question]- Why use f/4 rather than f/1.7 for a two-row group?
 > The rows are at different distances, and f/1.7 may leave the back row soft. At 35 mm
-> and f/4, focused at 3 m, the L10 keeps about 1.9–7 m sharp.
+> and f/4, focused at 3 m, the L10 keeps about 1.8–9 m sharp.
 
 > [!question]- Your sister posts a photo of your niece in school uniform, with the school's name and your block visible. What's the risk, and what would you suggest?
 > Together they tell strangers where the child is every day, and the post may never

@@ -10,8 +10,8 @@ created: 2026-10-22
 
 > [!summary] In one line
 > Under the colour and the detail, every photo is a few big shapes of light and dark.
-> The eye lands first on the brightest, most contrasting area, so arrange those shapes
-> so that it lands on your subject.
+> The eye tends to land first on the brightest, most contrasting area, so arrange those
+> shapes so that it lands on your subject.
 
 ## What it is
 
@@ -35,7 +35,7 @@ The American teacher Arthur Wesley Dow brought it into Western art education aro
 ### Where the eye lands
 
 Your visual system responds to differences in brightness more than to brightness
-itself. So the eye goes first to:
+itself. So, other things being equal, the eye tends to go first to:
 
 1. **The brightest area**, especially in a darker frame.
 2. **The point of highest contrast**, where the lightest light meets the darkest dark.

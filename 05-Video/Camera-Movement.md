@@ -56,7 +56,7 @@ At 25 fps with a 180° shutter, a fast pan judders. Each frame shows the scene i
 different place, with too little blur to bridge the jumps. Your devices' rolling
 shutters also make upright lines lean during fast pans. → [[Shutter-Angle]]
 
-A common rule of thumb: let anything you pan across take at least about 5 seconds to
+A common rule of thumb: let anything you pan across take at least about 7 seconds to
 cross the frame. Keep the speed even, and ease in and out: start slowly, and slow down
 before you stop.
 
@@ -92,9 +92,9 @@ place to cut.
   point-of-view shots. Its electronic stabilisation smooths the ride.
 - **Lumix L10:** lens OIS for handheld moves. You can zoom, but a zoom during a shot
   reads as a zoom, not a move. Walk in when you want a push.
-- **iPhone 15 Pro Max:** keep moves on the 1× or 2× lens, which have OIS. The 5×
-  magnifies every wobble, and the 0.5× has no OIS, though its wide view hides some
-  shake.
+- **iPhone 15 Pro Max:** keep moves on the 1× or 2× lens, which have OIS. The 5× has
+  OIS too but magnifies every wobble, and the 0.5× has no OIS, though its wide view
+  hides some shake.
 
 ## Common mistakes
 
@@ -133,7 +133,7 @@ When you write the shot list for **A5.6**, give every shot a size and a movement
 
 > [!question]- A pan across a hawker centre judders on playback. Why, and what are two fixes?
 > At 25 fps with a 180° shutter, a fast pan moves the scene too far between frames for
-> the blur to bridge. Pan more slowly, so things take at least about 5 seconds to cross
+> the blur to bridge. Pan more slowly, so things take at least about 7 seconds to cross
 > the frame, or replace the pan with two or three still shots.
 
 > [!question]- When might handheld be a better choice than the gimbal?

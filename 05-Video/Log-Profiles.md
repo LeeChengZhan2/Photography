@@ -124,9 +124,10 @@ All four devices shoot log. Which LUT goes with which device is in the LUTs note
 above.
 
 - **Lumix L10:** V-Log, for video and stills. It starts at ISO 500 (125 extended), so
-  in daylight it needs over two stops more ND than at ISO 100. The camera can apply a
-  LUT itself; check whether the LUT is baked into the clip or only shown on screen. It
-  also offers HLG and Like709 if you don't want to grade.
+  in daylight it needs over two stops more ND than at ISO 100 (above 60 fps the base
+  drops to ISO 250). The camera can use a LUT two ways: [REAL TIME LUT] records the
+  look into the clip, while [LUT View Assist (Monitor)] only shows it on screen and
+  keeps the clip in V-Log. It also offers HLG and Like709 if you don't want to grade.
 - **iPhone 15 Pro Max:** Apple Log needs ProRes. Internal ProRes stops at 4K 30 fps;
   4K 60 fps needs an external USB-C SSD. ProRes files are large.
   → [[Codecs-and-Bitrate]] Apple publishes a Log → Rec.709 LUT on its developer site.

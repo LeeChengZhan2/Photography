@@ -58,7 +58,8 @@ frames. **The downsides:** two buttons to coordinate, soft photos when you forge
 - **Switching it on and off each outing.** Your thumb never learns. Keep it for a month.
 - **Handing the camera over without warning.** Pre-focus on the spot first, or turn
   [Shutter AF] back on.
-- **Leaving the camera in AF-S.** You lose "hold to track"; AF-C gives you both.
+- **Thinking you need AF-S for still subjects.** AF-S works, but with [AF ON], AF-C
+  does both jobs: hold to track, let go to lock. One mode means no switching mid-moment.
 
 ## Try it
 

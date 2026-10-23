@@ -50,3 +50,6 @@ syllabus.** Zooming is how you avoid making a decision; a prime forces the decis
 into your feet.
 
 ## Shoot logs from this module
+
+Link each shoot log from this module to this note. Obsidian then lists them in this
+note's Backlinks pane.

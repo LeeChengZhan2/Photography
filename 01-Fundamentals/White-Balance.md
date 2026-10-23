@@ -81,7 +81,9 @@ result a little warm, but it is a good start.
 
 A RAW file stores the sensor data *before* white balance is applied. The WB setting is
 saved as a note in the file and used only when the file is processed, so in a raw editor
-you can change it later with no loss of quality. → [[RAW-vs-JPEG]]
+you can change it later with no loss of quality. What RAW can't change is the light:
+under warm bulbs the blue channel collects little, so correcting to neutral amplifies
+its noise, and a channel that clipped stays clipped. → [[RAW-vs-JPEG]]
 
 A JPEG or HEIF has white balance baked into its colours. Large corrections often look
 wrong (odd skin tones, banding in skies), because some colour information is gone.

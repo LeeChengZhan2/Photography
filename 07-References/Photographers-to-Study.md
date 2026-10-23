@@ -77,8 +77,8 @@ blogs.
 2. Find 20 images from a single body of work, not a "best of" scrape. Series reveal
    intent; greatest-hits reveal nothing.
 3. Write one critique (template: [[Critique]]) using the four-step method.
-4. Reproduce one image as an exercise (assignment **A7.3**), then make a fourth frame
-   that's yours.
+4. Reproduce one image as an exercise, then make a frame of your own. Assignment
+   **A7.3** does the same with three images and a fourth that's yours.
 
 ## My own list
 

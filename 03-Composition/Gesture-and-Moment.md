@@ -92,8 +92,8 @@ first: set the frame, then wait for the gesture.
 | Catches the peak? | Often, but the peak can fall between frames | Only if you anticipate, which is what trains you |
 | Cost | Hundreds of near-identical frames to sort | Missed moments while you learn |
 
-Even at 10 frames per second there's 0.1 s between frames, and a blink or the instant a
-shuttlecock meets the racket can fit in that gap. A good middle way is a short burst of
+Even at 10 frames per second there's 0.1 s between frames, and the instant a shuttlecock
+meets the racket can fit in that gap. A good middle way is a short burst of
 three to five frames, starting just before the peak.
 
 ## On your kit
@@ -147,8 +147,8 @@ Twenty minutes of frames from one spot are good material for **A3.1**.
 > the peak. Anticipate: press as the laugh starts to build.
 
 > [!question]- You shoot a burst at 10 frames per second. Why can you still miss the moment?
-> There's 0.1 s between frames, and many peaks, like a blink or a shuttlecock meeting
-> the racket, are shorter than that. The peak can fall between two frames.
+> There's 0.1 s between frames, and many peaks, like a shuttlecock meeting the racket,
+> are shorter than that. The peak can fall between two frames.
 
 > [!question]- Why set up the frame first and wait, instead of following the subject around?
 > Following the subject gives you the moment in whatever frame happened to be there.

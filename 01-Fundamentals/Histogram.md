@@ -43,8 +43,9 @@ The right edge matters most. A full pixel can't record any more light, so every
 brighter tone becomes the same white. Shadows fade gradually into noise instead, so
 there is often something left to lift. → [[Dynamic-Range]]
 
-Some clipping is fine. The sun, a bare bulb, or sparkles on water are **specular
-highlights**: small, very bright points. Nobody expects detail in them.
+Some clipping is fine. Light sources such as the sun or a bare bulb are small, very
+bright points, and so are **specular highlights**: mirror-like reflections of a light,
+such as sparkles on water. Nobody expects detail in them.
 
 ### There is no "correct" shape
 
@@ -95,8 +96,8 @@ rely on it. → [[Expose-to-the-Right]]
 
 ## On your kit
 
-- **Lumix L10:** it can show a live histogram before you shoot; the manual explains how
-  to turn it on, and how to set a highlight warning in playback. In **A1.5** you don't
+- **Lumix L10:** its live [Histogram] is off until you turn it on. On playback,
+  [Blinking Highlights] flashes the clipped areas. In **A1.5** you don't
   review while shooting, but afterwards the histograms are how you grade each frame.
 - **iPhone 15 Pro Max:** Apple's Camera app has no histogram. Halide shows a live one as
   you shoot, and editing apps such as Lightroom show one for any photo.
@@ -134,8 +135,9 @@ meter-defeat frames, and grading your blind-manual set.
 ## Check yourself
 
 > [!question]- A tall spike touches the right edge. What does it mean, and what do you do?
-> A large area has clipped to pure white. Unless it's a specular highlight, like the
-> sun or a lamp, reduce the exposure and shoot again.
+> A large area has clipped to pure white. Unless it's a light source or a specular
+> highlight, like the sun, a lamp or a glint on water, reduce the exposure and shoot
+> again.
 
 > [!question]- Your night-street histogram sits mostly on the left. Is it underexposed?
 > Not necessarily. Low-key scenes belong on the left. Check that the shadows you care

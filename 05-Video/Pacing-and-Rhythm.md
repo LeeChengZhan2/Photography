@@ -90,7 +90,7 @@ something new to read.
 ### Cutting to music
 
 1. Choose the music before the fine cut, so the cut can follow it.
-2. Play it and tap the marker key on every bar (M in Resolve and Premiere Pro). Or zoom
+2. Play it and tap the marker key on every bar (M in Resolve and Premiere). Or zoom
    into the audio waveform and look for drum hits: they show as sharp spikes.
 3. Put most cuts on bar lines. Use single beats for short, fast passages.
 4. Save the big changes for the start of a phrase.

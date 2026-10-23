@@ -58,8 +58,8 @@ which kind you have.
 - **When you need a fast shutter.** Never slow the shutter into blur for ETTR. A sharp,
   slightly noisy photo beats a clean blurred one. The same goes for depth of field:
   don't open the aperture beyond what the picture needs.
-- **Specular highlights.** The sun, lamps and sparkles on water will clip anyway. Don't
-  let them drag the whole exposure down. Ignore them.
+- **Light sources and specular highlights.** The sun, lamps and sparkles on water will
+  clip anyway. Don't let them drag the whole exposure down. Ignore them.
 - **When the brightest area must keep detail.** A white dress, an egret's feathers, a
   bright cloud. Stop short of the edge, because the camera's histogram is only an
   estimate.
@@ -80,9 +80,9 @@ testing (see Try it). Until then, treat the camera's right edge as the limit.
    hands. ETTR only works inside those choices.
 3. **Turn on the live histogram and the highlight warning** (clipped areas flash in
    playback).
-4. **Add exposure** until the histogram just reaches the right edge, ignoring specular
-   highlights. In A or S, use positive exposure compensation; in M, a slower shutter or
-   a wider aperture.
+4. **Add exposure** until the histogram just reaches the right edge, ignoring light
+   sources and specular highlights. In A or S with a fixed ISO, use positive exposure
+   compensation; in M, a slower shutter or a wider aperture.
 5. **Take a test shot and check playback.** If anything important blinks, take away
    1/3 stop.
 6. **In editing, lower the exposure** (or the highlights) until the photo looks right.
@@ -90,8 +90,9 @@ testing (see Try it). Until then, treat the camera's right edge as the limit.
 
 ## On your kit
 
-- **Lumix L10:** your ETTR camera. It shoots RW2 raw and can show a live histogram as
-  you frame. Find its margin with the Try it below.
+- **Lumix L10:** your ETTR camera. It shoots RW2 raw and can show a live [Histogram]
+  and [Zebra Pattern] as you frame; both are off until you turn them on. Find its
+  margin with the Try it below.
 - **iPhone 15 Pro Max:** Apple's Camera app and ProRAW merge several frames and process
   them heavily, so ETTR doesn't really apply. It does apply to a single-frame raw from
   Halide.

@@ -61,7 +61,8 @@ note for the full explanation. When a new term confuses you, add it here.
 - **EV (exposure value)** — one number for an aperture + shutter pair: EV 0 is f/1 at
   1 s, and each step up lets in a stop less light. It's an absolute scale; a
   *difference* of 1 EV is one stop. → [[Stops-and-EV]]
-- **ETTR** — expose to the right; push brightness up to just short of clipping.
+- **ETTR** — expose to the right: give a raw file as much light as the picture allows
+  without clipping important highlights, then darken it in editing.
   → [[Expose-to-the-Right]]
 - **Fall-off** — how fast light dims with distance. → [[Inverse-Square-Law]]
 - **Flat lighting** — light from the camera's position; minimal shadow, minimal form.
@@ -92,7 +93,7 @@ note for the full explanation. When a new term confuses you, add it here.
 - **Inverse-square law** — double the distance, quarter the light.
   → [[Inverse-Square-Law]]
 - **ISO** — how brightly the camera renders a given exposure. At native settings it's
-  mostly analog gain applied during readout, before digitisation; it doesn't make the
+  mostly analogue gain applied during readout, before digitisation; it doesn't make the
   sensor more sensitive to light. → [[ISO]]
 - **J-cut / L-cut** — a cut where the next shot's sound starts early (J), or the last
   shot's sound carries on over the new picture (L). → [[Cuts-and-Transitions]]
@@ -114,7 +115,8 @@ note for the full explanation. When a new term confuses you, add it here.
 
 - **Mask** — a selection that limits an edit to one part of the photo.
   → [[Local-Adjustments]]
-- **Metering** — the camera's guess at correct exposure. → [[Metering-Modes]]
+- **Metering** — measuring the light to suggest an exposure. Whatever the meter reads,
+  it aims to make middle grey. → [[Metering-Modes]]
 - **ND filter (neutral density)** — darkened glass that cuts light without changing its
   colour. → [[Lens-Filters]] · [[ND-Filters]]
 - **Noise** — random speckles caused by too little light; high ISO makes it visible.

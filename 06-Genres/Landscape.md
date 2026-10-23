@@ -102,7 +102,7 @@ editing.
 - **Support:** a tripod, a wall, a railing, or a bag of rice on a ledge. Use the
   self-timer (check the manual) so pressing the button doesn't shake the camera.
 - **Mode and aperture:** A at f/5.6. On the L10 that gives about the depth of field of
-  f/11 on full frame, without going past the diffraction point.
+  f/12 on full frame, without going past the diffraction point.
 - **ISO:** 100 on a support. Handheld, Auto ISO with 1/60 s or faster at 24 mm.
 - **Focus:** manual, at the hyperfocal distance; or AF once on the right spot, then
   switch to MF so it stays there.
@@ -159,7 +159,7 @@ iPhone's 120 mm and see how the haze layers change.
 ## Check yourself
 
 > [!question]- On the L10 at 24 mm and f/5.6, where do you focus to keep the most in focus, and what will be sharp?
-> At about 1.7 m, the hyperfocal distance. Everything from about 0.9 m to infinity is
+> At about 1.5 m, the hyperfocal distance. Everything from about 0.8 m to infinity is
 > then acceptably sharp.
 
 > [!question]- Why do distant towers look pale and blue on a humid day, and how can you use it?

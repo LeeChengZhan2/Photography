@@ -64,9 +64,9 @@ noise, so simplify around the pair. → [[Simplification]]
 1. **Collect stages.** Posters, murals, statues, shop signs and billboards are
    ready-made halves. Note where they are.
 2. **Wait for the other half.** Stand at the stage and wait for a person, an animal or
-   a vehicle that completes the idea. Elliott Erwitt is the master of this kind of wit:
-   look at how often his photos depend on two things lining up for a moment.
-   → [[Photographers-to-Study]]
+   a vehicle that completes the idea. Elliott Erwitt (1928–2023) was a master of this
+   kind of wit: look at how often his photos depend on two things lining up for a
+   moment. → [[Photographers-to-Study]]
 3. **Make both parts readable.** Get close enough, or use a longer focal length, so
    neither part is tiny. Keep both sharp enough to recognise: f/5.6–f/8 on the L10; the
    other three devices keep most things sharp anyway.

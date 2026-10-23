@@ -33,8 +33,8 @@ them in the bag when the light in the room is the story.
   what the scene looked like. It also announces you, and people change how they act.
 - **Respect and rules.** Flash disturbs, and is often banned, at performances
   (concerts, theatre, dance), in places of worship, in many museums, and around
-  wildlife, where it startles animals. Singapore's Night Safari, for example, asks
-  visitors not to use flash. Rules change, so read the signs and ask when unsure.
+  wildlife, where it startles animals. Singapore's Night Safari, for example, bans
+  flash photography and torches. Rules change, so read the signs and ask when unsure.
 
 ### The cost: less light
 

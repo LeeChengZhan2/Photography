@@ -70,10 +70,11 @@ This is one of the cheapest ways to clean up a frame. → [[Simplification]]
 
 ### Tilting changes the lines
 
-Tilt the camera up at a building and its top is further from the lens than its base.
-The top is drawn smaller, so the sides lean in. These are **converging verticals**.
-Keep the camera level and vertical lines stay vertical. Point it straight down at a
-table and the table's edges stay parallel. → [[Perspective-Correction]]
+Tilt the camera up at a building and the sensor is no longer parallel to its face: the
+top is now further from the sensor than the base. The top is drawn smaller, so the
+sides lean in. These are **converging verticals**. Keep the camera level, so the
+sensor stays parallel to the face, and vertical lines stay vertical. Point it straight
+down at a table and the table's edges stay parallel. → [[Perspective-Correction]]
 
 Height and distance work together. A low angle close to a person with a wide lens makes
 the legs look long and the head small, because the feet are much closer to the lens
@@ -152,9 +153,9 @@ These are exactly the frames that make up the "work" part of **A3.1** (frames 16
 > viewer is placed above them and sees the top of the head instead of the eyes.
 
 > [!question]- You shoot a tall block of flats from its base, tilting up, and the sides lean in. Why?
-> The top of the block is much further from the lens than the bottom, so it's drawn
-> smaller. Step back and keep the camera level, tilt strongly so it looks deliberate,
-> or correct it in the edit.
+> Tilted up, the sensor no longer faces the block square-on, so the top is much further
+> from the sensor than the bottom and is drawn smaller. Step back and keep the camera
+> level, tilt strongly so it looks deliberate, or correct it in the edit.
 
 > [!question]- What does a low viewpoint do to a subject, and why?
 > It makes the subject look bigger and stronger, because the viewer is placed below,

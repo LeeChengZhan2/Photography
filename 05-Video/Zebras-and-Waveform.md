@@ -116,11 +116,13 @@ what it offers. A few points hold whatever you find:
   dedicated video app such as Blackmagic Camera.
 - **Pocket 3 and Action 5 Pro:** in Pro / PRO mode you set the shutter and ISO yourself.
   Use whatever exposure tool the device shows to check the result before you roll.
-- **Lumix L10:** if you shoot V-Log, the standard skin targets don't apply. Follow
-  Panasonic's guidance for V-Log.
+- **Lumix L10:** the best-equipped of the four. It has [Zebra Pattern],
+  [Waveform Monitor] and [Luminance Spot Meter], which reads the brightness of one
+  point; there's no false colour. If you shoot V-Log, the standard skin targets don't
+  apply: Panasonic's V-Log puts 18% grey at about 42%.
 - **On any device without these tools,** film a short test and check it on your
-  editor's scopes. Most video editors, including DaVinci Resolve and Premiere Pro, have
-  a waveform.
+  editor's scopes. Most video editors, including DaVinci Resolve and Premiere (formerly
+  Premiere Pro), have a waveform.
 
 ## Common mistakes
 

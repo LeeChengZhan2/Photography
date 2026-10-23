@@ -40,11 +40,13 @@ a whole film sounds to human ears, averaged over its length. The numbers are neg
 and closer to zero is louder. A change of 1 LU is a change of 1 dB. The figure for the
 whole film is its **integrated** loudness.
 
-**Platforms turn loud films down.** Many streaming platforms, YouTube among them, turn
-any film louder than about −14 LUFS down to that level. A mix at −8 LUFS is turned down
-by about 6 dB: making it louder gained nothing. Some platforms also turn quiet films up;
-YouTube doesn't, so don't mix too quietly either. Targets differ by platform and can change; European TV uses −23 LUFS. Also
-keep the **true peak** (in dBTP), the real top of the sound wave, below about −1 dBTP.
+**Platforms turn loud films down.** Many streaming platforms turn any film louder than
+their reference level down to it. Spotify documents −14 LUFS; YouTube doesn't publish
+its figure, but measurements put it at about −14 LUFS too. A mix at −8 LUFS is turned
+down by about 6 dB: making it louder gained nothing. Some platforms also turn quiet
+films up; YouTube's normalisation doesn't, so don't mix too quietly either. Targets
+differ by platform and can change; European TV uses −23 LUFS. Also keep the **true
+peak** (in dBTP), the real top of the sound wave, below about −1 dBTP.
 
 **Music and speech fight for the same space.** The sounds that make words clear sit
 mostly between about 1 and 5 kHz, where much of a song's melody sits too. At similar
@@ -84,8 +86,8 @@ that stops anything passing a ceiling. One on the final mix catches stray peaks.
 5. **Place the effects** and set them by ear.
 6. **Add the music and duck it** under speech (below).
 7. **Measure the whole film** (Resolve has a loudness meter on its Fairlight page). For
-   online, aim for about −14 LUFS integrated and true peaks below about −1 dBTP.
-   Adjust the master level, with a limiter on the final mix.
+   online, the usual convention is about −14 LUFS integrated, with true peaks below
+   about −1 dBTP. Adjust the master level, with a limiter on the final mix.
 8. **Listen on two systems:** headphones, then a phone speaker. A phone speaker has
    almost no bass, so anything that relies on bass disappears.
 
@@ -99,7 +101,7 @@ around −30 to −20 dBFS and effects around −20 to −10 dBFS. Then trust yo
 2. Lower the music at the second keyframe, often by 10–15 dB, until every word is easy
    to follow. Ramp it back up the same way when the speech ends.
 3. Listen. If you notice the music moving, make the ramps longer. Some editors,
-   Premiere Pro among them, can duck automatically, but doing it by hand first teaches
+   Premiere among them, can duck automatically, but doing it by hand first teaches
    you what to listen for.
 
 ### Music you're allowed to use
@@ -110,12 +112,15 @@ can have your sound muted, the video blocked, or its ad income paid to them inst
 
 - **The platform's own music library.** YouTube, Instagram and TikTok offer music
   cleared for use on their platform. Often it's cleared *only* there, so check before
-  you post the same file elsewhere.
+  you post the same file elsewhere. Instagram's and TikTok's main libraries are for
+  personal posts; business accounts get a smaller library cleared for commercial use.
 - **Royalty-free libraries.** You pay once, or subscribe, and then don't pay per view.
   It doesn't mean free or copyright-free: read what the licence covers (which
   platforms, commercial use, credit).
 - **Creative Commons music.** Free, with conditions: CC BY needs a credit, and NC means
-  non-commercial use only.
+  non-commercial use only. Avoid ND (no derivatives): the licence counts putting music
+  to pictures as changing it. With SA (share-alike), your film must carry the same
+  licence.
 - **Music you made yourself**, or written permission from whoever owns it.
 
 > [!warning] Not legal advice
@@ -127,7 +132,7 @@ can have your sound muted, the video blocked, or its ad income paid to them inst
 - **Every device records its own sound.** In **A5.5** and **A5.6**, use the device
   closest to the person speaking as your sound source, and mute the others.
 - **Line clips up by sound.** Clap once in front of every camera at the start of a
-  take; the clap makes a sharp spike in each waveform. Resolve and Premiere Pro can
+  take; the clap makes a sharp spike in each waveform. Resolve and Premiere can
   also sync clips by their waveforms automatically.
 - **A camera's own microphone is wherever the camera is,** often metres from the
   speaker. Expect room echo and background noise, so the cleaning steps matter more.

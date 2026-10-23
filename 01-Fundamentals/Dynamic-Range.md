@@ -77,7 +77,9 @@ level where noise swamps detail) drops much less.
 **Measure the gap.** With spot metering, read the brightest area that must keep detail,
 then the darkest. Count the stops between the two readings. Up to about 5 stops fits
 easily, even in a JPEG. Up to about 8–9 can work in raw if you protect the highlights
-and lift the shadows later. Beyond that, something has to give.
+and lift the shadows later. Beyond that, something has to give. These numbers are
+smaller than the table's because a file keeps clean detail only well inside its full
+range; the last stops at each end are noise or near-white.
 
 When the scene is too wide, you have five options:
 
@@ -152,8 +154,9 @@ This pairs with **A1.4**, which you shoot the same week, and previews **A4.2**.
 > Shadow pixels still hold some light. Lifting them brings back detail, with noise.
 
 > [!question]- Bright sky, friend in shade, about 12 stops apart. Name three ways to handle it.
-> Expose for the sky and lift your friend in editing; add fill light with a reflector
-> or flash; bracket and merge. Or accept a silhouette, or a white sky, on purpose.
+> Add fill light with a reflector or flash; bracket and merge; or expose for the sky
+> and lift your friend in editing, accepting noise, because 12 stops is past what one
+> raw file holds cleanly. Or accept a silhouette, or a white sky, on purpose.
 
 > [!question]- Why does dynamic range shrink as ISO rises?
 > Gain makes the file clip with less light, so highlight room shrinks. The noise floor

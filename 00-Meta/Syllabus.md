@@ -175,8 +175,9 @@ background soft") and you state settings out loud, correctly, in under five seco
   portraits, five different feels.
 
 ### Exit test
-Walk into an unfamiliar room and, within a minute, point to where you'd put a person
-and why.
+Walk into an unfamiliar room, cold. Within a minute, describe its light in four words
+(quality, direction, colour, contrast ratio) and point to where you'd put a person, and
+why.
 
 ---
 
@@ -245,7 +246,7 @@ RawTherapee. Pick one and stop shopping.
 
 ### Concepts
 - [[Editing-Workflow]] — the five stages and their order
-- [[Culling-Discipline]] — flags/ratings, one pass, no second-guessing
+- [[Culling-Discipline]] — flags, then stars: two passes, no second-guessing
 - [[Non-Destructive-Editing]] — catalogues, sidecars, virtual copies
 - [[Tone-Curve]] — contrast, black point, filmic shoulders
 - [[Basic-Panel-Order]] — WB → exposure → contrast → highlights/shadows → presence
@@ -298,7 +299,7 @@ Video reuses everything before it: exposure with one control taken away, light,
 composition with time added, and colour. What's new is the cut. You can only edit the
 shots you thought to take, and sound carries as much of the film as the picture does.
 
-Tool-agnostic — the concepts transfer between DaVinci Resolve, Premiere Pro, Final Cut
+Tool-agnostic — the concepts transfer between DaVinci Resolve, Premiere, Final Cut
 Pro, LumaFusion and CapCut. Pick one editor and stop shopping.
 
 ### Objectives

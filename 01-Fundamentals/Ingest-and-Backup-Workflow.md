@@ -114,13 +114,16 @@ Once the pattern is set up, this takes a few minutes plus the copying time.
 - **Lumix L10, Pocket 3 and Action 5 Pro:** take the card out and read it with a card
   reader or the computer's card slot. It's the fastest route, and the same for every
   camera. A USB cable to the camera also works on most cameras; check the manual. Keep
-  the L10's RAW and JPEG/HEIF pairs together.
+  the L10's RAW and JPEG/HEIF pairs together. The Action 5 Pro also has 47 GB of
+  built-in storage: anything saved there isn't on the card, so copy it over USB too.
 - **iPhone 15 Pro Max:** there's no card. Connect it with a USB-C cable, unlock it, and
   allow access when the phone asks. On a Windows PC, import with the Photos app, or copy
   from the phone's DCIM folder in File Explorer.
   - The phone can convert HEIF to JPEG during the transfer. To get the originals, look
     for the transfer option in the phone's Photos settings and choose to keep them.
-  - If HEIF files won't open, Windows may need Microsoft's free HEIF extension.
+  - If HEIF files won't open, install Microsoft's free HEIF Image Extensions from the
+    Microsoft Store. iPhone HEIF photos are compressed with HEVC, so Windows may also
+    need Microsoft's HEVC Video Extensions, which cost a little.
   - **iCloud Photos is sync, not backup.** Delete a photo on the phone and it goes from
     iCloud too. With storage optimisation on, the full-size originals may exist only in
     iCloud.

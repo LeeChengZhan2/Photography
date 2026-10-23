@@ -100,25 +100,32 @@ shots hide it.
 2. **Use 50 fps when slow motion might help later.** You keep the choice for the edit.
 3. **Save 100 or 120 fps for real slow motion** in bright light: a splash, a jump, hair
    turning. The shutter must be about 1/200–1/250 s, two stops or more less light than
-   1/50 s, so dim scenes get noisy.
+   1/50 s, so dim scenes get noisy. Under mains lights it can flicker too, because the
+   shutter is shorter than one pulse. Use daylight, or 100 fps at 1/100 s and accept
+   more blur.
 4. **Set every device to the same rate before a shoot.** Check the frame rate, not just
    the resolution. A5.5 depends on it.
 5. **Use 30 or 60 fps only on purpose.** Daylight doesn't flicker, so outdoors it's
    fine. Under mains lights, keep the shutter at 1/50 s or 1/100 s, even at 30 fps.
+   At 60 fps only 1/100 s fits, because a frame lasts just 1/60 s.
 
 ## On your kit
 
 - **All four devices:** set the frame rate in each device's video settings before you
   roll. Check which resolutions offer 50 fps and above. High frame rates often come
   with a lower resolution or a tighter crop.
+- **Lumix L10:** set [System Frequency] to [50.00Hz (PAL)] first. At 59.94Hz it offers
+  23.98p and 29.97p instead of 25p and 50p.
 - **iPhone 15 Pro Max:** 25 fps stays hidden until you turn on Show PAL Formats
-  (Settings → Camera → Record Video). Apple's Camera app picks the shutter for you, so
-  for a fixed 1/50 s use a video app such as Blackmagic Camera. Internal ProRes stops
-  at 4K 30 fps; 4K 60 fps in ProRes needs an external USB-C SSD.
+  (Settings → Camera → Record Video). There's no 50 fps (4K at 24/25/30/60, 1080p at
+  25/30/60), so choose 25 fps, or 60 fps for slow motion. Apple's Camera app picks the
+  shutter for you, so for a fixed 1/50 s use a video app such as Blackmagic Camera.
+  Internal ProRes stops at 4K 30 fps; 4K 60 fps in ProRes needs an external USB-C SSD.
 - **Pocket 3 and Action 5 Pro:** set the shutter yourself in Pro / PRO mode. Otherwise
   the camera chooses it.
 - **Action 5 Pro:** HorizonSteady (horizon levelling) works only at 1080p or 2.7K 16:9,
-  up to 60 fps. Above 60 fps, for slow motion, you lose it.
+  up to 60 fps. Above 60 fps you lose it, and Slow Motion mode gets no stabilisation
+  at all.
 
 ## Common mistakes
 
@@ -163,7 +170,8 @@ at the same frame rate.
 > [!question]- You want 4× slow motion in a 25 fps film. What do you record, and what's the catch?
 > Record at 100 fps with a shutter of about 1/200 s, or at 120 fps with 1/250 s for
 > 4.8×. The catch is light: the shutter is two stops or more faster than 1/50 s, so you
-> need a bright scene or the footage gets noisy.
+> need a bright scene or the footage gets noisy. Under mains lights it may also
+> flicker, so daylight is the safe choice.
 
 ## Related
 [[Shutter-Angle]] · [[Shutter-Speed]] · [[ND-Filters]] · [[Codecs-and-Bitrate]] ·

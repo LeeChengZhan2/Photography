@@ -38,8 +38,8 @@ is right for some photos (→ [[Symmetry-and-Centring]]). Often, though, it make
 feel like a record rather than a moment.
 
 Move the subject off-centre and the spaces become unequal: a small one on one side, a
-large one on the other. The eye goes to the subject, travels into the larger space,
-then comes back. That movement makes the frame feel alive.
+large one on the other. The eye tends to go to the subject, wander into the larger
+space, then come back. That movement makes the frame feel alive.
 
 ### Why it leaves room
 
@@ -56,6 +56,10 @@ There's nothing magic about exactly one third. A subject very close to the edge 
 cramped and pulls the eye out of the frame. One in the exact centre feels static. A
 third is a simple, easy-to-see point between the two. Treat the lines as a zone, not a
 target.
+
+Nor is there good evidence that thirds make a photo better. A 2014 study found that
+highly rated photos, and a large set of paintings, followed the rule hardly more than
+photos that broke it. The grid gets you out of the centre; it doesn't make the picture.
 
 ### The horizon is a decision
 
@@ -83,8 +87,9 @@ guide.
    subject looks or moves towards.
 4. **Choose the horizon line.** Interesting sky: horizon on the lower third.
    Interesting land or water: horizon on the upper third.
-5. **Move the focus point onto the subject**, or focus and then recompose. Many
-   cameras won't pick an off-centre subject on their own. → [[Autofocus-Modes]]
+5. **Move the focus point onto the subject**, or focus and then recompose. Without
+   subject detection, many cameras won't pick an off-centre subject on their own, and
+   at wide apertures recomposing can shift the focus. → [[Autofocus-Modes]]
 
 Some examples:
 

@@ -110,18 +110,18 @@ sun that needs an ND filter; in shade or at dusk a small aperture may be enough.
 moving before you press the button, move smoothly, and shoot many frames: few will work.
 
 **Multiple exposure:** two or more frames laid over each other in one picture, such as
-a face and the leaves of a tree. Some cameras combine frames in camera; check the L10's
-manual for a multiple-exposure setting. Or shoot the frames normally and combine them
+a face and the leaves of a tree. Some cameras combine frames in camera, and the L10 has
+a [Multiple Exposure] setting. Or shoot the frames normally and combine them
 in an editor with layers: put one above the other and use a "Lighten" or "Screen"
 blend, or lower the top layer's opacity. The other frame shows through the dark areas.
 
 ## On your kit
 
-- **Lumix L10:** your long-exposure camera. The mechanical shutter goes to 60 s; check
-  the manual for a Bulb setting. **Live View Composite** adds only *new* bright areas
-  during a long exposure, so light trails build up without the rest of the scene
-  blowing out. It's a ready-made "abstract" frame for A1.2. There's no built-in ND, so
-  daylight means a filter or dusk.
+- **Lumix L10:** your long-exposure camera. The shutter goes to 60 s, and its
+  [T] (Time) setting also stops at about 60 s: there's no Bulb. **Live View Composite**
+  adds only *new* bright areas during a long exposure, for up to 3 hours, so light
+  trails build up without the rest of the scene blowing out. It's a ready-made
+  "abstract" frame for A1.2. There's no built-in ND, so daylight means a filter or dusk.
 - **Action 5 Pro:** PRO mode photos go to 30 s, the longest after the L10. Stills get
   no stabilisation, so mount or rest it. It's waterproof, so it can sit at the water's
   edge for waves.

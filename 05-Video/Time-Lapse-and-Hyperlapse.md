@@ -78,12 +78,14 @@ in editing) is an advanced skill; start with scenes where the light stays steady
 - **iPhone 15 Pro Max:** Apple's Camera app has a Time-lapse mode. It chooses the
   interval and exposure for you. Use the AE/AF lock (press and hold) to stop exposure
   changes, and keep the phone on a support.
-- **Pocket 3 and Action 5 Pro:** both have built-in time-lapse and hyperlapse modes;
-  check each manual for the mode names and settings. Pro / PRO mode lets you lock
-  exposure. The Pocket 3's gimbal keeps a handheld hyperlapse steady.
-- **Lumix L10:** check the manual for an interval or time-lapse shooting setting. If it
-  has one, it gives you raw files for every frame, which grade far better than a phone
-  clip. Its 60 s mechanical shutter suits star time-lapses.
+- **Pocket 3 and Action 5 Pro:** both have built-in Timelapse and Hyperlapse modes, and
+  the Pocket 3 adds Motionlapse, a time-lapse in which the gimbal slowly turns the
+  camera. Pro / PRO mode lets you lock exposure. The Pocket 3's gimbal keeps a handheld
+  hyperlapse steady; the Action 5 Pro gets no stabilisation in Timelapse, so mount it.
+- **Lumix L10:** [Time Lapse Shot] sets the interval and the number of frames, and
+  [Exposure Leveling] smooths the brightness jumps in a day-to-night lapse. If it can
+  save raw frames, they grade far better than a phone clip. Its 60 s mechanical
+  shutter suits star time-lapses.
 
 ## Common mistakes
 

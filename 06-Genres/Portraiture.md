@@ -74,7 +74,7 @@ looks natural. The lens then only decides how much fits in the frame.
 | Waist up | 2–3 m | about 50 mm | 2× (48 mm) |
 | Environmental | 2–4 m | 24–35 mm | 1× (24 mm) |
 
-Background blur on the L10 is modest: f/2.8 blurs about as much as f/5.6 would on full
+Background blur on the L10 is modest: f/2.8 blurs about as much as f/6.2 would on full
 frame. So separate with distance. Put the background far behind your subject (5–10 m),
 and choose one that is plain and darker than the face.
 

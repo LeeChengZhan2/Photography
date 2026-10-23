@@ -65,8 +65,9 @@ movement.
 ### Why electronic shutter and flash don't mix
 
 An electronic shutter reads the sensor row by row. That readout is slow compared with a
-flash burst, so at most speeds only some rows would catch the flash. Most cameras
-simply don't fire a flash with the electronic shutter, and the L10 is one of them.
+flash burst, so at most speeds only some rows would catch the flash. Many cameras don't
+fire a flash with the electronic shutter, and the L10 is one of them. A few newer
+cameras with very fast sensor readout can.
 
 ## How to use it
 
@@ -80,8 +81,9 @@ simply don't fire a flash with the electronic shutter, and the L10 is one of the
 ## On your kit
 
 The L10 fires a flash only with its mechanical shutter, which runs from 60 s to
-1/2000 s. With the electronic shutter selected, the flash won't fire. The other three
-devices can't use a flash at all.
+1/2000 s. With the electronic shutter selected, the flash won't fire, and the manual
+doesn't mention high-speed sync, so plan without it. The other three devices can't use
+a flash at all.
 
 ## Common mistakes
 

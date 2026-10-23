@@ -124,8 +124,10 @@ subject stays fairly sharp while the background streaks.
 - **Lumix L10:** the only device with both shutters. Mechanical (60 s to 1/2000 s) is
   for flash, fast motion and LED-lit rooms. Electronic (to 1/32000 s) is silent, but
   flash won't fire with it. You need it for f/1.7 in bright sun, which calls for about
-  1/8000 s at ISO 100; there's no built-in ND filter (dark glass that cuts light). Test
-  how slow its 2-axis optical stabilisation lets you go at 24 mm and at 75 mm.
+  1/8000 s at ISO 100; there's no built-in ND filter (dark glass that cuts light). Under
+  LED lights, [Synchro Scan] fine-tunes the shutter speed in small steps until the
+  bands go. Test how slow its 2-axis optical stabilisation lets you go at 24 mm and at
+  75 mm.
 - **iPhone 15 Pro Max:** electronic only. Halide or Lightroom can set the shutter, up to
   about 1 s. The 0.5× (13 mm) lens has no stabilisation: brace yourself or switch to 1×.
 - **Pocket 3:** electronic only, 1/8000–1 s in Pro mode. The gimbal holds the camera

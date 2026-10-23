@@ -39,7 +39,7 @@ sequence.
 | **Total** | **32** | | **~160 h** | | | |
 
 - **One assignment** takes about one week's shoot and edit time (about 3 hours). In
-  weeks with two, split that time between them.
+  weeks with two or three, split that time between them.
 - **One note** takes about 10–15 minutes, including its "Check yourself" questions.
   Each week's reading is planned to fit in about an hour.
 - **Two editing notes come early** — [[Editing-Workflow]] in week 1 and
@@ -110,7 +110,9 @@ is the one gate worth being strict about.
 | 7 | 7–13 Dec | [[Colour-Temperature-of-Light]], [[Available-Light-Discipline]], [[Lens-Filters]] | A2.4 | Same subject, four times of day |
 | 8 | 14–20 Dec | [[Flash-Fundamentals]], [[Sync-Speed]], [[Bounce-Flash]], [[Off-Camera-Flash]], [[Balancing-Flash-and-Ambient]] | A2.5, A2.6 | Five one-light portraits |
 
-**Gate 2 (20 Dec):** describe three rooms' light in four words each, cold.
+**Gate 2 (20 Dec):** Module 2's exit test in the [[Syllabus]], in three unfamiliar
+rooms, cold: describe each room's light in four words, and point to where you'd put a
+person.
 
 > [!note] No flash yet?
 > Week 8 needs an external flash on the L10's hot shoe. The L10 has no built-in flash
@@ -171,10 +173,11 @@ forward instead of blocking Module 6.
 
 > [!note] No ND filter?
 > At 25 fps the 180° rule asks for 1/50 s. In daylight that's several stops too much
-> light for the iPhone and the DJIs, whose apertures are fixed, and on the L10 it means
-> stopping down to around f/16, deep into diffraction. Without ND filters, shoot A5.1
-> at dusk or indoors. For the rest, film in low light or accept a faster shutter in
-> daylight and note what it does to the motion.
+> light for the iPhone and the DJIs, whose apertures are fixed. On the L10, even its
+> smallest aperture, f/16, lets in about a stop too much in full sun at base ISO, and
+> f/16 is deep into diffraction. Without ND filters, shoot A5.1 at dusk or indoors.
+> For the rest, film in low light or accept a faster shutter in daylight and note what
+> it does to the motion.
 
 ---
 
@@ -187,7 +190,7 @@ forward instead of blocking Module 6.
 | 21 | 15–21 Mar | Genre A: read its note, then study 20 images | A6.1 | 20 analysed images |
 | 22 | 22–28 Mar | Genre A: shoot | A6.2 | Ten-frame set |
 | 23 | 29 Mar–4 Apr | Genre B: read its note, study, shoot | A6.1, A6.2 | 20 analysed + ten-frame set |
-| 24 | 5–11 Apr | Constraint shoot, both genres | A6.3 | "Wrong gear" set + writeup |
+| 24 | 5–11 Apr | Constraint shoot, one of your two genres | A6.3 | "Wrong gear" set + writeup |
 
 **Choose your two here:** _______________ and _______________
 
@@ -203,7 +206,7 @@ genre notes are listed in [[Genre-Index]].
 | Week | Dates | Read | Assignments | Deliverable |
 |---|---|---|---|---|
 | 25 | 12–18 Apr | [[Reading-a-Photograph]], [[Critique-Vocabulary]] | A7.1 (starts) | Ten critiques |
-| 26 | 19–25 Apr | [[Photographers-to-Study]], [[History-of-Photography-Skim]], [[Copyright-and-Consent]] | A7.1 (ends), A7.3 | Ten more critiques + three reproductions |
+| 26 | 19–25 Apr | [[Photographers-to-Study]], [[History-of-Photography-Skim]], [[Copyright-and-Consent]] | A7.1 (ends), A7.3 | Ten more critiques + three reproductions + one of your own |
 | 27 | 26 Apr–2 May | [[Editing-a-Sequence]], [[Series-vs-Singles]], [[Portfolio-Construction]] | A7.4 | Sequenced set of twelve |
 | 28 | 3–9 May | [[Personal-Style]], [[Artist-Statement]], [[Sharing-and-Feedback]] | A7.2 | Draft statement + cold self-critique |
 

@@ -110,7 +110,8 @@ On the L10, the flash fires only with the mechanical shutter, so the electronic
 shutter's high speeds are not available here. The aperture ring makes step 1 quick.
 Find the sync speed before you rely on any of this. Wide open at f/1.7 in bright sun,
 the shutter you'd need is beyond what the mechanical shutter allows with flash, so
-close the aperture or use HSS if your flash and the L10 support it.
+close the aperture. The L10's manual doesn't mention high-speed sync, so don't count on
+HSS.
 
 ## Common mistakes
 

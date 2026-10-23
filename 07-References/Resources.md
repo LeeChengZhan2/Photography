@@ -17,7 +17,7 @@ shooting — the rule is **one book and one channel at a time**.
 | *Light: Science and Magic* | Hunter, Biver, Fuqua, Reid | Module 2. The definitive book on **why** light behaves as it does. Dense; worth it. |
 | *The Photographer's Eye* | Michael Freeman | Module 3. Composition treated as design rather than rules. Not Szarkowski's 1966 MoMA book of the same name, which suits Module 7. |
 | *In the Blink of an Eye* | Walter Murch | Module 5. A great film editor on why and where to cut. Short; the classic. |
-| *Grammar of the Edit* | Roy Thompson & Christopher J. Bowen | Module 5. The working vocabulary of shots, cuts and continuity. |
+| *Grammar of the Edit* | Christopher J. Bowen (earlier editions with Roy Thompson) | Module 5. The working vocabulary of shots, cuts and continuity. |
 | *The Camera* / *The Negative* / *The Print* | Ansel Adams | Deep dive. Still the best writing on previsualisation. |
 | *Read This If You Want to Take Great Photographs* | Henry Carroll | Fast, visual, good for momentum in week 1. |
 
@@ -62,6 +62,9 @@ Pick one. Watching is not practising.
 Pick **one** RAW developer and stay with it for the whole syllabus. Switching tools
 mid-way costs you the muscle memory that Module 4 is meant to build.
 
+The L10 is a 2026 camera, and editors add new cameras only in updates. Before you
+commit to a tool, check that its current version opens the L10's RW2 files.
+
 | Tool | Notes |
 |---|---|
 | Lightroom Classic / Lightroom | Subscription. Best ecosystem, excellent AI denoise and masking. |
@@ -80,7 +83,7 @@ Same rule: pick **one** editor and stay with it.
 | DaVinci Resolve | Free; the paid Studio version adds more. Windows, Mac, Linux and iPad. Editing, colour and sound in one app, and it already reads your V-Log, Apple Log and D-Log M footage and their LUTs. Blackmagic's free official training is the place to start. |
 | CapCut | Free, with a paid tier. Phone and desktop. The fastest route to a short social clip, with templates and auto-captions; less control over colour and sound than Resolve. |
 | LumaFusion | One-time purchase. iPhone and iPad. A real multi-track editor on a device you already carry; reads `.cube` LUTs. |
-| Premiere Pro | Subscription. Windows and Mac. Widely used in industry; pairs with Lightroom if you chose Adobe for Module 4. |
+| Premiere (formerly Premiere Pro) | Subscription. Windows and Mac. Widely used in industry; pairs with Lightroom if you chose Adobe for Module 4. |
 | Final Cut Pro | Mac and iPad only — not on Windows. |
 
 ## Planning & field tools

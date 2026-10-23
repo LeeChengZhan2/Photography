@@ -142,12 +142,12 @@ is both cheaper and more accurate along the neutral axis — grey runs corner-to
 through the cube as a straight diagonal, and tetrahedral keeps points on it while
 trilinear drifts off it and tints your greys. Choose tetrahedral wherever it is offered.
 
-**Lattice size is not the whole story.** 33³ is 35,937 nodes and 65³ is 274,625 — eight
-times the file for one doubling per axis. But nodes are spaced evenly in *code value*,
-not in perceived colour, so the lattice is only dense where the encoding is dense. This
-is why a 3D LUT applied to **linear** data misbehaves: linear light spends nearly all
-its code values on highlights, leaving the shadows — where the eye is most sensitive — a
-handful of nodes to work with.
+**Lattice size is not the whole story.** 33³ is 35,937 nodes and 65³ is 274,625 —
+nearly eight times the file for one doubling per axis. But nodes are spaced evenly in
+*code value*, not in perceived colour, so the lattice is only dense where the encoding
+is dense. This is why a 3D LUT applied to **linear** data misbehaves: linear light
+spends nearly all its code values on highlights, leaving the shadows — where the eye is
+most sensitive — a handful of nodes to work with.
 
 **Shaper LUTs.** A shaper is a 1D LUT applied *before* the 3D lookup that bends the data
 into a roughly perceptual (log-ish) encoding so the lattice samples somewhere useful,
@@ -237,7 +237,7 @@ name doesn't: crushed shadows, a shifted green, or a point where saturation runs
 
 | Input | Can it take a LUT? | What to watch |
 |---|---|---|
-| **Raw — DNG, ProRAW, RW2…** | Not directly. A raw file has no RGB triplets until it's demosaiced, so there is nothing to look up. The LUT applies *after* the developer, or is wrapped as a profile *inside* it | WB and exposure decide the numbers the LUT will be handed. Settle them first |
+| **Raw — DNG, ProRAW, RW2…** | Not directly. Most raws have no RGB triplets until they're demosaiced, and ProRAW's are still linear light rather than a finished picture, so there is nothing a LUT was built to look up. The LUT applies *after* the developer, or is wrapped as a profile *inside* it | WB and exposure decide the numbers the LUT will be handed. Settle them first |
 | **16-bit TIFF / PSD** | Yes — the safe target for stills | Enough levels to survive a stretch. This is the case with no gotcha |
 | **8-bit JPEG / HEIC** | Yes, and it's where most people actually do it | 256 levels per channel. A heavy LUT posterises skies and gradients — keep the move gentle |
 | **Log video and stills (D-Log M, Apple Log, V-Log)** | Yes, and here a transform isn't optional — a technical LUT or a colour-space transform comes first | The LUT must match the exact log curve *and* the camera |

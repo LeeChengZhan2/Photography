@@ -23,8 +23,9 @@ created: 2026-10-22
 | **Generative remove** | An AI model invents new pixels to fill the area | Big or complicated areas; it can invent details that were never there |
 
 In Lightroom, the Remove tool has heal, clone and content-aware modes, plus an optional
-generative AI mode. darktable has a retouch module, and Capture One uses healing and
-clone layers.
+generative AI mode and one-click Distraction Removal for things like reflections and
+sensor dust. darktable has a retouch module, and Capture One uses healing and clone
+layers.
 
 ## How it works
 
@@ -111,9 +112,10 @@ removed a colleague's video camera from the corner of a photo taken in Syria.
 **Disclosure** keeps you honest everywhere else. If you removed or added something
 significant, say so in the caption. Many contests ask finalists for the original raw
 file to compare. Some editors can attach Content Credentials: a record of how an image
-was made and edited. Some countries now require a label on adverts in which a body has
-been retouched. Rules differ between countries and change over time, and this is not
-legal advice. → [[Copyright-and-Consent]]
+was made and edited. Since August 2026, Adobe's apps add them automatically when you
+use one of their generative AI tools. Some countries now require a label on adverts in
+which a body has been retouched. Rules differ between countries and change over time,
+and this is not legal advice. → [[Copyright-and-Consent]]
 
 A quick test: would the viewer feel misled if they saw the original? If yes, disclose
 it, or don't do it.

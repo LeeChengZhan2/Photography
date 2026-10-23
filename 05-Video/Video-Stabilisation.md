@@ -23,7 +23,7 @@ frame keeps jumping as it plays. There are four ways to fight it:
 |---|---|---|---|
 | Mechanical gimbal | Motors turn the camera against your movement | Pocket 3 (3-axis) | Can't stop up-and-down bounce |
 | Optical (OIS) | A lens element or the sensor shifts to cancel small shakes | L10 (lens, 2-axis); iPhone (sensor-shift on 1×/2× and 5×) | Small, fast shakes only |
-| Electronic (EIS) | The camera crops in and moves the crop to cancel movement | Action 5 Pro (video only) | A tighter frame; smear in low light |
+| Electronic (EIS) | The camera crops in and moves the crop to cancel movement | Action 5 Pro and iPhone (video only) | A tighter frame; smear in low light |
 | In the editor | Software tracks the shake and shifts or warps each frame | Any clip | A crop, possible warping; blur stays |
 
 And the simplest of all: a tripod, or anything solid to rest the camera on.
@@ -80,7 +80,7 @@ blur in each frame for EIS to reveal. → [[Shutter-Angle]]
 
 Editing software can track points in the picture, work out the shake, then shift,
 rotate or warp each frame to cancel it. It crops in to hide the moving edges. Premiere
-Pro calls it Warp Stabilizer; DaVinci Resolve has a stabiliser too.
+(formerly Premiere Pro) calls it Warp Stabilizer; DaVinci Resolve has a stabiliser too.
 
 It works best on small leftover wobbles. Push it hard and you pay: a bigger crop, and
 warping, where buildings bend and faces wobble like jelly. It can't remove motion blur,
@@ -123,7 +123,8 @@ Lean your shoulder against a pillar.
   three times as big as at 24 mm, so brace yourself when you zoom in.
 - **iPhone 15 Pro Max:** sensor-shift OIS on the 1×/2× and 5× lenses. The 5× (120 mm)
   magnifies shake the most, so rest it on something. The 0.5× has no OIS, but its wide
-  view hides shake well.
+  view hides shake well. For video it adds EIS: Enhanced Stabilization is on by
+  default and crops slightly, and Action mode goes further, up to 2.8K at 60 fps.
 - **Action 5 Pro:** electronic stabilisation, for video only. It crops, and it can smear
   in low light, so give it more light or a steady mount at night. HorizonSteady (which
   keeps the horizon level) works only at 1080p or 2.7K 16:9, up to 60 fps.

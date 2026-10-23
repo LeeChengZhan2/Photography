@@ -78,7 +78,7 @@ near the edge. The sheet turns with the camera, and the focus now falls slightly
 the eye.
 
 With deep depth of field nobody notices. Up close at a wide aperture, you will. On the
-L10 at 24 mm, f/1.7 and 50 cm from a face, only about 8 cm is sharp, and only about 4 cm
+L10 at 24 mm, f/1.7 and 50 cm from a face, only about 10 cm is sharp, and less than 5 cm
 of that is in front of the focus point. Turn the camera 30° to recompose and the eye
 ends up about 7 cm in front of the new focus sheet: outside the zone.
 → [[Depth-of-Field]]
@@ -108,7 +108,8 @@ detection.
 Rules of thumb:
 
 1. **Moving subject? Use AF-C.** A person walking towards you covers about 30 cm in a
-   fifth of a second. At 75 mm and f/2.8, the sharp zone at 2 m is only about 25 cm deep.
+   fifth of a second. At 75 mm and f/2.8, the sharp zone at 2 m is only about 27 cm
+   deep.
 2. **Focus on the eye nearest the camera.** People look at eyes first, and at portrait
    distances the zone is thin.
 3. **At wide apertures, move the point, don't recompose.** Because the focus sheet turns
@@ -165,13 +166,13 @@ This is practice for the Module 1 exit test: "moving kid, indoors, want them sha
 
 > [!question]- A child is running around a playground. Which focus mode and area mode do you choose, and why?
 > AF-C with wide / tracking or zone, and face or eye detection on. AF-S would lock where
-> the child was a moment ago, and at 75 mm and f/2.8 the sharp zone is only about 25 cm
-> deep.
+> the child was a moment ago, and at 75 mm, f/2.8 and 2 m the sharp zone is only about
+> 27 cm deep.
 
 > [!question]- You focus on an eye with the centre point at f/1.7, then recompose so the face is near the edge. Why is the eye soft?
 > Focus is a flat sheet facing the camera, and it turned when the camera turned. The
-> focus now falls behind the eye, and up close at f/1.7 the zone is only a few
-> centimetres deep. Move the AF point instead.
+> focus now falls behind the eye, and up close at f/1.7 the zone reaches only a few
+> centimetres in front of it. Move the AF point instead.
 
 > [!question]- At dusk, the camera hunts back and forth on a plain white wall. Why, and what do you do?
 > There is little light and no contrast, so the AF system has nothing to measure. Focus

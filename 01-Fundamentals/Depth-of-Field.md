@@ -41,8 +41,8 @@ records a tiny disc instead of a point.
 If the disc is small enough, you can't tell it from a point. The largest disc that still
 looks like a point is called the **circle of confusion**. It is not a part of the lens.
 It is an agreement about how closely the photo will be looked at. The usual standard is
-a print about A4 size, seen from about 25 cm. On a Four Thirds sensor like the L10's,
-that means a disc about 0.014 mm wide.
+a print about A4 size, seen from about 25 cm. On full frame that means a disc about
+0.03 mm wide; on the L10 (crop factor about 2.2), about 0.014 mm.
 
 ### The four controls
 

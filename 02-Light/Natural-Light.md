@@ -61,7 +61,8 @@ minutes.
 
 **Blue hour** comes after sunset (and before sunrise). The sun is below the horizon, so
 the only light is the deep blue sky. It is very soft and balances well with warm city
-lights, but in Singapore it lasts only about 15–25 minutes.
+lights, but in Singapore it lasts only about 15–25 minutes, depending on how you define
+it. Watch the light, not the clock.
 
 **After rain**, the air is cleaner because rain washes out dust and haze. Distant views
 are sharper. Wet surfaces look darker and more saturated, because the water film reduces

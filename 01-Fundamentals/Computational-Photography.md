@@ -56,8 +56,8 @@ The main camera's 48 MP sensor groups its pixels in fours, each group under the 
 colour filter. In dim light the phone can add each group together and behave like a
 12 MP sensor with bigger pixels: less detail, but less noise. In good light it can read
 all 48 million pixels for detail. That's why Night mode saves 12 MP, while ProRAW on
-the 1× lens can save 48 MP. The phone chooses for you, so check your own files'
-resolution when you do **A0.1**.
+the 1× lens can save 48 MP. Ordinary 1× photos land in between, at 24 MP by default.
+The phone chooses for you, so check your own files' resolution when you do **A0.1**.
 
 ### Portrait mode: a depth map and fake blur
 

@@ -93,7 +93,7 @@ front of each name when you copy the files, keeps every name unique.
   back-button focus, set [Shutter AF] to off and focus with [AF ON].
   → [[Back-Button-Focus]]
 - **Review and display:** [Auto Review] off, which A1.5 requires. Grid, level and live
-  histogram on; check the manual for where.
+  [Histogram] on (the histogram is off by default); check the manual for where.
 - **Housekeeping:** date, time and time zone; your name and copyright if the menu has
   them; continuous file numbering; beeps off. Format cards in the L10.
 
@@ -101,7 +101,9 @@ front of each name when you copy the files, keeps every name unique.
 - **Files:** turn on ProRAW in Settings → Camera → Formats → ProRAW & Resolution
   Control. Use it on the 1× lens when you'll edit: 48 MP there, 12 MP on the other
   lenses and in Night mode, flash and macro shots. HEIF is fine for everything else.
-  Check that raw is switched on in the Camera app before an assignment.
+  To keep raw on between sessions, also turn on Settings → Camera → Preserve Settings →
+  ProRAW & Resolution Control. Check that raw is on in the Camera app before an
+  assignment.
 - **Photographic Style:** Standard. On this model a Style bakes in at capture, and it
   can't be used with ProRAW.
 - **Grid and level:** on, in the Camera settings.
@@ -117,8 +119,8 @@ front of each name when you copy the files, keeps every name unique.
   (3840 × 2160).
 - **Gimbal:** Follow by default. Tilt Locked holds the pitch steady; FPV rolls with you.
 - **Focus:** from 20 cm. Closer than that, step back.
-- **Firmware:** install the final version before 31 Dec 2026, when DJI's guaranteed
-  updates end.
+- **Firmware:** DJI guarantees updates only until 31 Dec 2026. Install the last one it
+  releases.
 
 **DJI Osmo Action 5 Pro**
 - **Mode and files:** PRO mode for photos (shutter to 30 s, ISO to 25600). Raw DNG.

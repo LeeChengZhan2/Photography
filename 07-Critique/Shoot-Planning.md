@@ -137,9 +137,9 @@ project to the next.
 - **Pocket 3:** stills come only in 1:1 or 16:9. If your series is 3:2 or 4:3, plan
   those frames on the L10 or the iPhone.
 - **For A5.6:** the iPhone, Pocket 3 and Action 5 Pro have fixed apertures. Without an
-  ND filter, they can't hold 1/50 s in daylight, and the L10 would need about f/16,
-  deep into diffraction. Plan scenes at dusk, indoors or in shade, or accept a faster
-  shutter. → [[ND-Filters]]
+  ND filter, they can't hold 1/50 s in daylight. Nor can the L10 in full sun: even at
+  f/16, its smallest aperture and deep into diffraction, it's about a stop too bright.
+  Plan scenes at dusk, indoors or in shade, or accept a faster shutter. → [[ND-Filters]]
 
 ## Common mistakes
 

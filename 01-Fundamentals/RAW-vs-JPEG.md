@@ -120,8 +120,9 @@ files to DNG: keep the originals.
   only; the other lenses, Night mode, flash and macro shots save 12 MP. Photographic
   Styles can't be used with ProRAW. For A1.3, use Halide's single-frame RAW instead, or
   you'll be measuring Apple's noise reduction.
-- **Pocket 3 and Action 5 Pro:** JPEG or raw DNG. The Pocket 3's stills are only about
-  9.4 MP (1:1) or 8.3 MP (16:9).
+- **Pocket 3 and Action 5 Pro:** JPEG or raw DNG; the Pocket 3 always saves a JPEG
+  alongside its DNG. The Pocket 3's stills are only about 9.4 MP (1:1) or 8.3 MP
+  (16:9).
 
 ## Common mistakes
 

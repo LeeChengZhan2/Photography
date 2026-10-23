@@ -60,3 +60,6 @@ different sessions that look like one body of work is the actual skill, and it's
 harder than it sounds.
 
 ## Shoot logs and edits from this module
+
+Link each shoot log or edit from this module to this note. Obsidian then lists them in
+this note's Backlinks pane.

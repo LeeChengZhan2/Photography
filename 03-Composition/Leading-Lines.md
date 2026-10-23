@@ -30,12 +30,14 @@ A line can be straight, curved or zig-zag, and each shape feels different.
 
 ### The eye follows edges
 
-Your eyes don't glide smoothly across a picture. They jump from point to point, and the
-easiest next jump is along a continuous edge. Psychologists call our habit of seeing a
+Your eyes don't glide smoothly across a picture. They jump from point to point, and a
+continuous edge suggests where to jump next. Psychologists call our habit of seeing a
 line as carrying on in the same direction **good continuation**. So a strong line
-becomes a path, and the eye travels along it until something stops it. Whatever sits
-at the end of the line gets attention, because the eye arrives there expecting
-something.
+becomes a path, and the eye tends to follow it to its end. Whatever sits at the end of
+the line gets attention, because the eye arrives there expecting something.
+
+Eye-tracking studies add a caution: the eye doesn't trace the line itself, and lines
+steer attention best when a clear subject waits at the end.
 
 ### Converging lines make depth
 

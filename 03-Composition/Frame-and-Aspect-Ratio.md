@@ -26,6 +26,7 @@ down (vertical, often called "portrait").
 | 1:1 | Square | 6 × 6 medium-format film; Instagram's original format |
 | 16:9 | 1.78 times as wide as tall | TVs, YouTube, most video |
 | 9:16 | 16:9 stood upright | Full-screen phone video: Stories, Reels, Shorts, TikTok |
+| 3:4 | 4:3 stood upright | A vertical photo from the L10 or most phones. Since 2025 Instagram posts it uncropped, and its profile grid shows every post at 3:4 |
 | 4:5 | A little taller than wide | Tall feed posts on Instagram and similar apps |
 
 Social platforms change their preferred shapes and sizes often. Check the current ones
@@ -35,7 +36,8 @@ before a project. → [[Video-Export-Settings]]
 
 ### The eye travels along the long side
 
-You scan a picture along its longest side, so the shape sets the direction of looking:
+Your eye tends to scan a picture along its longest side, so the shape nudges the
+direction of looking:
 
 - **Horizontal frames** move the eye side to side. That matches how we see: our eyes
   sit side by side and our view of the world is wide. Horizontals feel calm and
@@ -61,8 +63,8 @@ rectangle inside it. On most cameras, choosing 16:9 just cuts strips off the top
 bottom of the sensor's own shape. You lose pixels and gain nothing.
 
 The L10 is different. It has a **multi-aspect sensor**: the sensor is a little larger
-than any one frame you can record, and each ratio uses its own rectangle, with about
-the same diagonal, inside the same circle of light.
+than any one frame you can record, and 4:3, 3:2 and 16:9 each use their own rectangle,
+with about the same diagonal, inside the same circle of light.
 
 | L10 ratio | Width | Compared with 4:3 |
 |---|---|---|
@@ -77,8 +79,8 @@ does. Picking a ratio is a framing decision, not a loss.
 
 1. **Ask which way the subject's main line runs.** Across (a street, a horizon, people
    in a row): go horizontal. Up (a standing person, a tree, a tower): go vertical.
-2. **Ask where the photo will be seen.** A phone held upright favours 9:16 or 4:5. A
-   TV or laptop favours 16:9. A print favours 3:2 or 4:3.
+2. **Ask where the photo will be seen.** A phone held upright favours 9:16, 3:4 or
+   4:5. A TV or laptop favours 16:9. A print favours 3:2 or 4:3.
 3. **Set the ratio in camera when you know the destination.** You compose to the real
    edges, so nothing important gets cut later.
 4. **Shoot both orientations when you aren't sure.** It costs one extra frame.
@@ -102,9 +104,8 @@ wide, between 4:3 and 3:2, so your photo will be trimmed or get a white border.
 ## On your kit
 
 - **Lumix L10:** 4:3 is the base shape of the Four Thirds sensor; 3:2 and 16:9 are
-  wider frames, not crops (see the table above). Check the manual for the other ratios
-  it offers. If you shoot RAW, open one test file in your editor to see whether the
-  ratio you chose is fixed or can be undone.
+  wider frames, not crops (see the table above). 1:1 is the exception: a 3904 px
+  square cut from the 4:3 frame. Raw files keep the ratio you chose.
 - **iPhone 15 Pro Max:** unless a camera is built like the L10, other ratios are crops
   of the sensor's shape. Compare the pixel sizes of two test frames to see what yours
   does.
@@ -145,9 +146,9 @@ Count these as frames for **A3.1**: a new shape is a genuinely different frame.
 ## Check yourself
 
 > [!question]- On the L10, you switch from 4:3 to 16:9 without moving or zooming. What do you gain and lose?
-> You gain width, 5664 px against 5200, so more of the scene at the sides. You lose a
-> little height. Each ratio is its own rectangle inside the lens's circle of light, so
-> 16:9 is a different frame, not a crop.
+> You gain width, 5664 px against 5200, so more of the scene at the sides. You lose
+> some height, about a fifth. 4:3 and 16:9 are each their own rectangle inside the
+> lens's circle of light, so 16:9 is a different frame, not a crop.
 
 > [!question]- Why does a square frame often suit a centred, symmetric subject?
 > A square has no long side to pull the eye one way. Every edge is the same distance

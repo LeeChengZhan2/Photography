@@ -26,11 +26,11 @@ created: 2026-10-22
 ### Colour loss with depth
 
 Water absorbs light, and it absorbs red first. Red fades within the first few metres
-and is mostly gone by about 5 m; orange follows by about 10–15 m; deeper still, almost
-everything looks blue-green. What counts is the **total path through water**: from the
-surface down to the subject, then from the subject to the camera. A red fish 3 m down
-and 2 m away has about 5 m of water on its light's path, so it already looks
-brown-grey. So:
+and is mostly gone by about 5 m; orange follows by about 8 m, and yellow by 10–15 m.
+Deeper still, almost everything looks blue-green. What counts is the **total path
+through water**: from the surface down to the subject, then from the subject to the
+camera. A red fish 3 m down and 2 m away has about 5 m of water on its light's path, so
+it already looks brown-grey. So:
 
 1. **Shoot shallow.** The top one to three metres hold the most colour.
 2. **Get close,** under a metre when you can.
@@ -45,11 +45,12 @@ Particles in the water scatter light like haze in air, so contrast and sharpness
 with distance. Singapore's sea is usually murky; clear pools, and clearer water on
 trips abroad, give far better results. The 155° lens lets you fill the frame from very
 close, but it focuses only from about 35 cm in air. Under water, things look about a
-third closer through the flat front glass, so keep subjects about 50 cm away.
+quarter closer, and a third bigger, through the flat front glass, so keep subjects
+about 50 cm away.
 
 Underwater, unlike on land, the middle of the day is often best. When the sun is high,
 less light bounces off the surface, more enters the water, and it takes a shorter path
-down. In Singapore that means roughly 10:00–15:00. Keep the sun behind you for colour,
+down. In Singapore that means roughly 10:00–16:00. Keep the sun behind you for colour,
 or shoot up towards it for silhouettes and sun rays. Calm, sunny water gives rays and
 caustics; choppy water and cloud give flat light.
 
@@ -124,8 +125,8 @@ you need the Action 5 Pro in a pool or shallow sunlit sea, and the skill to stay
 → [[My-Kit]]
 
 What it can't do: put red back (it has no light), focus closer than about 50 cm under
-water, or steady its stills. Its small sensor gets noisy when the water is deep or dim. A wrist strap or
-tether, if you have one, stops it sinking or floating away.
+water, or steady its stills. Its small sensor gets noisy when the water is deep or dim.
+A wrist strap or tether, if you have one, stops it sinking or floating away.
 
 ## Ethics and the law
 

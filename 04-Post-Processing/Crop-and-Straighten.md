@@ -27,6 +27,7 @@ created: 2026-10-22
 | 3:2 | 35 mm film, and most larger sensors |
 | 4:3 | Four Thirds sensors and phone main cameras |
 | 1:1 | Square |
+| 3:4 | 4:3 stood upright. Instagram has posted it uncropped since 2025 |
 | 4:5 | A common portrait shape for social media |
 | 16:9 | Screens and video |
 

@@ -25,7 +25,7 @@ Every genre note answers the same seven questions:
 3. **Settings starting point** — the "walking around" defaults
 4. **Gear reality** — what you actually need vs what forums say
 5. **Ethics and legality** — consent, access, local law
-6. **Practitioners** — three to study, from [[Photographers-to-Study]]
+6. **Practitioners** — three to study; [[Photographers-to-Study]] lists more
 7. **One project idea** — narrow enough to finish in a week
 
 ## The genres
@@ -55,3 +55,6 @@ the "wrong" gear
 you've looked hard at it just reproduces the clichés you've absorbed passively.
 
 ## Sets from this module
+
+Link each set from this module to this note. Obsidian then lists them in this note's
+Backlinks pane.

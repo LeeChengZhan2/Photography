@@ -126,9 +126,8 @@ scratches. A lens hood also protects the front glass, and it reduces flare.
 
 ## On your kit
 
-- **Check each device yourself before relying on a filter.** Whether the L10's lens
-  has a filter thread, and its size, should be in the manual's specifications. Check
-  whether DJI makes ND or polarising filters for the Pocket 3 and the Action 5 Pro.
+- **What fits where.** The L10's lens takes 43 mm screw-in filters. For the Pocket 3
+  and the Action 5 Pro, check whether DJI makes ND or polarising filters that fit.
   Phones generally need a clip-on or case-mounted system.
 - **L10:** there's no built-in ND. For f/1.7 in bright sun, the electronic shutter (to
   1/32000 s) solves the problem without a filter. For a long exposure in daylight,

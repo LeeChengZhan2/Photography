@@ -48,8 +48,9 @@ Moving the light closer helps most: half the distance gives two stops more light
 ### Colour accuracy: CRI and TLCI
 
 A white LED doesn't produce an even spread of colours. Its light can have gaps, so
-some colours, especially deep reds and skin tones, look dull. Its white can lean green
-or magenta. Two scores measure this, both out of 100:
+some colours, especially deep reds and skin tones, look dull. (Its white can also lean
+green or magenta; that is a tint, which white balance fixes.) Two scores on most spec
+sheets rate how well a light shows colours, both out of 100:
 
 - **CRI (colour rendering index)** compares how colours look under the light with how
   they look under a reference light. The usual score, *Ra*, averages eight soft test
@@ -60,6 +61,12 @@ or magenta. Two scores measure this, both out of 100:
 
 Aim for about **95 or higher** on either. Lower scores mean duller skin and more colour
 correction later.
+
+Better lights often list two newer scores too. **TM-30** gives *Rf*, a fidelity score
+out of 100 that tests 99 colours rather than CRI's eight, and *Rg*, where 100 means
+colours look neither duller nor more saturated. **SSI** (Spectral Similarity Index),
+made for film cameras, compares the light's spectrum with daylight or tungsten. Its
+numbers run lower, so use it to compare lights, not against the 95 target.
 
 ### Bi-colour and RGB
 

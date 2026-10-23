@@ -123,8 +123,8 @@ Phones change their screens on purpose, for comfort:
 | True Tone | Shifts the screen's white to match the room's light | Warmer under warm lamps, so your white balance judgement drifts |
 | Night Shift | Makes the screen much warmer in the evening | Everything looks orange |
 
-Turn them off in the display settings while you edit or judge colour on the phone, and
-back on afterwards. Computers have similar night modes.
+Turn them off in Settings while you edit or judge colour on the phone, and back on
+afterwards. Computers have similar night modes.
 
 ## How to use it
 

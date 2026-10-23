@@ -92,9 +92,11 @@ frames quickly, and avoid wind for focus stacks.
 ## On your kit
 
 - **Lumix L10:** the best merge camera you own: full manual control and RW2 raw files.
-  Check the manual for auto bracketing; otherwise change the shutter speed by hand in
-  M. AF Macro reaches 3 cm at 24 mm, where a focus stack
-  helps most. → [[Macro]]
+  Its [Bracketing] shoots 3–7 frames at most 1 EV apart, so for a 2-stop HDR set shoot
+  five frames 1 EV apart and merge the −2, 0 and +2. Its [Focus Stacking] shoots and
+  merges a stack in camera, but only into a JPEG or HEIF with the edges cropped; for a
+  raw result, step the focus yourself. AF Macro reaches 3 cm at 24 mm, where a focus
+  stack helps most. → [[Macro]]
 - **iPhone 15 Pro Max:** it already merges for you. Multi-frame HDR, Night mode and
   Deep Fusion combine several frames into every photo, ProRAW included.
   → [[Computational-Photography]] That's why phone files rarely need an HDR merge.

@@ -17,8 +17,9 @@ created: 2026-10-22
 ## What it is
 
 Every raw editor has a set of global sliders: controls that change the whole photo at
-once. Lightroom calls it the Basic panel. Other editors spread the same controls over
-several tools, but the controls are the same.
+once. Lightroom Classic calls it the Basic panel. Lightroom, the app that also runs on
+phones and iPads, splits the same sliders into its Light, Color and Effects panels.
+Other editors spread them over several tools too, but the controls are the same.
 
 | Step | Sliders | What they control |
 |---|---|---|
@@ -30,7 +31,7 @@ several tools, but the controls are the same.
 | 6 | Texture, Clarity, Dehaze | Contrast at small, medium and large scales |
 | 7 | Vibrance, Saturation | How strong the colours are |
 
-Lightroom groups steps 6 and 7 under the name "Presence".
+Lightroom Classic groups steps 6 and 7 under the name "Presence".
 
 ## How it works
 

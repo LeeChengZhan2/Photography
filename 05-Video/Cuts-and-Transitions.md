@@ -102,7 +102,7 @@ viewer's eye is on the action, so a mismatch there shows at once.
 
 1. Make a normal straight cut first.
 2. Select only the audio side of the cut: turn off linked selection, or Alt-click
-   (Option-click on a Mac) the audio in Resolve or Premiere Pro.
+   (Option-click on a Mac) the audio in Resolve or Premiere (formerly Premiere Pro).
 3. Roll the audio edit: earlier for a J-cut, later for an L-cut. Half a second to two
    seconds is a good start.
 4. Turn linked selection back on.

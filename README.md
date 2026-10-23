@@ -63,8 +63,9 @@ assignments.
 hierarchically (`fundamentals/exposure`), and carry YAML frontmatter that the
 Properties view renders as fields. The Templates plugin points at `99-Templates/`, and
 daily notes land in `06-Practice/Daily/`. Shared config
-(`app.json`, `core-plugins.json`, `appearance.json`, `graph.json`) is committed;
-per-machine UI state (`workspace.json`) is not, so the vault opens cleanly on a second
+(`app.json`, `core-plugins.json`, `community-plugins.json`, `appearance.json`,
+`graph.json`, `templates.json`, `daily-notes.json`) is committed; per-machine UI state
+(`workspace.json`) is not, so the vault opens cleanly on a second
 device without merge conflicts.
 
 **GitHub** is history and backup, not a reading interface. Two consequences:

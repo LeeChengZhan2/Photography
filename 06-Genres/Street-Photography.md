@@ -115,8 +115,11 @@ still apply:
 
 - Harassment laws cover following someone or photographing them to cause distress.
 - Photographing under clothing, or in toilets or changing rooms, is a serious crime.
-- Some government, military and infrastructure sites ban photography. Malls and condos
-  set their own rules. Obey the signs, and if staff ask you to stop, stop.
+- Some sites, such as military camps and some government and utility buildings, are
+  protected under the Infrastructure Protection Act. A "No Unauthorised Photography"
+  sign marks them, and photographing them, even from outside, needs the owner's
+  permission. Malls and condos set their own rules. Obey the signs, and if staff ask
+  you to stop, stop.
 - Using a recognisable person in an advert usually needs their signed permission.
   Personal and editorial use is treated differently.
 

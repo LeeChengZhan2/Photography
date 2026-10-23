@@ -85,7 +85,7 @@ needs a setting of EV 15.
 | Scene, at ISO 100 | About |
 |---|---|
 | Bright sun, clear sky | EV 15 |
-| Open shade, or an overcast day | EV 11–12 |
+| Open shade, or a heavily overcast day | EV 11–12 |
 | A home interior at night | EV 5–7 |
 
 ### EV as a difference

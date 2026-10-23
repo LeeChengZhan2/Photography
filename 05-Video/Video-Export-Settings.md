@@ -103,8 +103,9 @@ several gigabytes per minute, so keep it on your archive drive.
 1. Finish and lock the 16:9 edit. Duplicate the timeline and set it to 1080 × 1920.
 2. Go through it shot by shot. Move each frame so the subject sits inside the vertical
    slice. Where the subject moves, keyframe the position.
-3. Some editors can track the subject for you (Premiere Pro's Auto Reframe, Resolve's
-   Smart Reframe), though not in every version. Check every shot either way.
+3. Some editors can track the subject for you (Auto Reframe in Premiere, formerly
+   Premiere Pro; Smart Reframe in Resolve), though not in every version. Check every
+   shot either way.
 4. Keep titles and captions away from the bottom and right edges, where the apps put
    their buttons and text.
 5. Watch it all again. Some cuts that worked wide won't work tall; replace those shots.

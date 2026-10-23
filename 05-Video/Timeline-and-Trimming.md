@@ -65,12 +65,13 @@ in it: use it when the shot is the right length but the action starts too late.
 
 **Snapping** makes clip edges and the playhead jump to each other when they get close.
 That's what stops tiny gaps. A gap of one frame plays as a flash of black. Turn
-snapping off for fine positioning, then on again (N in Resolve, S in Premiere Pro).
+snapping off for fine positioning, then on again (N in Resolve; S in Premiere, formerly
+Premiere Pro).
 
 **Linked audio and video.** A clip recorded with sound arrives with its audio linked to
 its picture. Linked clips move and trim together, so lips stay in sync. To trim only
 the sound or only the picture, for a J- or L-cut, turn off linked selection. Or, in
-Resolve and Premiere Pro, Alt-click the part you want (Option-click on a Mac).
+Resolve and Premiere, Alt-click the part you want (Option-click on a Mac).
 → [[Cuts-and-Transitions]]
 
 ## How to use it
@@ -86,7 +87,7 @@ Desktop editors share the same three playback keys. Keep your right hand on them
 | K | Stop |
 | Hold K, tap L or J | Step one frame forwards or backwards |
 | Hold K and L together | Play forwards slowly |
-| Up and down arrows | Jump to the previous or next cut (Resolve, Premiere Pro) |
+| Up and down arrows | Jump to the previous or next cut (Resolve, Premiere) |
 
 To find an exact frame: press L until you're close, K to stop, then hold K and tap J or
 L until you land on it.
@@ -94,21 +95,21 @@ L until you land on it.
 ### Putting clips on the timeline
 
 1. Open a clip in the source viewer. Press I at the first frame you want and O at the
-   last. These keys work in Resolve, Premiere Pro and Final Cut Pro.
+   last. These keys work in Resolve, Premiere and Final Cut Pro.
 2. Put the timeline's playhead where the clip should go.
 3. Choose **insert** or **overwrite**. Insert pushes everything after the playhead
    later. Overwrite covers whatever is already there. In Resolve these are F9 and F10;
-   in Premiere Pro, the comma and full-stop keys.
+   in Premiere, the comma and full-stop keys.
 
 ### Finding the trims in your editor
 
-- **Premiere Pro** has a tool for each: Ripple Edit (B), Rolling Edit (N), Slip (Y) and
+- **Premiere** has a tool for each: Ripple Edit (B), Rolling Edit (N), Slip (Y) and
   Slide (U).
 - **Resolve:** switch to Trim Edit mode (T). The trim you get depends on where you
   click, and the pointer changes shape to show which.
 - **Final Cut Pro** and **CapCut's** main track ripple by default: they close gaps for
   you.
-- With the normal selection tool, Resolve and Premiere Pro **don't** ripple. Dragging
+- With the normal selection tool, Resolve and Premiere **don't** ripple. Dragging
   an edge shorter just leaves a gap.
 
 ### A trimming routine

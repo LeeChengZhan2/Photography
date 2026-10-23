@@ -124,8 +124,7 @@ You can still film at 1/50 s; you just choose when and where. This is the plan t
 
 - **Lumix L10:** no built-in ND. It's the only device with an aperture, so it needs the
   least ND: about 4 stops at f/5.6 in sun. V-Log starts at ISO 500, which adds over two
-  stops more to block. Check whether the lens takes a screw-in filter before you plan
-  around one.
+  stops more to block. Its lens takes 43 mm screw-in filters.
 - **Pocket 3 and Action 5 Pro:** fixed at f/2.0 and f/2.8, so ND is the only way to
   hold 1/50 s in daylight. Lock the shutter at 1/50 s in Pro / PRO mode, then add ND.
   On auto, the camera decides the shutter for you.
